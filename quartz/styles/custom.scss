@@ -20,7 +20,7 @@
       width: 90px;  
       height: 90px; 
 
-      background-image: url("/static/logo-final.png");
+      background-image: url("./static/logo-final.png");
       background-size: contain;
       background-repeat: no-repeat;
       margin-bottom: 5px; /* 图片和文字的间距 */
@@ -32,6 +32,7 @@
 .left.sidebar {
   width: 300px !important; /* 调整侧边栏整体宽度 */
 }
+
 
 /* 美化标题与描述之间的间距 */
 .article-title + p {
@@ -47,6 +48,7 @@
   margin-top: 1rem !important;
   margin-bottom: 1rem !important; /* 同时也离下方的文件列表远一点 */
 }
+
 
 /* 为创建日期添加前缀 */
 .content-meta time:first-of-type::before {
