@@ -22,16 +22,16 @@ lastmod: YYYY-MM-DD
 文本文案  
 
 <div class="site-stats-card">
-  <h3><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg> Archive Info</h3>
+  <h3>
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/>
+    </svg> 
+    Archive Info
+  </h3>
   
   <div class="stats-item">
     <span>文章数目：</span>
     <span id="stats-count">读取中...</span>
-  </div>
-  
-<div class="stats-item">
-    <span>最后更新：</span>
-    <span id="stats-updated">读取中...</span>
   </div>
   
   <div class="stats-item">
@@ -43,60 +43,47 @@ lastmod: YYYY-MM-DD
     <span>总访客数：</span>
     <span id="busuanzi_value_site_uv">--</span>
   </div>
-
 </div>
 
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 <script>
 async function initStats() {
-  const countEl = document.getElementById("stats-count");
-  const updateEl = document.getElementById("stats-updated");
-  if (!countEl || countEl.dataset.loaded === "true") return;
+  var countEl = document.getElementById('stats-count');
+  if (!countEl) return;
+  if (countEl.dataset.loaded === 'true') return;
 
-  // 定义所有可能的路径补全方式
-  const possiblePaths = [
-    "static/contentIndex.json",
-    "../static/contentIndex.json",
-    "/quartz/static/contentIndex.json",
-    "/quartz/quartz/static/contentIndex.json"
-  ];
+  var isLocal = window.location.hostname.includes('localhost');
+  var path = isLocal ? '/static/contentIndex.json' : '/quartz/static/contentIndex.json';
 
-  for (const path of possiblePaths) {
-    try {
-      const res = await fetch(path);
-      if (res.ok) {
-        const index = await res.json();
-        const pages = Object.values(index);
-        
-        // 1. 统计文章数目
-        const postCount = pages.filter(p => {
-          return p.title && 
-                 p.title.toLowerCase() !== "index" && 
-                 p.slug && !p.slug.startsWith("tags/");
-        }).length;
-        countEl.innerText = postCount;
-
-        // 2. 统计最后更新时间
-        const dates = pages.map(p => new Date(p.date)).filter(d => !isNaN(d));
-        if (dates.length > 0) {
-          const latest = new Date(Math.max(...dates));
-          const diffDays = Math.floor((new Date() - latest) / (1000 * 60 * 60 * 24));
-          updateEl.innerText = diffDays === 0 ? "今天" : `${diffDays} 天前`;
-        }
-        
-        countEl.dataset.loaded = "true";
-        console.log("Stats loaded from: " + path);
-        return; // 成功后跳出循环
+  try {
+    var res = await fetch(path);
+    if (!res.ok) return;
+    
+    var index = await res.json();
+    var pages = Object.values(index);
+    
+    // 过滤逻辑：排除主页和标签页
+    var filtered = pages.filter(function(p) {
+      if (!p.title) return false;
+      if (p.title.toLowerCase() === 'index') return false;
+      if (p.slug) {
+        if (p.slug.startsWith('tags/')) return false;
       }
-    } catch (e) {
-      continue; // 尝试下一个路径
-    }
+      return true;
+    });
+    
+    countEl.innerText = filtered.length;
+    countEl.dataset.loaded = 'true';
+  } catch (e) {
+    console.error('Stats fail');
+    countEl.innerText = '暂无数据';
   }
-  countEl.innerText = "读取失败";
 }
 
-document.addEventListener("nav", initStats);
-window.addEventListener("load", initStats);
+// 适配 Quartz 的 SPA 路由导航
+document.addEventListener('nav', initStats);
+window.addEventListener('load', initStats);
 initStats();
 </script>
+
