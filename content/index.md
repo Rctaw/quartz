@@ -1,20 +1,6 @@
 ---
 title: CATALOGUE
 lastmod: YYYY-MM-DD
-banner: WTE ARCHIVE/FILES/vid&pics/CATALOGUE-1.png
-icon-image: WTE ARCHIVE/FILES/vid&pics/CATALOGUE-2.png
-banner-height: 370
-banner-x: 50
-banner-y: 75
-banner-fade: 0
-icon-x: 51
-icon-size: 200
-icon-y: -100
-icon-image-size-multiplier: 1.6
-icon-rotate: 5
-icon-padding-x: 10
-content-start: 291
-banner-radius: 21
 ---
 ***Tracing small pieces of the wave.***
 
