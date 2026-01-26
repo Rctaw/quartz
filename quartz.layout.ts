@@ -8,8 +8,9 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
+      "An archive by Rctaw": "https://Rctaw.github.io/quartz",
       GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+     "回到顶部 ↑": "#", // 只要链接是 "#"，点击就会自动回到页面顶部
     },
   }),
 }
@@ -38,7 +39,17 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      title: "CATALOGUE",
+      useSavedState: true,
+  mapFn: (node) => {
+    if (node.isFolder) {
+      node.displayName = "📁 " + node.displayName
+    } else {
+      node.displayName = "🌏 " + node.displayName
+    }
+  },
+}),
   ],
   right: [
     Component.Graph(),
@@ -62,7 +73,17 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      title: "CATALOGUE",
+      useSavedState: true,
+  mapFn: (node) => {
+    if (node.isFolder) {
+      node.displayName = "📁 " + node.displayName
+    } else {
+      node.displayName = "🌏 " + node.displayName
+    }
+  },
+}),
   ],
   right: [],
 }
