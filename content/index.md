@@ -1,8 +1,8 @@
 ---
 title: CATALOGUE
 lastmod: YYYY-MM-DD
-banner: WTE ARCHIVES/FILES/vid&pics/CATALOGUE-1.png
-icon-image: WTE ARCHIVES/FILES/vid&pics/CATALOGUE-2.png
+banner: WTE ARCHIVE/FILES/vid&pics/CATALOGUE-1.png
+icon-image: WTE ARCHIVE/FILES/vid&pics/CATALOGUE-2.png
 banner-height: 370
 banner-x: 50
 banner-y: 75
