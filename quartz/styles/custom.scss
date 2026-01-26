@@ -227,3 +227,48 @@ html {
   border-color: #444;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
+
+
+/* 针对搜索栏和按钮所在的父容器 */
+.flex-component {
+  display: flex !important;
+  align-items: center !important; /* 强制父容器内所有子项垂直居中 */
+  justify-content: flex-start !important;
+}
+
+/* 针对包裹搜索框和按钮的两个直接子 div */
+.flex-component > div {
+  display: flex !important;
+  align-items: center !important; /* 确保子容器内部的内容也是垂直居中的 */
+  height: 40px !important;       /* 强制给一个统一的高度 */
+}
+
+/* 针对搜索框本身的微调 */
+.search {
+  display: flex !important;
+  align-items: center !important;
+}
+
+/* 针对深色模式按钮的微调 */
+.darkmode {
+  display: flex !important;
+  align-items: center !important;
+  margin-left: 0.5rem !important; /* 调整与搜索框的间距 */
+}
+
+
+@media all and (max-width: 1100px) { // 或者使用 $mobile 变量
+  .page > #quartz-body {
+    /* 1. 强制取消左侧边栏在移动端的粘性定位 */
+    .sidebar.left:has(.explorer) {
+      position: relative !important; /* 覆盖 sticky，让它随页面滚动 */
+      top: auto !important;
+      padding-top: 2rem !important; /* 留出一点顶部间距 */
+    }
+
+    /* 2. 确保侧边栏内的内容不会因为取消固定而错位 */
+    .explorer {
+      align-self: stretch !important;
+    }
+  }
+}
