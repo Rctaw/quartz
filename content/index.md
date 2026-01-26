@@ -57,9 +57,9 @@ async function initStats() {
   if (!countEl || countEl.dataset.loaded === "true") return;
 
   try {
-    // 强制指定路径：既然已知你的子路径是 /quartz/，我们直接写死这个路径
-    // 这样无论是在首页还是刷新，都能精准找到文件
-    const indexPath = "/quartz/static/contentIndex.json";
+    const indexPath = window.location.pathname.endsWith('/') 
+  ? "static/contentIndex.json" 
+  : "quartz/static/contentIndex.json"; // 这里的 quartz 替换成你的实际仓库名
 
     const res = await fetch(indexPath);
     if (!res.ok) throw new Error("File not found");
