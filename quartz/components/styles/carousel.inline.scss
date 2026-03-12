@@ -1,0 +1,267 @@
+/* quartz/assets/custom-carousel.css */
+
+article .quartz-carousel {
+  position: relative;
+  width: 100%;
+  margin: 2rem 0;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  
+  .quartz-carousel-slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    
+    .quartz-carousel-slide {
+      flex: 0 0 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      img {
+        max-width: 100%;
+        max-height: 400px;
+        object-fit: contain;
+        display: block;
+        transition: opacity 0.2s ease;
+        
+        &:hover {
+          opacity: 0.9;
+        }
+      }
+    }
+  }
+  
+  .quartz-carousel-dots {
+    text-align: center;
+    margin-top: 1rem;
+    padding: 0.5rem 0;
+    
+    .dot {
+      width: 10px;
+      height: 10px;
+      margin: 0 5px;
+      background-color: var(--lightgray);
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.3s ease;
+      cursor: pointer;
+      
+      &.active {
+        background-color: var(--secondary);
+      }
+    }
+  }
+
+  // --- 按钮样式：修复居中与动效 ---
+  .quartz-carousel-prev,
+  .quartz-carousel-next {
+    position: absolute !important;
+    top: 50% !important;
+    transform: translateY(-50%) scale(0.9); // 垂直定位与初始缩放
+    z-index: 10;
+    
+    // 强制居中逻辑
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 0 !important;
+    margin: 0;
+    
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: var(--dark) !important; // 使用 Quartz 变量
+    opacity: 0.4;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+    svg {
+      fill: var(--light) !important; // 箭头颜色
+      width: 24px;
+      height: 24px;
+      transition: transform 0.2s ease;
+      pointer-events: none;
+      display: block;
+    }
+
+    &:hover {
+      opacity: 0.9;
+      transform: translateY(-50%) scale(1.1); // 悬停放大
+      background-color: var(--secondary) !important;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+
+      // 只有内部箭头位移，不影响圆圈位置
+      &.quartz-carousel-prev svg { transform: translateX(-2px); }
+      &.quartz-carousel-next svg { transform: translateX(2px); }
+    }
+
+    &:active {
+      transform: translateY(-50%) scale(0.95);
+    }
+  }
+
+  .quartz-carousel-prev { left: 15px; }
+  .quartz-carousel-next { right: 15px; }
+}
+
+// 图片模态框样式
+/* Image Modal Styles - 强化居中版 */
+.carousel-image-modal {
+  display: none;
+  position: fixed;
+  /* 确保从视口最顶端开始 */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10000; /* 提高层级，确保在所有元素之上 */
+
+  .carousel-modal-overlay {
+    position: fixed; /* 改为 fixed，确保相对于视口定位 */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    
+    /* 核心居中逻辑 */
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    
+    padding: 2rem;
+    box-sizing: border-box;
+  }
+  
+.carousel-modal-content {
+    position: relative;
+    /* 1. 移除固定的 width 和 height，让它由图片撑开 */
+    width: auto;
+    height: auto;
+    
+    /* 2. 这里的限制是针对整个展示区域的“最大红线” */
+    max-width: 90vw; 
+    max-height: 90vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: visible !important;
+  }
+  
+  .carousel-modal-image {
+    /* 3. 关键：图片大小由自身比例决定，但不能超过视口的 85% */
+    width: auto;
+    height: auto;
+    max-width: 85vw;   /* 横向最宽占 85% */
+    max-height: 85vh;  /* 纵向最高占 85% */
+    
+    /* 4. 确保图片按原始比例显示，不拉伸 */
+    object-fit: contain; 
+    border-radius: 8px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+    display: block;
+  }
+  
+  .carousel-modal-close {
+    /* 将关闭按钮固定在右上角，防止因为图片太窄导致按钮位置尴尬 */
+    position: absolute;
+    top: -30px;
+    right: -25px; 
+    background-color: rgba(255, 255, 255, 0.9);
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    z-index: 10002;
+    color: #333 !important;
+    
+    svg {
+      width: 24px;
+      height: 24px;
+      fill: #333;
+    }
+    
+    &:hover {
+      background-color: #fff;
+      transform: scale(1.1);
+    }
+  }
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+  .carousel-image-modal .carousel-modal-content {
+    max-width: 95vw;
+    max-height: 70vh;
+  }
+  .carousel-image-modal .carousel-modal-close {
+    top: -45px;
+    right: 5px;
+    width: 35px;
+    height: 35px;
+  }
+}
+
+// --- 彻底修复暗色模式按钮可见度 ---
+html[saved-theme="dark"] {
+  article .quartz-carousel {
+    // 强制定义暗色模式下的按钮颜色
+    .quartz-carousel-prev, 
+    .quartz-carousel-next {
+      background-color: rgba(255, 255, 255, 0.3) !important; // 使用半透明白色，确保在纯黑背景下可见
+      opacity: 0.8 !important; // 提高初始不透明度
+
+      svg { 
+        fill: #ffffff !important; // 强制箭头为纯白
+        filter: drop-shadow(0 0 2px rgba(0,0,0,0.5)); // 给箭头加点阴影，防止在亮图中看不见
+      }
+
+      &:hover {
+        background-color: var(--secondary) !important; 
+        opacity: 1 !important;
+        
+        svg {
+          fill: var(--light) !important;
+        }
+      }
+    }
+
+    .dot { 
+      background-color: rgba(255, 255, 255, 0.3); 
+      &.active { background-color: var(--secondary); } 
+    }
+  }
+}
+
+// 移动端优化
+@media (max-width: 768px) {
+  article .quartz-carousel {
+    .quartz-carousel-prev, .quartz-carousel-next {
+      width: 32px;
+      height: 32px;
+      svg { width: 16px; height: 16px; }
+    }
+  }
+}
+
+// 闪烁保护
+carousel {
+  display: block;
+  visibility: hidden;
+  height: 0;
+  overflow: hidden;
+}
+
+.quartz-carousel {
+  visibility: visible;
+  height: auto;
+  overflow: visible;
+}

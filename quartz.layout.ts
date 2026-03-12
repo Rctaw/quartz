@@ -1,5 +1,51 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+import { Options } from "./quartz/components/Explorer"
+
+  // 1. 自定义排序逻辑
+  export const mySortFn: Options["sortFn"] = (a, b) => {
+  const topFolder = "WTE ARCHIVE"
+  // 强力置顶逻辑
+  const nameA = (a.name || a.displayName || "").toUpperCase()
+  const nameB = (b.name || b.displayName || "").toUpperCase()
+  const isATop = nameA.includes(topFolder.toUpperCase())
+  const isBTop = nameB.includes(topFolder.toUpperCase())  
+  if (isATop && !isBTop) return -1
+  if (!isATop && isBTop) return 1
+  // 文件夹 vs 文件 逻辑
+  const aIsFolder = a.children && a.children.length > 0
+  const bIsFolder = b.children && b.children.length > 0
+  if (aIsFolder && !bIsFolder) return -1
+  if (!aIsFolder && bIsFolder) return 1
+  // 字母排序保底
+  return (a.displayName || a.name || "").localeCompare((b.displayName || b.name || ""), "zh-CN", { 
+    numeric: true, 
+    sensitivity: "base" 
+  })
+}
+
+// 2. 自定义图标映射逻辑
+export const myMapFn: Options["mapFn"] = (node) => {
+  const customIcons: Record<string, string> = {
+    "INTERVIEWS": "📜",
+    "POTATOI": "🥔",
+    "UPCOMING": "📆",
+    "TMI": "🍬",
+  }
+
+  const name = (node.displayName || node.name || "").toUpperCase()
+  const matchedKey = Object.keys(customIcons).find(key => name.includes(key))
+
+  if (matchedKey) {
+    node.displayName = customIcons[matchedKey] + " " + node.displayName
+  } else if (node.children && node.children.length > 0) {
+    // 默认文件夹或文件图标
+    node.displayName = "🗃 " + node.displayName
+  } else {
+    node.displayName = "🌏 " + node.displayName
+  }
+}
+
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
@@ -9,7 +55,8 @@ export const sharedPageComponents: SharedLayout = {
   footer: Component.Footer({
     links: {
       "An archive by Rctaw": "https://Rctaw.github.io/quartz",
-      GitHub: "https://github.com/jackyzha0/quartz",
+      "GitHub": "https://github.com/jackyzha0/quartz",
+      "Bilbili": "https://space.bilibili.com/3546392184228487",
      "回到顶部 ↑": "#", // 只要链接是 "#"，点击就会自动回到页面顶部
     },
   }),
@@ -41,14 +88,10 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.Explorer({
       title: "CATALOGUE",
+      folderDefaultState: "collapsed", 
       useSavedState: true,
-  mapFn: (node) => {
-    if (node.isFolder) {
-      node.displayName = "📁 " + node.displayName
-    } else {
-      node.displayName = "🌏 " + node.displayName
-    }
-  },
+      sortFn: mySortFn, // 直接引用上面的函数名
+      mapFn: myMapFn,   // 直接引用上面的函数名
 }),
   ],
   right: [
@@ -75,14 +118,10 @@ export const defaultListPageLayout: PageLayout = {
     }),
     Component.Explorer({
       title: "CATALOGUE",
+      folderDefaultState: "collapsed", 
       useSavedState: true,
-  mapFn: (node) => {
-    if (node.isFolder) {
-      node.displayName = "📁 " + node.displayName
-    } else {
-      node.displayName = "🌏 " + node.displayName
-    }
-  },
+      sortFn: mySortFn, // 直接引用上面的函数名
+      mapFn: myMapFn,   // 直接引用上面的函数名
 }),
   ],
   right: [],

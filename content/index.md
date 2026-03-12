@@ -5,7 +5,7 @@ lastmod: YYYY-MM-DD
 ***Tracing small pieces of the wave.***
 
 ```
- ,-.       _,---._ __  / \
+  ,-.       _,---._ __  / \
  /  )    .-'       `./ /   \
 (  (   ,'            `/    /|
  \  `-"             \'\   / |
@@ -19,7 +19,21 @@ lastmod: YYYY-MM-DD
 ```
 
 文本文本  
-文本文案  
+最近修改v2  
+<!-- QueryToSerialize: TABLE WITHOUT ID file.link AS "笔记", file.folder AS "所属文件夹", dateformat(file.mtime, "yyyy-MM-dd") AS "最近更新" FROM "" AND -"Private" WHERE file.name != this.file.name AND file.name != "index" AND file.name != "欢迎" AND draft != true SORT file.mtime DESC LIMIT 5 -->
+<!-- SerializedQuery: TABLE WITHOUT ID file.link AS "笔记", file.folder AS "所属文件夹", dateformat(file.mtime, "yyyy-MM-dd") AS "最近更新" FROM "" AND -"Private" WHERE file.name != this.file.name AND file.name != "index" AND file.name != "欢迎" AND draft != true SORT file.mtime DESC LIMIT 5 -->
+
+| 笔记                                    | 所属文件夹             | 最近更新       |
+| ------------------------------------- | ----------------- | ---------- |
+| [[test]]         | WTE ARCHIVE       | 2026-03-12 |
+| [[UPCOMING]]             |                   | 2026-03-12 |
+| [[BOOKS]] | WTE ARCHIVE/FILES | 2026-03-12 |
+| [[1]]         | WTE ARCHIVE/FILES | 2026-02-26 |
+| [[5]]         | WTE ARCHIVE/FILES | 2026-02-25 |
+
+<!-- SerializedQuery END -->
+
+文本文案
 
 <div class="site-stats-card">
   <h3>

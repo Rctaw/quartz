@@ -1,5 +1,6 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
+import { Carousel } from "./quartz/plugins/transformers/carousel"
 
 /**
  * Quartz 4 Configuration
@@ -17,7 +18,7 @@ const config: QuartzConfig = {
     },
     locale: "zh-CN",
     baseUrl: "Rctaw.github.io/quartz",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["private", "templates", ".obsidian", "Private"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
@@ -66,12 +67,23 @@ const config: QuartzConfig = {
         },
         keepBackground: false,
       }),
-      Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
+      Plugin.ObsidianFlavoredMarkdown({
+             enableInHtmlEmbed: false,
+             enableInLineFootnotes: true, // 开启行内脚注 ^[内容]
+             enableInLineHashtags: true,
+             enableVideoEmbed: true,
+             enableYouTubeEmbed: true,
+             enableCheckbox: true,
+             callouts: true,
+             mermaid: true,
+             parseTags: true,
+     }),
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
+      Plugin.Carousel({ showDots: true }), 
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [
@@ -93,5 +105,6 @@ const config: QuartzConfig = {
     ],
   },
 }
+
 
 export default config

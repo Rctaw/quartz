@@ -16,11 +16,11 @@
       content: "";
       display: block;
       
-      /* 修改点 1：使用合理的显示大小，不要用 300px */
-      width: 90px;  
-      height: 90px; 
+      /* 修改点 1：使用合理的显示大小，不要用 300px 原w和h均为90 */
+      width: 150px;  
+      height: 100px; 
 
-      background-image: url("./static/logo-final.png");
+      background-image: url("./static/logo.png");
       background-size: contain;
       background-repeat: no-repeat;
       margin-bottom: 5px; /* 图片和文字的间距 */
@@ -31,6 +31,19 @@
 /* 如果你觉得侧边栏太窄，可以尝试稍微加宽一点 */
 .left.sidebar {
   width: 300px !important; /* 调整侧边栏整体宽度 */
+}
+
+/* 移动端侧边栏 */
+@media all and (max-width: 767px) {
+  .page-header, .page-title, header {
+    z-index: 1 !important; 
+    position: relative !important;
+  }
+  
+  /* 把侧边栏所在的容器提拔到最高级 */
+  .sidebar.left {
+    z-index: 9999 !important;
+  }
 }
 
 
@@ -97,67 +110,104 @@ footer::before {
   font-size: 0.6rem;
 }
 
-/* 定位 footer 中那个指向 # 的链接 */
 footer a[href="#"] {
-  // 基础定位
+  /* 基础定位：避开Explorer阴影，确保在最前方 */
   position: fixed;
-  bottom: 2rem;
-  right: 2rem;
+  bottom: 2.5rem;
+  right: 2.5rem;
   z-index: 1000;
-
-  // 形状与背景
   width: 50px;
   height: 50px;
-  background-color: #61e1f2;
-  color: var(--light) !important;
+
+  /* 颜色与形状：与explorer统一风格 */
+  background-color: #61e1f2 !important; /* 你的亮蓝色 */
+  color: var(--dark) !important;
+  border: 2px solid #000 !important; /* 增加黑色硬边框 */
+  border-radius: 12px !important; /* 改为圆角矩形，更像机械键帽 */
   
-  // 居中图标/文字
+  /* 核心视觉：立体硬阴影 */
+  /* 模拟侧边栏的 8px 6px 逻辑，但稍微调小一点适配按钮尺寸 */
+  box-shadow: 4px 4px 0 0 #000 !important;
+  
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 50%; // 圆形
-  
-  // 视觉效果
   text-decoration: none !important;
-  font-size: 0.8rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  transition: transform 0.3s ease, background-color 0.3s ease;
+  font-size: 0 !important; 
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55) !important;
+  &:active { /* 增加真实点击时的反馈 */
+  transform: scale(0.9) translate(4px, 4px) !important;
+  box-shadow: 0px 0px 0 0 #000 !important;
+}
 
+  /* 交互感：模拟“按下”物理反馈 */
   &:hover {
-    transform: translateY(-5px); // 悬浮交互感
-    background-color: var(--tertiary);
+    background-color: #2c2e33 !important; /* 深灰色/接近黑 */
+    /* 模拟按下去的感觉：位置右移下移，阴影缩短 */
+    transform: translate(2px, 2px) !important;
+    box-shadow: 2px 2px 0 0 #000 !important;
   }
 
-/* --- 核心：隐藏原文字 --- */
-  font-size: 0 !important;      /* 让原文字大小变为 0 */
-  color: transparent !important; /* 让原文字透明 */
-  text-decoration: none;
-  
-  /* --- 核心：注入箭头图标 --- */
+  /* 符号优化：使用更具动感的图标 */
   &::before {
-    content: "↑";              /* 这里可以换成任何你喜欢的符号 */
-    font-size: 1rem;          /* 重新设置箭头的大小 */
-    color: var(--light);        /* 设置箭头的颜色 */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
+    content: "▲"; /* 换成实心三角形，更有指示感 */
+    font-size: 1.2rem;
+    color: var(--dark);
+    display: block;
+    transition: transform 0.3s ease !important;
   }
 
   &:hover::before {
-    transform: translateY(-2px); /* 悬停时箭头轻轻往上跳动，增加动感 */
-    transition: transform 0.2s ease;
+    /* 悬停时三角形做一个“发射预备”的微颤 */
+    color: #61e1f2;
+    transform: translateY(-4px) scale(1.1);
   }
 }
 
-/* 针对移动端的优化：调小一点或稍微上移 */
+/* 状态感：页面已在顶部时自动变淡 (CSS 逻辑) */
+/* 虽然纯 CSS 很难检测滚动位置，但我们可以设置一个进入页面的入场动画 */
+@keyframes buttonAppear {
+  from { transform: scale(0) rotate(-45deg); opacity: 0; }
+  to { transform: scale(1) rotate(0); opacity: 1; }
+}
+
+footer a[href="#"] {
+  animation: buttonAppear 0.5s forwards;
+}
+
+/* --- 暗色模式适配 (Dark Mode) --- */
+html[saved-theme="dark"] {
+  footer a[href="#"] {
+    /* 在暗色模式下，我们调高亮蓝色的饱和度，或者加一点点外发光 */
+    background-color: #70f0ff !important; 
+    border-color: #fff !important; /* 边框变白 */
+    box-shadow: 4px 4px 0 0 #fff !important; /* 阴影变白，产生“悬浮纸片”感 */
+
+    &::before {
+      color: #000 !important; /* 黑色三角形在亮蓝底上依然清晰 */
+    }
+
+    &:hover {
+      background-color: #1a1a1a !important;
+      border-color: #70f0ff !important;
+      box-shadow: 2px 2px 0 0 #70f0ff !important;
+
+      &::before {
+        color: #70f0ff !important; /* 悬停反转为亮蓝发光 */
+        /* 复古“数码管”发光 (Glow Tube Style) */
+        text-shadow: 0 0 5px #70f0ff, 0 0 10px #70f0ff, 0 0 20px #70f0ff !important;
+      }
+    }
+  }
+}
+
+/* 移动端微调 */
 @media (max-width: 768px) {
   footer a[href="#"] {
     bottom: 1.5rem;
     right: 1.5rem;
-    width: 40px;
-    height: 40px;
+    width: 44px;
+    height: 44px;
   }
 }
 
@@ -274,3 +324,496 @@ html {
 }
 
 
+/* --- 全局滚动条美化 --- */
+/* 整体尺寸：宽一点更像机械零件 */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+/* 轨道：移除虚线，改为纯色撞色 */
+::-webkit-scrollbar-track {
+  background: var(--light) !important; /* 明亮模式下使用极简背景 */
+  border-left: 2px solid #000; /* 标志性的硬核黑边 */
+}
+
+/* 滑块：实心黑砖 */
+::-webkit-scrollbar-thumb {
+  background-color: #000 !important; /* 初始状态为黑色方砖 */
+  border: 1px solid var(--light); /* 与轨道拉开距离的细边 */
+  border-radius: 0px !important; /* 坚持直角，绝不圆滑 */
+  box-shadow: 2px 0 0 0 #000; /* 增加一点点厚度感 */
+}
+
+/* 悬浮状态：变为你标志性的亮蓝色 */
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--gray) !important; 
+}
+
+/* --- 暗色模式：高对比度适配 (解决不明显问题) --- */
+html[saved-theme="dark"] {
+  ::-webkit-scrollbar-track {
+    background: #1a1a1a !important; /* 深黑底色 */
+    border-left: 2px solid #fff; /* 轨道边框变白，强行勾勒轮廓 */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    /* 暗色模式下滑块直接使用亮蓝或亮白，不再隐藏 */
+    background-color: #444 !important; 
+    border: 1px solid #1a1a1a;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: var(--secondary) !important; /* 悬浮时变绿，极其醒目 */
+    box-shadow: 0 0 10px var(--secondary); /* 增加发光感，确保看得见 */
+  }
+}
+
+
+/* 确保 Dataview 生成的表格在移动端可以横向滚动 */
+table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+
+
+/* 1. 让表格撑满容器宽度，减少右侧留白 */
+table {
+  width: 90% !important; /* 强制表格宽度为 100% */
+  display: table !important; /* 确保它以表格模式渲染 */
+  margin: 1.5rem 0;
+  border-collapse: collapse;
+}
+
+/* 2. 精准控制每一列的宽度占比 */
+table th, table td {
+  padding: 10px 15px !important;
+  border-bottom: 1px solid var(--lightgray);
+}
+
+/* 设定各列比例：笔记(40%)，文件夹(40%)，日期(20%) */
+table th:nth-child(1), table td:nth-child(1) {
+  width: 40%;
+}
+
+table th:nth-child(2), table td:nth-child(2) {
+  width: 40%;
+}
+
+table th:nth-child(3), table td:nth-child(3) {
+  width: 20%;
+  text-align: right; /* 日期通常右对齐更整齐 */
+}
+
+/* 3. 移动端适配：防止手机上表格被挤压变形 */
+@media all and (max-width: 1100px) {
+  table {
+    display: block !important;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+  }
+}
+
+
+/* --- 轮播图容器修复 --- */
+article .quartz-carousel {
+  position: relative !important;
+  width: 97% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin: 2rem 0 !important;
+  border: none !important;
+  background: var(--light) !important;
+  box-shadow: 
+    0 0 0 1.5px var(--lightgray),
+    0 4px 0 0 var(--secondary) !important; /* 底部强调色线条 */
+  overflow: hidden !important;
+/* 大幅增加底部的 padding，为标题和圆点撑开空间 */
+  /* 顺序为：上 右 下 左 */
+  padding: 20px 10px 10px 10px !important;
+  background-color: var(--light) !important;
+  border-radius: 4px !important; /* 增加圆角，更显精致 */
+  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+/* 进阶效果：鼠标悬停时轻轻升起 */
+article .quartz-carousel:hover {
+  transform: translateY(-4px) !important;
+  box-shadow: 
+    0 0 0 1px var(--secondary), 
+    0 20px 40px -15px rgba(0, 0, 0, 0.2) !important;
+}
+
+.quartz-carousel-dots {
+  margin-top: 20px !important;
+  padding-bottom: 10px !important;
+}
+
+
+/* --- 强制图片和标题上下排列 --- */
+.quartz-carousel-slide {
+  flex: 0 0 100% !important;
+  display: flex !important;
+  flex-direction: column !important; /* 关键：强制垂直排列 */
+  justify-content: center !important;
+  align-items: center !important;
+  position: relative !important;
+  background: transparent !important;
+}
+
+/* --- 图片尺寸控制 --- */
+.quartz-carousel-slide img {
+  max-width: 100% !important;
+  max-height: 400px !important;
+  object-fit: contain !important;
+  display: block !important;
+}
+
+/* --- 轮播图标题样式（悬浮在底部） --- */
+.carousel-caption {
+  position: absolute !important;
+  bottom: -30px !important; /* 图片说明距底部距离 */
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  background-color: rgba(30, 30, 30, 0.85) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3) !important;
+  color: #ffffff !important;
+  padding: 4px 12px !important;
+  border-radius: 4px !important;
+  font-size: 0.8rem !important;
+  white-space: nowrap !important;
+  z-index: 10 !important;
+}
+
+html[saved-theme="dark"] .carousel-caption {
+  /* 在暗色模式下，我们将背景调浅一点（深灰色），并加亮边框 */
+  background-color: var(--secondary) !important; 
+  border: 1px solid rgba(255, 255, 255, 0.3) !important; /* 加亮边框，使其在黑底上跳出来 */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5) !important;
+}
+
+/* --- 左右切换按钮（直接给数值，不使用变量） --- */
+.quartz-carousel-prev,
+.quartz-carousel-next {
+  display: flex !important; /* 确保不是 none */
+  visibility: visible !important;
+  position: absolute !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  background-color: #f0f0f0 !important;
+  border: none !important;
+  border-radius: 50% !important;
+  width: 40px !important;
+  height: 40px !important;
+  cursor: pointer !important;
+  z-index: 20 !important;
+}
+
+.quartz-carousel-prev { left: 10px !important; }
+.quartz-carousel-next { right: 10px !important; }
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+  /* 1. 调整全局内容容器的边距 */
+  /* 这通常能一举解决 Header, Footer 和 Article 对不齐的问题 */
+  .page .center, 
+  .page > .single-column {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    box-sizing: border-box !important;
+  }
+
+  /* 2. 轮播图调整：既然全局有了 20px 边距，轮播图就设为 width: 100% */
+  article .quartz-carousel {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 1.5rem 0 !important;
+    /* 这里的 margin-left/right 改回 0，因为它会继承父级的 padding */
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  /* 3. 移除之前单独给 article 加的 padding，避免边距叠加过大 */
+  article {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+
+
+/* 定位 Footer 中的 Github 链接 */
+footer a[href*="github.com"] {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  font-size: 0;  /* 隐藏原始文字 "Github" */
+  vertical-align: middle;
+  transition: all .3s; /* 对应你复制的平滑过渡 */
+  
+  /* 使用 mask 将 SVG 变成一个遮罩 */
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-position: center;
+  mask-position: center;
+
+  /* 在这里放入你的 SVG 路径或 Data URI */
+  /* 如果是本地文件：url("/static/github.svg") */
+  -webkit-mask-image: url("/static/GithubIcon.svg");
+  mask-image: url("/static/GithubIcon.svg");
+
+  /* 默认颜色：对应你复制的 fill: var(--dark) */
+  background-color: var(--gray); 
+}
+
+/* 悬浮效果：变色 */
+footer a[href*="github.com"]:hover {
+  /* 悬浮时变为你复制的 secondary 颜色 */
+  background-color: var(--secondary) !important;
+  transform: translateY(-2px); /* 额外的浮动感 */
+}
+
+/* 定位 Footer 中的 Bilibili 链接 */
+footer a[href*="bilibili.com"] {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  font-size: 0;  /* 隐藏原始文字 */
+  vertical-align: middle;
+  transition: all .3s; /* 对应你复制的平滑过渡 */
+  
+  /* 使用 mask 将 SVG 变成一个遮罩 */
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-position: center;
+  mask-position: center;
+
+  /* 在这里放入你的 SVG 路径或 Data URI */
+  /* 如果是本地文件：url("/static/github.svg") */
+  -webkit-mask-image: url("/static/BilibiliIcon.svg");
+  mask-image: url("/static/BilibiliIcon.svg");
+
+  /* 默认颜色：对应你复制的 fill: var(--dark) */
+  background-color: var(--gray); 
+}
+
+/* 悬浮效果：变色 */
+footer a[href*="bilibili.com"]:hover {
+  /* 悬浮时变为你复制的 secondary 颜色 */
+  background-color: var(--secondary) !important;
+  transform: translateY(-2px); /* 额外的浮动感 */
+}
+
+
+
+/* 桌面端 Explorer 立体卡片化 */
+@media all and (min-width: 768px) {
+  #quartz-body .sidebar.left {
+    /* 定位与粘性效果 */
+    flex: 0 0 270px !important; /* 自定义宽度 */
+    width: 270px !important;
+    position: sticky !important;
+    top: 3rem !important;
+    height: calc(100vh - 4rem) !important;
+    /* 核心视觉：实色边框 + 硬投影 */
+    background-color: var(--light) !important;
+    border: 2px solid var(--gray) !important;
+    border-radius: 1rem !important;
+    box-shadow: 8px 6px 0 0 var(--gray) !important;
+    /* 内部间距调整 */
+    padding: 1rem !important;
+    margin: 0 1.5rem 0 1rem !important;
+    z-index: 10;
+    /* 动画过渡 */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease !important;
+  }
+
+  /* 悬停变黑效果 */
+  #quartz-body .sidebar.left:hover {
+    border-color: var(--dark) !important;
+    box-shadow: 8px 6px 0 0 var(--dark) !important;
+  }
+
+  /* 确保 Explorer 内部滚动不溢出卡片 */
+  .explorer {
+    height: 100% !important;
+    overflow-y: auto !important;
+  }
+}
+
+/* --- 2. 移动端兼容性微调 --- */
+@media all and (max-width: 767px) {
+  /* 移动端保持 Quartz 原生设计，但给顶部的菜单栏加一个细微边框区分 */
+  .sidebar.left:has(.explorer) {
+    border-bottom: 1px solid var(--lightgray) !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+}
+
+/* --- 3. 内部元素美化 (桌面 & 移动通用) --- */
+.explorer-content ul li > a:hover {
+  background-color: var(--highlight) !important;
+  border-radius: 4px;
+}
+
+/* 手绘感highlight标注 */
+mark {
+  background-color: transparent !important;
+  background-image: linear-gradient(104deg, rgba(255, 242, 54, 0.7) 0.9%, rgba(255, 242, 54, 0.3) 100%) !important;
+  /* 模拟手绘倾斜感 */
+  clip-path: polygon(0% 15%, 100% 0%, 98% 85%, 2% 100%);
+  padding: 0.2rem 0.5rem !important;
+  color: var(--dark) !important;
+}
+
+/* 移动端防存图 无效的话删掉吧 */
+img {
+  -webkit-touch-callout: none !important; /* 彻底锁死移动端长按菜单 */
+  user-select: none !important;           /* 禁止选中 */
+}
+
+
+/* schedule表样式 （events） */
+/* 融合样式：去掉竖线，强制换行，保留圆点与色块 */
+.callout[data-callout="events"] {
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+
+& > .callout-title {
+    padding: 0 0 9px 0;
+    font-size: 1.2rem;
+    font-weight: 900;
+    border-bottom: 2px solid var(--dark);
+    margin-bottom: 20px;    
+    /* 核心修改：同时定位标题容器和它可能包含的所有子元素 */
+    &, & * {
+      color: #7dd3fc !important; /* 字体颜色 */
+      text-shadow: 2.7px 3px 1px #0284c7 !important; /* 阴影颜色 */
+    }
+    .callout-icon, .callout-help { display: none; }
+  }
+
+  .callout-content > ul {
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+
+    & > li {
+      display: grid !important;
+      /* 列定义：1.圆点(30px) 2.日期(60px) 3.内容(自适应) */
+      grid-template-columns: 35px 60px 1fr;  /* 两行均可自定义 */
+      grid-template-rows: 40px 30px; 
+      row-gap: 5px;   /* 日期块右侧文字行距 */
+      column-gap: 20px;
+      padding: 15px 0 !important;
+      position: relative;
+      margin: 0 !important;
+      border-bottom: 1px solid var(--lightgray);
+      align-items: center;
+
+      /* 圆点：强制在第一列 */
+      &::before {
+        content: "";
+        /* 强制在第一列居中 */
+        grid-column: 1; 
+        grid-row: 1 / 3; 
+        justify-self: center;         
+        /* 1. 调整大小：根据你图片的比例，稍大一点更显眼 */
+        width: 14px;
+        height: 14px;       
+        /* 2. 核心颜色：使用你的天蓝色 */
+        background-color: #7dd3fc !important;        
+        /* 3. 核心修改：去掉原有的 border，改为硬阴影 */
+        border: none !important; /* 确保没有边框 */        
+        /* 魔法代码：box-shadow(X轴偏移 Y轴偏移 模糊距离 阴影颜色) */
+        /* 模糊距离设为 0px 即可得到“硬阴影”效果 */
+        box-shadow: 7px 0px 0px -2px #444444; /* X轴偏移 Y轴偏移 模糊距离 扩充半径 阴影颜色 */     
+        border-radius: 50%; /* 保持圆形 */
+        z-index: 2;
+        /* 4. 微调上下位置：确保在两行文字中间 */
+        margin-top: -2px; 
+      }
+
+      /* 日期块：强制在第二列 */
+      & > strong:first-of-type {
+        grid-column: 2;
+        grid-row: 1 / 3;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center !important;     /* 文本行内居中 */
+        height: 60px;
+        background-color: #7dd3fc !important;
+        color: var(--dark) !important;
+        border: 2px solid var(--dark);
+        box-shadow: 3px 3px 0px var(--dark);
+        border-radius: 8px;
+        font-size: 0.9rem;
+        line-height: 1.1;
+        margin: 0 !important;
+      }
+
+      /* 演出名称：强制在第三列第一行 */
+      & > strong:nth-of-type(2) {
+        grid-column: 3;
+        grid-row: 1;
+        font-size: 1.1rem;
+        font-weight: 800;
+        line-height: 1.2;
+        margin: 0 !important;
+        align-self: end;
+        color: var(--dark);
+      }
+
+      /* 地点时间（流浪文本）：强制在第三列第二行 */
+      /* 核心修复：通过对 li 本身设置属性，并将 display 设为 contents */
+      line-height: 1.2;
+      font-size: 0.95rem;
+      color: var(--secondary);
+      
+      /* 魔法修复：让所有不在 strong 里的文本强行去第三列 */
+      display: contents; 
+      
+      /* 针对 Quartz 渲染出的匿名文本节点，通过伪类或层级强制归位 */
+      & {
+        grid-column: 3;
+        grid-row: 2;
+        align-self: start;
+        text-align: left;
+      }
+    }
+    
+    /* 这里的补充规则是万能钥匙：确保 li 里面所有“非加粗”的内容都乖乖待在第三列 */
+    & > li > *:not(strong) {
+        grid-column: 3;
+        grid-row: 2;
+        align-self: start;
+    }
+  }
+}
+
+/* 兼容暗色模式 */
+[asset-themed="dark"] .callout[data-callout="events"] {
+  & > .callout-content > ul > li {
+    &::before { background: var(--light); border-color: #0ea5e9; }
+    & > strong:first-of-type {
+      background-color: #0ea5e9 !important;
+      border-color: var(--light);
+      box-shadow: 3px 3px 0px var(--light);
+      color: var(--light) !important;
+    }
+  }
+}
