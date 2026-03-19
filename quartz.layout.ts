@@ -63,7 +63,7 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
-      "An archive by Rctaw": "https://Rctaw.github.io/quartz",
+      "An archive by Rctaw": "https://wtearchive.vercel.app",
       "GitHub": "https://github.com/jackyzha0/quartz",
       "Bilbili": "https://space.bilibili.com/3546392184228487",
      "回到顶部 ↑": "#", // 只要链接是 "#"，点击就会自动回到页面顶部

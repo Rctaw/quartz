@@ -17,7 +17,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "zh-CN",
-    baseUrl: "quartz-eight-self.vercel.app",
+    baseUrl: "wtearchive.vercel.app",
     ignorePatterns: ["private", "templates", ".obsidian", "Private"],
     defaultDateType: "modified",
     theme: {
