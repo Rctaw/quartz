@@ -28,6 +28,7 @@ export default ((userOpts?: Partial<SearchOptions>) => {
             </g>
           </svg>
           <p>{i18n(cfg.locale).components.search.title}</p>
+           <span className="wave-layer"></span>
         </button>
         <div class="search-container">
           <div class="search-space">

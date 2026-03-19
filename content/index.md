@@ -18,22 +18,21 @@ lastmod: YYYY-MM-DD
   `--'   `--'
 ```
 
-文本文本  
-最近修改v2  
-<!-- QueryToSerialize: TABLE WITHOUT ID file.link AS "笔记", file.folder AS "所属文件夹", dateformat(file.mtime, "yyyy-MM-dd") AS "最近更新" FROM "" AND -"Private" WHERE file.name != this.file.name AND file.name != "index" AND file.name != "欢迎" AND draft != true SORT file.mtime DESC LIMIT 5 -->
-<!-- SerializedQuery: TABLE WITHOUT ID file.link AS "笔记", file.folder AS "所属文件夹", dateformat(file.mtime, "yyyy-MM-dd") AS "最近更新" FROM "" AND -"Private" WHERE file.name != this.file.name AND file.name != "index" AND file.name != "欢迎" AND draft != true SORT file.mtime DESC LIMIT 5 -->
+ 
+<!-- QueryToSerialize: TABLE WITHOUT ID file.link AS "名称", file.folder AS "所属文件夹", dateformat(file.mtime, "yyyy-MM-dd") AS "最近更新" FROM "" AND -"Private" WHERE file.name != this.file.name AND file.name != "index" AND file.name != "欢迎" AND draft != true SORT file.mtime DESC LIMIT 5 -->
+<!-- SerializedQuery: TABLE WITHOUT ID file.link AS "名称", file.folder AS "所属文件夹", dateformat(file.mtime, "yyyy-MM-dd") AS "最近更新" FROM "" AND -"Private" WHERE file.name != this.file.name AND file.name != "index" AND file.name != "欢迎" AND draft != true SORT file.mtime DESC LIMIT 5 -->
 
-| 笔记                                    | 所属文件夹             | 最近更新       |
-| ------------------------------------- | ----------------- | ---------- |
-| [[test]]         | WTE ARCHIVE       | 2026-03-12 |
-| [[UPCOMING]]             |                   | 2026-03-12 |
-| [[BOOKS]] | WTE ARCHIVE/FILES | 2026-03-12 |
-| [[1]]         | WTE ARCHIVE/FILES | 2026-02-26 |
-| [[5]]         | WTE ARCHIVE/FILES | 2026-02-25 |
+| 名称                                           | 所属文件夹              | 最近更新       |
+| -------------------------------------------- | ------------------ | ---------- |
+| [[260313-B]] | Interviews/Potatoi | 2026-03-17 |
+| [[260303]]     | Interviews/Potatoi | 2026-03-17 |
+| [[260313-A]] | Interviews/Potatoi | 2026-03-17 |
+| [[test]]                | WTE ARCHIVE        | 2026-03-17 |
+| [[UPCOMING]]                    |                    | 2026-03-16 |
 
 <!-- SerializedQuery END -->
 
-文本文案
+
 
 <div class="site-stats-card">
   <h3>

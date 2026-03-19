@@ -4,14 +4,21 @@ import { Options } from "./quartz/components/Explorer"
 
   // 1. 自定义排序逻辑
   export const mySortFn: Options["sortFn"] = (a, b) => {
-  const topFolder = "WTE ARCHIVE"
+  const topItems = ["UPCOMING", "WTE ARCHIVE"]
   // 强力置顶逻辑
   const nameA = (a.name || a.displayName || "").toUpperCase()
   const nameB = (b.name || b.displayName || "").toUpperCase()
-  const isATop = nameA.includes(topFolder.toUpperCase())
-  const isBTop = nameB.includes(topFolder.toUpperCase())  
+  const topItemsUpper = topItems.map(i => i.toUpperCase())
+  const isATop = topItemsUpper.some(item => nameA.includes(item))
+  const isBTop = topItemsUpper.some(item => nameB.includes(item))
   if (isATop && !isBTop) return -1
   if (!isATop && isBTop) return 1
+  // 如果两者都在置顶列表中，按它们在 topItems 里的先后顺序排
+  if (isATop && isBTop) {
+    const indexA = topItemsUpper.findIndex(item => nameA.includes(item))
+    const indexB = topItemsUpper.findIndex(item => nameB.includes(item))
+    if (indexA !== indexB) return indexA - indexB
+  }
   // 文件夹 vs 文件 逻辑
   const aIsFolder = a.children && a.children.length > 0
   const bIsFolder = b.children && b.children.length > 0

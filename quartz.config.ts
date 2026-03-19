@@ -24,9 +24,9 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Bungee Shade",
-        body: "Alkatra",
-        code: "IBM Plex Mono",
+        header: "Bungee Shade", // 标题字体
+        body: "Alkatra", // 正文
+        code: "IBM Plex Mono", // 代码块
       },
       colors: {
         lightMode: {
@@ -78,7 +78,10 @@ const config: QuartzConfig = {
              mermaid: true,
              parseTags: true,
      }),
-      Plugin.GitHubFlavoredMarkdown(),
+      Plugin.GitHubFlavoredMarkdown({
+      enableSmartyPants: false, // 彻底禁用自动转换引号、破折号和省略号
+      linkHeadings: true,       // 保留标题悬停链接
+     }),
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),

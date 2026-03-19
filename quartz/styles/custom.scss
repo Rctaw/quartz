@@ -110,6 +110,8 @@ footer::before {
   font-size: 0.6rem;
 }
 
+
+/* 回到顶部按钮 */
 footer a[href="#"] {
   /* 基础定位：避开Explorer阴影，确保在最前方 */
   position: fixed;
@@ -548,70 +550,44 @@ html[saved-theme="dark"] .carousel-caption {
 
 
 
-/* 定位 Footer 中的 Github 链接 */
-footer a[href*="github.com"] {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  font-size: 0;  /* 隐藏原始文字 "Github" */
-  vertical-align: middle;
-  transition: all .3s; /* 对应你复制的平滑过渡 */
-  
-  /* 使用 mask 将 SVG 变成一个遮罩 */
-  -webkit-mask-repeat: no-repeat;
-  mask-repeat: no-repeat;
-  -webkit-mask-size: contain;
-  mask-size: contain;
-  -webkit-mask-position: center;
-  mask-position: center;
-
-  /* 在这里放入你的 SVG 路径或 Data URI */
-  /* 如果是本地文件：url("/static/github.svg") */
-  -webkit-mask-image: url("/static/GithubIcon.svg");
-  mask-image: url("/static/GithubIcon.svg");
-
-  /* 默认颜色：对应你复制的 fill: var(--dark) */
-  background-color: var(--gray); 
-}
-
-/* 悬浮效果：变色 */
-footer a[href*="github.com"]:hover {
-  /* 悬浮时变为你复制的 secondary 颜色 */
-  background-color: var(--secondary) !important;
-  transform: translateY(-2px); /* 额外的浮动感 */
-}
-
-/* 定位 Footer 中的 Bilibili 链接 */
+/* footer网站图标，提取公共样式，减少重复并方便统一调试 */
+footer a[href*="github.com"],
 footer a[href*="bilibili.com"] {
   display: inline-block;
   width: 20px;
   height: 20px;
-  font-size: 0;  /* 隐藏原始文字 */
+  font-size: 0;
   vertical-align: middle;
-  transition: all .3s; /* 对应你复制的平滑过渡 */
+  transition: all .3s;
   
-  /* 使用 mask 将 SVG 变成一个遮罩 */
+  /* 关键：确保背景颜色可见 */
+  background-color: var(--gray);
+  
+  /* 强化版 Mask 配置 */
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
   -webkit-mask-size: contain;
   mask-size: contain;
   -webkit-mask-position: center;
   mask-position: center;
-
-  /* 在这里放入你的 SVG 路径或 Data URI */
-  /* 如果是本地文件：url("/static/github.svg") */
-  -webkit-mask-image: url("/static/BilibiliIcon.svg");
-  mask-image: url("/static/BilibiliIcon.svg");
-
-  /* 默认颜色：对应你复制的 fill: var(--dark) */
-  background-color: var(--gray); 
 }
 
-/* 悬浮效果：变色 */
-footer a[href*="bilibili.com"]:hover {
-  /* 悬浮时变为你复制的 secondary 颜色 */
+/* 分别指定图标路径 */
+footer a[href*="github.com"] {
+  -webkit-mask-image: url("./static/GithubIcon.svg");
+  mask-image: url("./static/GithubIcon.svg");
+}
+
+footer a[href*="bilibili.com"] {
+  -webkit-mask-image: url("./static/BilibiliIcon.svg");
+  mask-image: url("./static/BilibiliIcon.svg");
+}
+
+/* 悬浮效果保持不变 */
+footer a:hover[href*="github.com"],
+footer a:hover[href*="bilibili.com"] {
   background-color: var(--secondary) !important;
-  transform: translateY(-2px); /* 额外的浮动感 */
+  transform: translateY(-2px);
 }
 
 
@@ -816,4 +792,155 @@ img {
       color: var(--light) !important;
     }
   }
+}
+
+
+
+// 1. 针对网页【正文主体】区域字体
+// 仅影响笔记内容，不影响顶部标题和导航
+.center > article {
+  // 英文用 Alkatra，中文用思源黑体
+  font-family: "Alkatra", "Segoe UI", "Arial", "Source Han Sans SC", "PingFang SC", sans-serif !important;
+  & p, & li {
+    line-height: 1.9 !important; // 行间距
+    margin-top: 0.8rem;       // 顺便微调段落间距
+    margin-bottom: 1.2rem;
+    letter-spacing: 0.05em; // 字间距
+    font-size: 1rem;
+  }
+// 2. 针对正文内的标题（H1-H6）进行阶梯式调整
+  h1 { font-size: 2.2rem; margin-top: 2rem; }
+  h2 { font-size: 1.8rem; margin-top: 1.8rem; }
+  h3 { font-size: 1.4rem; margin-top: 1.5rem; } // 既然你 H3 很多，可以稍微调大一点点凸显层次
+  
+  // 3. 针对列表和加粗文字的微调
+  li { font-size: 1.1rem; } 
+  strong { font-weight: 700; color: var(--secondary); } // 让加粗更明显
+
+  // 同时修正正文内部的所有标题
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Alkatra", "Source Han Sans SC", "PingFang SC", sans-serif !important;
+    font-weight: 600;
+  }
+}
+
+// 2. 针对【左右两边】和【顶部头部】
+// 确保这些 UI 区域维持 Bungee Shade 的艺术风格
+.left, .right, .page-header {
+  .explorer, .toc, .backlinks, .graph, .page-title, .breadcrumb {
+    font-family: "Bungee Shade", cursive !important;
+  }
+}
+@media all and (max-width: 700px) {
+  .center > article {
+    font-size: 1.05rem; 
+  }
+}
+
+
+
+.spotify-embed {
+  margin: 4rem 0 2.5rem 0; /* 增加胶带上方间距 */
+  position: relative;
+  border-top: 1.5px dashed var(--gray); /* 稍微调细虚线 */
+  padding-top: 28px;
+
+  &::before {
+    content: attr(data-title); /* 让内容读取 data-title 属性的值 */
+    position: absolute;
+    top: -16px;
+    left: 12px;    
+    /* 使用主题变量，确保深浅模式自动适配 */
+    background: var(--light); 
+    border: 1px solid var(--gray);
+    padding: 2px 14px;    
+    /* 旋转 */
+    transform: rotate(-2deg);     
+    /* 字体微调 */
+    font-family: "Alkatra", cursive;
+    font-size: 0.8rem;
+    color: var(--secondary);    
+    /* 胶带的叠层效果 */
+    z-index: 1;
+    box-shadow: 2px 2px 0px rgba(0,0,0,0.1);
+  }
+
+  /* 悬停时的微互动 */
+  &:hover::before {
+    transform: rotate(0deg) scale(1.05); /* 悬停时胶带“贴正”并放大 */
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+}
+
+
+
+
+
+/* 搜索栏波浪动态样式 */
+/* 1. 基础样式：定义海蓝波浪色 */
+:root {
+  --wave-color: #00a8e8; /* 天蓝海浪 */
+}
+
+.search .search-button {
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  border: 1.5px solid var(--lightgray);
+  transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  z-index: 1;
+
+  /* 核心：悬停交互 */
+  &:hover {
+    transform: translateX(6px);
+    border-color: var(--wave-color) !important;
+
+    /* 展开波浪层 */
+    .wave-layer {
+      opacity: 1;
+      left: 0;
+      background-color: var(--wave-color) !important;
+    }
+
+    /* 文字和图标：默认浅色模式下的深蓝 */
+    & > p, & svg .search-path {
+      color: #001f3f !important;
+      stroke: #001f3f !important;
+      transition: all 0.3s ease;
+    }
+  }
+}
+
+/* 2. 核心：暗色模式下的文字和图标变亮 */
+/* 只要 HTML 标签上有 dark 字样（兼容 saved-theme 或 data-theme） */
+:is([saved-theme="dark"], [data-theme="dark"]) .search .search-button:hover {
+  /* 这一行是魔法：强制将内部文字和图标反转为高亮度，确保在海蓝背景上清晰 */
+  & > p, & svg {
+    filter: brightness(0) invert(1) !important; /* 强制变白/亮色 */
+  }
+  
+  /* 同时稍微加深暗色模式下的波浪色，增加对比 */
+  .wave-layer {
+    background-color: #0077b6 !important;
+  }
+}
+
+/* 3. 波浪形状 */
+.search .search-button > .wave-layer {
+  content: "";
+  position: absolute;
+  top: 0; left: -100%;
+  width: 200%; height: 100%;
+  mask-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAwIDEwMCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0wLDYwQzMwLDQwIDcwLDgwIDEwMCw2MEMxMzAsNDAgMTcwLDgwIDIwMCw2MEMyMzAsNDAgMjcwLDgwIDMwMCw2MEMzMzAsNDAgMzcwLDgwIDQwMCw2MEM0MzAsNDAgNDcwLDgwIDUwMCw2MEM1MzAsNDAgNTcwLDgwIDYwMCw2MEM2MzAsNDAgNjcwLDgwIDcwMCw2MEM3MzAsNDAgNzcwLDgwIDgwMCw2MEM4MzAsNDAgODcwLDgwIDkwMCw2MEM5MzAsNDAgOTcwLDgwIDEwMDAsNjBMMTAwMCwxMDBMMCwxMDBaIi8+PC9zdmc+');
+  mask-repeat: repeat-x;
+  mask-size: cover;
+  opacity: 0;
+  animation: flow-wave 6s linear infinite;
+  z-index: -2;
+  transition: all 0.5s ease;
+}
+
+@keyframes flow-wave {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); } 
 }
