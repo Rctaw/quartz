@@ -24,11 +24,11 @@ lastmod: YYYY-MM-DD
 
 | 名称                                             | 所属文件夹                | 最近更新       |
 | ---------------------------------------------- | -------------------- | ---------- |
-| [[Credits]]                        |                      | 2026-03-20 |
-| [[260313-A]]   | Interviews/Potatoi   | 2026-03-20 |
-| [[UPCOMING]]                      |                      | 2026-03-20 |
 | [[Pre-show]] | WTE ARCHIVE/Playlist | 2026-03-20 |
+| [[260313-A]]   | Interviews/Potatoi   | 2026-03-20 |
 | [[niell]]       | WTE ARCHIVE/Playlist | 2026-03-20 |
+| [[Credits]]                        |                      | 2026-03-20 |
+| [[UPCOMING]]                      |                      | 2026-03-20 |
 
 <!-- SerializedQuery END -->
 
