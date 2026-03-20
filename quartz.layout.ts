@@ -39,7 +39,7 @@ export const myMapFn: Options["mapFn"] = (node) => {
     "UPCOMING": "📆",
     "TMI": "🍬",
     "PLAYLIST": "🎧",
-    "ABOUT": "ℹ️",
+    "CREDITS": "ℹ️",
   }
 
   const name = (node.displayName || node.name || "").toUpperCase()

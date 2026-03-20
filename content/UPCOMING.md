@@ -2,13 +2,13 @@
 > [!events] UPCOMING
 > - **May<br>22**
 >   **🎱 Seoul Jazz Festival**
->   TBD
+>   TIME: TBD
 > - **May<br>24**
 >   **🌊 Seoul Jazz Festival**
->   TBD
+>   TIME: TBD
 > - **May<br>30**
 >   **🌊 Java Jazz Festival**
->   Jakarta
+>   TIME: TBD | Jakarta
 > - **???**
 >   **The Poles 2nd Album**
 >   ???
