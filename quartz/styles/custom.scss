@@ -802,7 +802,7 @@ img {
   font-family: "Alkatra", "Segoe UI", "Arial", "Source Han Sans SC", "PingFang SC", sans-serif !important;
   & p, & li {
     line-height: 1.9 !important; // 行间距
-    margin-top: 0.8rem;       // 顺便微调段落间距
+    margin-top: 0.8rem;       // 段落间距
     margin-bottom: 1.2rem;
     letter-spacing: 0.05em; // 字间距
     font-size: 1rem;
@@ -810,13 +810,32 @@ img {
 // 2. 针对正文内的标题（H1-H6）进行阶梯式调整
   h1 { font-size: 2.2rem; margin-top: 2rem; }
   h2 { font-size: 1.8rem; margin-top: 1.8rem; }
-  h3 { font-size: 1.4rem; margin-top: 1.5rem; } // 既然你 H3 很多，可以稍微调大一点点凸显层次
+  h3 { font-size: 1.4rem; margin-top: 1.5rem; }
   
+  h6 { font-size: 0.85rem !important; // 比正文 (1rem) 更小
+    color: var(--dark) !important; 
+    opacity: 0.7; // 降低30%的不透明度
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 400 !important;
+    border-left: 3px solid var(--secondary);    // 注释左侧竖线
+    padding-left: 1rem;
+    letter-spacing: 0.05em;
+    line-height: 1.5 !important;
+    font-style: italic;
+    // 强制取消链接样式
+    & a {
+      pointer-events: none !important; // 禁用点击
+      cursor: default !important;      // 鼠标不显示链接
+      color: inherit !important;       // 颜色跟随H6本身
+      text-decoration: none !important; // 去掉下划线
+    }
+  }
   // 3. 针对列表和加粗文字的微调
   li { font-size: 1.1rem; } 
-  strong { font-weight: 700; color: var(--secondary); } // 让加粗更明显
+  strong { font-weight: 700; color: var(--secondary); } // 加粗
 
-  // 同时修正正文内部的所有标题
+  // 正文内部的所有标题
   h1, h2, h3, h4, h5, h6 {
     font-family: "Alkatra", "Source Han Sans SC", "PingFang SC", sans-serif !important;
     font-weight: 600;
@@ -913,7 +932,7 @@ img {
 /* 2. 核心：暗色模式下的文字和图标变亮 */
 /* 只要 HTML 标签上有 dark 字样（兼容 saved-theme 或 data-theme） */
 :is([saved-theme="dark"], [data-theme="dark"]) .search .search-button:hover {
-  /* 这一行是魔法：强制将内部文字和图标反转为高亮度，确保在海蓝背景上清晰 */
+  /* 强制将内部文字和图标反转为高亮度，确保在背景上清晰 */
   & > p, & svg {
     filter: brightness(0) invert(1) !important; /* 强制变白/亮色 */
   }
