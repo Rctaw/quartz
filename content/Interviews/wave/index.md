@@ -1,4 +1,4 @@
 ---
-title: Potatoi
+title: wave
 lastmod: YYYY-MM-DD
 ---

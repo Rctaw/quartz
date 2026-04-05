@@ -166,7 +166,7 @@ article .quartz-carousel {
   }
   
   .carousel-modal-close {
-    /* 将关闭按钮固定在右上角，防止因为图片太窄导致按钮位置尴尬 */
+    /* 将关闭按钮固定在右上角 */
     position: absolute;
     top: -30px;
     right: -25px; 
@@ -210,18 +210,18 @@ article .quartz-carousel {
   }
 }
 
-// --- 彻底修复暗色模式按钮可见度 ---
+// --- 暗色模式按钮可见度 ---
 html[saved-theme="dark"] {
   article .quartz-carousel {
-    // 强制定义暗色模式下的按钮颜色
+    // 定义暗色模式下的按钮颜色
     .quartz-carousel-prev, 
     .quartz-carousel-next {
       background-color: rgba(255, 255, 255, 0.3) !important; // 使用半透明白色，确保在纯黑背景下可见
       opacity: 0.8 !important; // 提高初始不透明度
 
       svg { 
-        fill: #ffffff !important; // 强制箭头为纯白
-        filter: drop-shadow(0 0 2px rgba(0,0,0,0.5)); // 给箭头加点阴影，防止在亮图中看不见
+        fill: #ffffff !important; // 箭头为纯白
+        filter: drop-shadow(0 0 2px rgba(0,0,0,0.5)); // 给箭头加阴影
       }
 
       &:hover {

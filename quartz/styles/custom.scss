@@ -3,7 +3,7 @@
 // put your custom CSS here!
 .page-title {
   display: flex !important;
-  flex-direction: column !important; /* 让图片和文字上下排列，防止横向挤占 */
+  flex-direction: column !important; /* 图片和文字上下排列 */
   align-items: flex-start !important; 
   gap: 8px;
 
@@ -16,7 +16,7 @@
       content: "";
       display: block;
       
-      /* 修改点 1：使用合理的显示大小，不要用 300px 原w和h均为90 */
+      /* 自定义w和h */
       width: 150px;  
       height: 100px; 
 
@@ -28,7 +28,7 @@
   }
 }
 
-/* 如果你觉得侧边栏太窄，可以尝试稍微加宽一点 */
+/* 侧边栏 */
 .left.sidebar {
   width: 300px !important; /* 调整侧边栏整体宽度 */
 }
@@ -46,31 +46,45 @@
   }
 }
 
+/* --- LOGO 颜色处理 --- */
+/* 深色模式：将黑色 Logo 滤镜处理为白色 */
+[saved-theme="dark"] .page-title a::before {
+  /* invert(1) 反转颜色，brightness(1.5) 增强亮度和对比度 */
+  filter: invert(1) brightness(1.5) !important;
+  
+  /* 可选：图标边缘极细的微光 */
+  /* filter: invert(1) brightness(1.5) drop-shadow(0 0 1px rgba(255, 255, 255, 0.5)) !important; */
+}
 
-/* 美化标题与描述之间的间距 */
+/* 亮色模式：确保没有任何滤镜干扰，保持原样 */
+[saved-theme="light"] .page-title a::before {
+  filter: none !important;
+}
+
+
+/* 标题与描述(description)之间的间距 */
 .article-title + p {
-  /* 当紧跟在标题后的第一个段落（通常是 description） */
-  margin-top: 1.5rem !important; /* 增加上间距，你可以根据喜好调整这个数值 */
-  color: var(--gray);            /* 可选：让描述文字颜色稍微淡一点，更有层次感 */
-  line-height: 1;              /* 增加行高，让文字读起来不拥挤 */
-  font-style: italic;            /* 可选：让描述显示为斜体，方便和正文区分 */
+  margin-top: 1.5rem !important; /* 上间距 */
+  color: var(--gray);            /* 描述文字颜色 */
+  line-height: 1;              /* 行高 */
+  font-style: italic;            /* 斜体 */
 }
 
 /* 针对文件夹页面的特殊美化（如果是使用 index.md 生成的） */
 .section-title + .page-description {
   margin-top: 1rem !important;
-  margin-bottom: 1rem !important; /* 同时也离下方的文件列表远一点 */
+  margin-bottom: 1rem !important; /* 与下方的文件列表距离 */
 }
 
 
-/* 为创建日期添加前缀 */
+/* 文件最近修改日期的前缀 */
 .content-meta time:first-of-type::before {
   content: "最近修改: ";
   font-weight: 500;
-  color: var(--gray); /* 可以设置成你喜欢的颜色，如颜色名称、十六进制代码 (Hex) 或 RGB */
+  color: var(--gray); 
 }
 
-/* 为修改日期添加前缀（如果有的话） */
+/* 发布日期的前缀 */
 .content-meta time:nth-of-type(2)::before {
   content: "";
   font-weight: 500;
@@ -80,28 +94,21 @@
 /* 调整阅读时间前的间距和说明 */
 .content-meta span::before {
   content: "Reading time: ";
-  margin-left: 1rem; /* 与前面的日期拉开一点距离 */
+  margin-left: 1rem; /* 与前面日期的距离 */
 }
 
-/* 当处于深色模式时，对 page-title 下的 Logo 进行反转 */
-[saved-theme="dark"] .page-title > a::before {
-  /* 方案一：直接反转（黑色变白色） */
-  filter: invert(1) brightness(1.5); 
-/* 如果你的 Logo 是彩色的，只想让它亮一点不至于消失，可以用这个：
-  filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.8)); 
-  */
-}
 
-/* 关于分割线设置，如果你想全站禁用这种简单的横线，直接用这一行： */
+
+/* 禁用原有的横线 */
 hr {
   display: none !important;
 }
-
+/* 自定义分割线 */
 footer::before {
-  /* 使用 \A 来代表换行，注意 content 里的空格必须精准 */
+  /* 使用 \A 来代表换行，注意content里的空格必须精准 */
   content: "    |\\__/,|   (`\\      |\\__/,|   (`\\      |\\__/,|   (`\\\A      _.|o o  |_   ) )   _.|o o  |_   ) )   _.|o o  |_   ) )  \A -(((---(((----------(((---(((----------(((---(((--------";
   display: block;
-  white-space: pre-wrap; /* 核心：让 CSS 识别 \A 换行符 */
+  white-space: pre-wrap; /* 让 CSS 识别 \A 换行符 */
   text-align: center;
   font-family: monospace;
   line-height: 1.2;
@@ -113,7 +120,6 @@ footer::before {
 
 /* 回到顶部按钮 */
 footer a[href="#"] {
-  /* 基础定位：避开Explorer阴影，确保在最前方 */
   position: fixed;
   bottom: 2.5rem;
   right: 2.5rem;
@@ -121,14 +127,14 @@ footer a[href="#"] {
   width: 50px;
   height: 50px;
 
-  /* 颜色与形状：与explorer统一风格 */
-  background-color: #61e1f2 !important; /* 你的亮蓝色 */
+  /* 颜色与形状与explorer统一风格 */
+  background-color: #61e1f2 !important; /* 亮蓝色 */
   color: var(--dark) !important;
   border: 2px solid #000 !important; /* 增加黑色硬边框 */
-  border-radius: 12px !important; /* 改为圆角矩形，更像机械键帽 */
+  border-radius: 12px !important; /* 圆角矩形 */
   
   /* 核心视觉：立体硬阴影 */
-  /* 模拟侧边栏的 8px 6px 逻辑，但稍微调小一点适配按钮尺寸 */
+  /* 采用侧边栏的 8px 6px ，稍微调整适配按钮尺寸 */
   box-shadow: 4px 4px 0 0 #000 !important;
   
   display: flex;
@@ -137,22 +143,22 @@ footer a[href="#"] {
   text-decoration: none !important;
   font-size: 0 !important; 
   transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55) !important;
-  &:active { /* 增加真实点击时的反馈 */
+  &:active { /* 点击时的反馈 */
   transform: scale(0.9) translate(4px, 4px) !important;
   box-shadow: 0px 0px 0 0 #000 !important;
 }
 
-  /* 交互感：模拟“按下”物理反馈 */
+  /* 按下时的交互感 */
   &:hover {
-    background-color: #2c2e33 !important; /* 深灰色/接近黑 */
-    /* 模拟按下去的感觉：位置右移下移，阴影缩短 */
+    background-color: #2c2e33 !important; /* 按下时按钮颜色 */
+    /* 按下时位置右移下移，阴影缩短 */
     transform: translate(2px, 2px) !important;
     box-shadow: 2px 2px 0 0 #000 !important;
   }
 
-  /* 符号优化：使用更具动感的图标 */
+  /* 按钮图标 */
   &::before {
-    content: "▲"; /* 换成实心三角形，更有指示感 */
+    content: "▲"; /* 自定义图形 */
     font-size: 1.2rem;
     color: var(--dark);
     display: block;
@@ -160,14 +166,14 @@ footer a[href="#"] {
   }
 
   &:hover::before {
-    /* 悬停时三角形做一个“发射预备”的微颤 */
+    /* 悬停时图形的微颤 */
     color: #61e1f2;
     transform: translateY(-4px) scale(1.1);
   }
 }
 
 /* 状态感：页面已在顶部时自动变淡 (CSS 逻辑) */
-/* 虽然纯 CSS 很难检测滚动位置，但我们可以设置一个进入页面的入场动画 */
+/* 在页面顶部后再次下滑的变化 */
 @keyframes buttonAppear {
   from { transform: scale(0) rotate(-45deg); opacity: 0; }
   to { transform: scale(1) rotate(0); opacity: 1; }
@@ -179,14 +185,13 @@ footer a[href="#"] {
 
 /* --- 暗色模式适配 (Dark Mode) --- */
 html[saved-theme="dark"] {
-  footer a[href="#"] {
-    /* 在暗色模式下，我们调高亮蓝色的饱和度，或者加一点点外发光 */
+  footer a[href="#"] {    
     background-color: #70f0ff !important; 
     border-color: #fff !important; /* 边框变白 */
-    box-shadow: 4px 4px 0 0 #fff !important; /* 阴影变白，产生“悬浮纸片”感 */
+    box-shadow: 4px 4px 0 0 #fff !important; /* 阴影变白 */
 
     &::before {
-      color: #000 !important; /* 黑色三角形在亮蓝底上依然清晰 */
+      color: #000 !important; /* 让按钮图标在亮蓝底上依然清晰 */
     }
 
     &:hover {
@@ -196,14 +201,14 @@ html[saved-theme="dark"] {
 
       &::before {
         color: #70f0ff !important; /* 悬停反转为亮蓝发光 */
-        /* 复古“数码管”发光 (Glow Tube Style) */
+        /*  Vintage Glow Tube Style */
         text-shadow: 0 0 5px #70f0ff, 0 0 10px #70f0ff, 0 0 20px #70f0ff !important;
       }
     }
   }
 }
 
-/* 移动端微调 */
+/* 移动端调整 */
 @media (max-width: 768px) {
   footer a[href="#"] {
     bottom: 1.5rem;
@@ -219,7 +224,7 @@ html {
 
 /* 针对文件夹页面下的笔记列表日期优化 */
 .section-li .meta {
-  white-space: nowrap !important; /* 核心：强制日期不换行 */
+  white-space: nowrap !important; /* 强制日期不换行 */
   flex-shrink: 0 !important;      /* 防止日期被标题挤压 */
   margin-right: 1rem;             /* 增加日期与标题之间的间距 */
   min-width: 100px;               /* 给中文日期留出足够的最小空间 */
@@ -228,9 +233,9 @@ html {
 
 /* 网站信息卡片容器 */
 .site-stats-card {
-  margin: 2rem auto;            /* 上下留空，水平居中 */
+  margin: 2rem auto;            
   padding: 1.5rem;
-  background-color: var(--light); /* 适配 Quartz 的背景色变量 */
+  background-color: var(--light); /* 适配Quartz的背景色 */
   border: 1px solid var(--lightgray); /* 边框色 */
   border-radius: 12px;          /* 圆角 */
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); /* 柔和阴影 */
@@ -252,18 +257,18 @@ html {
 /* 每一行统计项的布局 */
 .stats-item {
   display: flex;
-  justify-content: space-between; /* 关键：左右两端对齐 */
+  justify-content: space-between; /* 左右两端对齐 */
   align-items: center;
   padding: 0.6rem 0;
   font-size: 0.95rem;
-  color: var(--gray); /* 标签颜色稍浅 */
+  color: var(--gray); /* 标签颜色 */
 }
 
 /* 统计数值的样式 */
 .stats-item span:last-child {
   font-weight: 600;
-  color: var(--secondary); /* 数值使用主题次要色，突出重点 */
-  font-family: var(--codeFont), monospace; /* 使用等宽字体，数字对齐更专业 */
+  color: var(--secondary); /* 数值颜色 */
+  font-family: var(--codeFont), monospace; /* 使用等宽字体，数字对齐 */
 }
 
 /* 鼠标悬停微动效 */
@@ -313,9 +318,9 @@ html {
   .page > #quartz-body {
     /* 1. 强制取消左侧边栏在移动端的粘性定位 */
     .sidebar.left:has(.explorer) {
-      position: relative !important; /* 覆盖 sticky，让它随页面滚动 */
+      position: relative !important; /* 随页面滚动 */
       top: auto !important;
-      padding-top: 2rem !important; /* 留出一点顶部间距 */
+      padding-top: 2rem !important; /* 顶部间距 */
     }
 
     /* 2. 确保侧边栏内的内容不会因为取消固定而错位 */
@@ -327,49 +332,51 @@ html {
 
 
 /* --- 全局滚动条美化 --- */
-/* 整体尺寸：宽一点更像机械零件 */
+/* 整体尺寸宽一点 */
 ::-webkit-scrollbar {
   width: 12px;
   height: 12px;
 }
 
-/* 轨道：移除虚线，改为纯色撞色 */
+/* 轨道：移除虚线，改为纯色 */
 ::-webkit-scrollbar-track {
   background: var(--light) !important; /* 明亮模式下使用极简背景 */
-  border-left: 2px solid #000; /* 标志性的硬核黑边 */
+  border-left: 2px solid #000; /* 黑边 */
 }
 
 /* 滑块：实心黑砖 */
 ::-webkit-scrollbar-thumb {
-  background-color: #000 !important; /* 初始状态为黑色方砖 */
+  background-color: #000 !important; 
   border: 1px solid var(--light); /* 与轨道拉开距离的细边 */
-  border-radius: 0px !important; /* 坚持直角，绝不圆滑 */
+  border-radius: 0px !important; /* 直角 */
   box-shadow: 2px 0 0 0 #000; /* 增加一点点厚度感 */
 }
 
-/* 悬浮状态：变为你标志性的亮蓝色 */
+/* 悬浮状态：亮蓝色 */
 ::-webkit-scrollbar-thumb:hover {
   background-color: var(--gray) !important; 
 }
 
-/* --- 暗色模式：高对比度适配 (解决不明显问题) --- */
+/* --- 暗色模式：高对比度，避免不明显) --- */
 html[saved-theme="dark"] {
   ::-webkit-scrollbar-track {
     background: #1a1a1a !important; /* 深黑底色 */
-    border-left: 2px solid #fff; /* 轨道边框变白，强行勾勒轮廓 */
+    border-left: 2px solid #fff; /* 轨道边框变白 */
   }
   
   ::-webkit-scrollbar-thumb {
-    /* 暗色模式下滑块直接使用亮蓝或亮白，不再隐藏 */
+    /* 暗色模式下滑块颜色 */
     background-color: #444 !important; 
     border: 1px solid #1a1a1a;
   }
   
   ::-webkit-scrollbar-thumb:hover {
-    background-color: var(--secondary) !important; /* 悬浮时变绿，极其醒目 */
-    box-shadow: 0 0 10px var(--secondary); /* 增加发光感，确保看得见 */
+    background-color: var(--secondary) !important; /* 悬浮时颜色 */
+    box-shadow: 0 0 10px var(--secondary); /* 增加发光 */
   }
 }
+
+
 
 
 /* 确保 Dataview 生成的表格在移动端可以横向滚动 */
@@ -390,7 +397,7 @@ table {
   border-collapse: collapse;
 }
 
-/* 2. 精准控制每一列的宽度占比 */
+/* 2. 每一列的宽度占比 */
 table th, table td {
   padding: 10px 15px !important;
   border-bottom: 1px solid var(--lightgray);
@@ -407,7 +414,7 @@ table th:nth-child(2), table td:nth-child(2) {
 
 table th:nth-child(3), table td:nth-child(3) {
   width: 20%;
-  text-align: right; /* 日期通常右对齐更整齐 */
+  text-align: right; /* 日期右对齐 */
 }
 
 /* 3. 移动端适配：防止手机上表格被挤压变形 */
@@ -419,6 +426,8 @@ table th:nth-child(3), table td:nth-child(3) {
     white-space: nowrap;
   }
 }
+
+
 
 
 /* --- 轮播图容器修复 --- */
@@ -442,7 +451,7 @@ article .quartz-carousel {
   transition: transform 0.3s ease, box-shadow 0.3s ease !important;
 }
 
-/* 进阶效果：鼠标悬停时轻轻升起 */
+/* 鼠标悬停时轻轻升起 */
 article .quartz-carousel:hover {
   transform: translateY(-4px) !important;
   box-shadow: 
@@ -456,11 +465,11 @@ article .quartz-carousel:hover {
 }
 
 
-/* --- 强制图片和标题上下排列 --- */
+/* --- 图片和标题上下排列 --- */
 .quartz-carousel-slide {
   flex: 0 0 100% !important;
   display: flex !important;
-  flex-direction: column !important; /* 关键：强制垂直排列 */
+  flex-direction: column !important; /* 强制垂直排列 */
   justify-content: center !important;
   align-items: center !important;
   position: relative !important;
@@ -493,13 +502,13 @@ article .quartz-carousel:hover {
 }
 
 html[saved-theme="dark"] .carousel-caption {
-  /* 在暗色模式下，我们将背景调浅一点（深灰色），并加亮边框 */
+  /* 在暗色模式下将背景调浅一点（深灰色），并加亮边框 */
   background-color: var(--secondary) !important; 
-  border: 1px solid rgba(255, 255, 255, 0.3) !important; /* 加亮边框，使其在黑底上跳出来 */
+  border: 1px solid rgba(255, 255, 255, 0.3) !important; /* 加亮边框 */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5) !important;
 }
 
-/* --- 左右切换按钮（直接给数值，不使用变量） --- */
+/* --- 左右切换按钮 --- */
 .quartz-carousel-prev,
 .quartz-carousel-next {
   display: flex !important; /* 确保不是 none */
@@ -559,7 +568,7 @@ footer a[href*="bilibili.com"] {
   font-size: 0;
   vertical-align: middle;
   transition: all .3s;
-  /* 关键：确保背景颜色可见 */
+  /* 背景颜色 */
   background-color: var(--gray);
   
   /* 强化版 Mask 配置 */
@@ -582,7 +591,7 @@ footer a[href*="bilibili.com"] {
   mask-image: url("./static/BilibiliIcon.svg");
 }
 
-/* 悬浮效果保持不变 */
+/* 悬浮效果 */
 footer a:hover[href*="github.com"],
 footer a:hover[href*="bilibili.com"] {
   background-color: var(--secondary) !important;
@@ -600,7 +609,7 @@ footer a:hover[href*="bilibili.com"] {
     position: sticky !important;
     top: 3rem !important;
     height: calc(100vh - 4rem) !important;
-    /* 核心视觉：实色边框 + 硬投影 */
+    /* 实色边框 + 硬投影 */
     background-color: var(--light) !important;
     border: 2px solid var(--gray) !important;
     border-radius: 1rem !important;
@@ -628,7 +637,6 @@ footer a:hover[href*="bilibili.com"] {
 
 /* --- 2. 移动端兼容性微调 --- */
 @media all and (max-width: 767px) {
-  /* 移动端保持 Quartz 原生设计，但给顶部的菜单栏加一个细微边框区分 */
   .sidebar.left:has(.explorer) {
     border-bottom: 1px solid var(--lightgray) !important;
     padding-left: 1rem !important;
@@ -672,7 +680,7 @@ img {
     font-weight: 900;
     border-bottom: 2px solid var(--dark);
     margin-bottom: 20px;    
-    /* 核心修改：同时定位标题容器和它可能包含的所有子元素 */
+    /* 同时定位标题容器和它可能包含的所有子元素 */
     &, & * {
       color: #7dd3fc !important; /* 字体颜色 */
       text-shadow: 2.7px 3px 1px #0284c7 !important; /* 阴影颜色 */
@@ -698,26 +706,25 @@ img {
       border-bottom: 1px solid var(--lightgray);
       align-items: center;
 
-      /* 圆点：强制在第一列 */
+      /* 圆点：强制在第一列且居中 */
       &::before {
         content: "";
-        /* 强制在第一列居中 */
         grid-column: 1; 
         grid-row: 1 / 3; 
         justify-self: center;         
-        /* 1. 调整大小：根据你图片的比例，稍大一点更显眼 */
+        /* 1. 根据比例调整大小 */
         width: 14px;
         height: 14px;       
-        /* 2. 核心颜色：使用你的天蓝色 */
+        /* 2. 圆点颜色：天蓝色 */
         background-color: #7dd3fc !important;        
         /* 3. 核心修改：去掉原有的 border，改为硬阴影 */
         border: none !important; /* 确保没有边框 */        
-        /* 魔法代码：box-shadow(X轴偏移 Y轴偏移 模糊距离 阴影颜色) */
+        /* box-shadow(X轴偏移 Y轴偏移 模糊距离 阴影颜色) */
         /* 模糊距离设为 0px 即可得到“硬阴影”效果 */
         box-shadow: 7px 0px 0px -2px #444444; /* X轴偏移 Y轴偏移 模糊距离 扩充半径 阴影颜色 */     
         border-radius: 50%; /* 保持圆形 */
         z-index: 2;
-        /* 4. 微调上下位置：确保在两行文字中间 */
+        /* 4. 调整上下位置，确保在两行文字中间 */
         margin-top: -2px; 
       }
 
@@ -753,13 +760,13 @@ img {
         color: var(--dark);
       }
 
-      /* 地点时间（流浪文本）：强制在第三列第二行 */
-      /* 核心修复：通过对 li 本身设置属性，并将 display 设为 contents */
+      /* 地点时间：强制在第三列第二行 */
+      /* 修复：通过对 li 本身设置属性，并将 display 设为 contents */
       line-height: 1.2;
       font-size: 0.95rem;
       color: var(--secondary);
       
-      /* 魔法修复：让所有不在 strong 里的文本强行去第三列 */
+      /* 修复：让所有不在 strong 里的文本强行去第三列 */
       display: contents; 
       
       /* 针对 Quartz 渲染出的匿名文本节点，通过伪类或层级强制归位 */
@@ -771,7 +778,7 @@ img {
       }
     }
     
-    /* 这里的补充规则是万能钥匙：确保 li 里面所有“非加粗”的内容都乖乖待在第三列 */
+    /* 这里的补充规则是万能钥匙：确保 li 里面所有“非加粗”的内容都在第三列 */
     & > li > *:not(strong) {
         grid-column: 3;
         grid-row: 2;
@@ -823,7 +830,7 @@ img {
     letter-spacing: 0.05em;
     line-height: 1.5 !important;
     font-style: italic;
-    // 强制取消链接样式
+    // 取消链接样式
     & a {
       pointer-events: none !important; // 禁用点击
       cursor: default !important;      // 鼠标不显示链接
@@ -857,10 +864,70 @@ img {
 
 
 
+/* 1. 强制重置正文区域的所有标题字体 */
+/* 作用范围：文章内容区 (h1-h6) */
+article h1, 
+article h2, 
+article h3, 
+article h4, 
+article h5, 
+article h6 {
+  /* 替换 Bungee Shade 为正文字体组合 */
+  font-family: "Alkatra", "Source Han Sans SC", "PingFang SC", sans-serif !important;
+  
+  /* 取消 Bungee 强制的大写、阴影或超宽间距 */
+  text-transform: none !important;
+  letter-spacing: 0.02em !important;
+  font-style: normal; 
+}
+
+/* 2. 文件夹索引列表（Index List）同步修正 */
+.section-li h3, 
+.section-li h4, 
+.folder-outer h3, 
+.folder-outer h4,
+.section-u > a {
+  font-family: "Alkatra", "Source Han Sans SC", "PingFang SC", sans-serif !important;
+  text-transform: none !important;
+  letter-spacing: 0.02em !important;
+}
+
+/* 保留网页最顶端的标题为 Bungee Shade */
+/* 只要不修改 .page-title 和 .header a，它们就会维持原样 */
+
+
+
+/* 1. 修改目录顶部的“Table of Contents”字样 */
+.toc-header, 
+#toc-header,
+.toc-title {
+  font-family: "Alkatra", "Source Han Sans SC", "PingFang SC", sans-serif !important;
+  text-transform: none !important; /* 取消大写 */
+  letter-spacing: 0.02em !important;
+  font-weight: 600 !important;
+}
+
+/* 2. 修改目录中的每一个标题链接 */
+.toc li a, 
+.toc-link,
+#toc-content a {
+  font-family: "Alkatra", "Source Han Sans SC", "PingFang SC", sans-serif !important;
+  
+  /* 确保英文名列表不再是Bungee */
+  text-transform: none !important;
+  letter-spacing: normal !important;
+  font-weight: 500 !important;
+}
+
+
+
+
+
+
 .spotify-embed {
-  margin: 4rem 0 2.5rem 0; /* 增加胶带上方间距 */
+  margin: 4rem 0 2.5rem 0; /* 胶带上方间距 */
   position: relative;
-  border-top: 1.5px dashed var(--gray); /* 稍微调细虚线 */
+  border-top: 1.5px dashed var(--gray); /* 虚线粗细调整 */
   padding-top: 28px;
 
   &::before {
@@ -908,7 +975,7 @@ img {
   transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   z-index: 1;
 
-  /* 核心：悬停交互 */
+  /* 悬停交互 */
   &:hover {
     transform: translateX(6px);
     border-color: var(--wave-color) !important;
@@ -961,4 +1028,52 @@ img {
 @keyframes flow-wave {
   0% { transform: translateX(0); }
   100% { transform: translateX(-50%); } 
+}
+
+
+
+  /* 调整引用块中文字与图片的行距 */
+.callout-content img {
+  margin: 0.8rem 0 !important;
+}
+
+
+
+.film-archive-box {
+  position: relative;
+  margin: 1.5rem auto; /* 与上一段文字的间距 */
+  padding: 40px 0; /* 给上下留出齿孔的空间 */
+  background-color: #1a1a1a; /* 模拟底片的深色背景 */
+  border-radius: 4px;
+  max-width: 820px; /* 比播放器稍宽 */
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+
+  /* 顶部和底部的胶卷齿孔 */
+  &::before, &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 15px;
+    /* 白色的方块齿孔 */
+    background-image: repeating-linear-gradient(
+      to right,
+      #eee 0px,
+      #eee 15px,
+      transparent 15px,
+      transparent 30px
+    );
+    background-size: 30px 100%;
+  }
+
+  &::before { top: 12px; }   /* 顶部齿孔位置 */
+  &::after { bottom: 12px; } /* 底部齿孔位置 */
+}
+
+/* 适配移动端 */
+@media (max-width: 768px) {
+  .film-archive-box {
+    padding: 30px 10px;
+    &::before, &::after { background-size: 20px 100%; height: 10px; }
+  }
 }

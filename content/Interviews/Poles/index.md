@@ -1,4 +1,4 @@
 ---
-title: Potatoi
+title: Poles
 lastmod: YYYY-MM-DD
 ---

@@ -18,21 +18,26 @@ lastmod: YYYY-MM-DD
   `--'   `--'
 ```
 
- 
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link AS "名称", file.folder AS "所属文件夹", dateformat(file.mtime, "yyyy-MM-dd") AS "最近更新" FROM "" AND -"Private" WHERE file.name != this.file.name AND file.name != "index" AND file.name != "欢迎" AND draft != true SORT file.mtime DESC LIMIT 5 -->
 <!-- SerializedQuery: TABLE WITHOUT ID file.link AS "名称", file.folder AS "所属文件夹", dateformat(file.mtime, "yyyy-MM-dd") AS "最近更新" FROM "" AND -"Private" WHERE file.name != this.file.name AND file.name != "index" AND file.name != "欢迎" AND draft != true SORT file.mtime DESC LIMIT 5 -->
 
-| 名称                                             | 所属文件夹                | 最近更新       |
-| ---------------------------------------------- | -------------------- | ---------- |
-| [[260316]]          | Interviews/wave      | 2026-03-22 |
-| [[260303]]       | Interviews/Potatoi   | 2026-03-22 |
-| [[UPCOMING]]                      |                      | 2026-03-20 |
-| [[Pre-show]] | WTE ARCHIVE/Playlist | 2026-03-20 |
-| [[260313-A]]   | Interviews/Potatoi   | 2026-03-20 |
+| 名称                                                                     | 所属文件夹              | 最近更新       |
+| ---------------------------------------------------------------------- | ------------------ | ---------- |
+| [[GEARS]]                                        | WTE ARCHIVE        | 2026-04-05 |
+| [[260316]]                                  | Interviews/wave    | 2026-04-03 |
+| [[Credits]]                                                |                    | 2026-04-03 |
+| [[260313-A]]                           | Interviews/Potatoi | 2026-04-03 |
+| [[Pieces of the Process]] | WTE ARCHIVE/ECHOES | 2026-04-02 |
 
 <!-- SerializedQuery END -->
 
+> [!tips]
+> **无聊就来玩会吧[🕹️WTE SONG WORLD CUP](https://wavetoearth-songsorter.netlify.app/)**
 
+> [!Info]
+> 点击**左侧(移动端位于最顶部)** 的***logo***  即可快速回到此页面  
+> P.S. ***logo***  出自👇😎  
+> ![](./vid-pics/index-1.gif)
 
 <div class="site-stats-card">
   <h3>

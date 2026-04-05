@@ -74,12 +74,13 @@ const config: QuartzConfig = {
              enableVideoEmbed: true,
              enableYouTubeEmbed: true,
              enableCheckbox: true,
+             parseBlockReferences: true,
              callouts: true,
              mermaid: true,
              parseTags: true,
      }),
       Plugin.GitHubFlavoredMarkdown({
-      enableSmartyPants: false, // 彻底禁用自动转换引号、破折号和省略号
+      enableSmartyPants: false, // 禁用自动转换引号、破折号和省略号
       linkHeadings: true,       // 保留标题悬停链接
      }),
       Plugin.TableOfContents(),

@@ -2,7 +2,7 @@ import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 import { Options } from "./quartz/components/Explorer"
 
-  // 1. 自定义排序逻辑
+  // 自定义explorer排序逻辑
   export const mySortFn: Options["sortFn"] = (a, b) => {
   const topItems = ["UPCOMING", "WTE ARCHIVE"]
   // 强力置顶逻辑
@@ -24,14 +24,14 @@ import { Options } from "./quartz/components/Explorer"
   const bIsFolder = b.children && b.children.length > 0
   if (aIsFolder && !bIsFolder) return -1
   if (!aIsFolder && bIsFolder) return 1
-  // 字母排序保底
+  // 字母排序为基础
   return (a.displayName || a.name || "").localeCompare((b.displayName || b.name || ""), "zh-CN", { 
     numeric: true, 
     sensitivity: "base" 
   })
 }
 
-// 2. 自定义图标映射逻辑
+// 自定义explorer文件夹图标映射
 export const myMapFn: Options["mapFn"] = (node) => {
   const customIcons: Record<string, string> = {
     "INTERVIEWS": "📜",
@@ -41,6 +41,10 @@ export const myMapFn: Options["mapFn"] = (node) => {
     "PLAYLIST": "🎧",
     "CREDITS": "ℹ️",
     "WAVE": "🌊",
+    "POLES": "🎱",
+    "GEARS": "🎛",
+    "ECHOES": "✨",
+    "PIECES OF THE PROCESS": "🧩"
   }
 
   const name = (node.displayName || node.name || "").toUpperCase()
