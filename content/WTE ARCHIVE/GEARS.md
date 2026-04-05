@@ -44,7 +44,8 @@ Daniel在20、21岁时买的，是他拥有时间最长的一把吉他，背面�
 <Carousel>
   <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-SG1-A.webp" alt="'20"/>
   <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-SG1-B.webp" alt="'20"/>
-  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-SG1-C.webp" alt=""/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-SG1-C.webp" alt="'20 SESONEON - 난춘 cover"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-SG1-D.webp" alt=""/>
 </Carousel>  
 
 6. ##### Gibson Murphy Lab 1963 Firebird ⅴ (Polaris White, Maestro Vibrola)  
