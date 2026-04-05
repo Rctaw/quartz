@@ -32,9 +32,10 @@ Daniel在20、21岁时买的，是他拥有时间最长的一把吉他，背面�
 <Carousel>
   <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-TELE1-A.webp" alt="'21"/>
   <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-TELE1-B.webp" alt="'21"/>
-  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-TELE1-C.webp" alt="'25"/>
-  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-TELE1-D.webp" alt=""/>
-  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-TELE1-E.webp" alt="©Music Boulevard"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-TELE1-C.webp" alt="'22"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-TELE1-D.webp" alt="'25"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-TELE1-E.webp" alt=""/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-TELE1-F.webp" alt="©Music Boulevard"/>
 </Carousel>
 「图源[Music Boulevard](https://www.music-blvd.com/product/5583/fender-japan-62-tele-tl62b-bigs-3-tone-sunburst)」  
 
