@@ -21,7 +21,8 @@
 <Carousel>
   <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-EPP1-A.webp" alt="'18"/>
   <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-EPP1-B.webp" alt="'18 @Cafe Unplugged"/>
-  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-EPP1-C.webp" alt="©Equipboard"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-EPP1-C.webp" alt=""/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-EPP1-D.webp" alt="©Equipboard"/>
 </Carousel>
 「图源[cafeunplugged1](https://www.youtube.com/@cafeunplugged1) & [Equipboard](https://equipboard.com/)」  
 
