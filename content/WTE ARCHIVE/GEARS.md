@@ -14,8 +14,9 @@
   <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-ST1-D.webp" alt=""/>
   <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-ST1-E.webp" alt=""/>
 </Carousel>  
+<br>
 
-2. ##### Epiphone Limited Edition 1966 G-400 PRO TV (Pelham Blue)  
+2. ##### Epiphone Limited Edition 1966 G-400 PRO (TV Pelham Blue)  
 
 <font color="#92cddc">*官方售价\$499，近十年市价\$350 - \$800*</font>  
 <Carousel>
@@ -27,15 +28,15 @@
 「图源[cafeunplugged1](https://www.youtube.com/@cafeunplugged1) & [Equipboard](https://equipboard.com/)」  
 
 4. ##### Fender Japan TL62B-BTX Telecaster (3-Color Sunburst)  
-琴颈背面靠琴身处标的是**Crafted in Japan**，所以应该是生产于1997 - 2008年  
-Daniel在20、21岁时买的，是他拥有时间最长的一把吉他，背面有个被舞台灯光烧焦留下的“农心”标志  
+琴颈背面靠琴身处标的是**Crafted in Japan**，所以应该是生产于1997~2008年  
+Daniel在20、21岁时买的，是他拥有时间最长的一把吉他，背面有个被舞台灯光烧焦留下的痕迹，成员之间戏称其为“农心”标志  
 <font color="#92cddc">*官方售价\$850 - \$950，近年市价\$1,200 – \$2,400*</font>  
 <Carousel>
   <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-TELE1-A.webp" alt="'21"/>
   <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-TELE1-B.webp" alt="'21"/>
   <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-TELE1-C.webp" alt="'22"/>
   <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-TELE1-D.webp" alt="'25"/>
-  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-TELE1-E.webp" alt=""/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-TELE1-E.webp" alt="“农心”标志"/>
   <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-TELE1-F.webp" alt="©Music Boulevard"/>
 </Carousel>
 「图源[Music Boulevard](https://www.music-blvd.com/product/5583/fender-japan-62-tele-tl62b-bigs-3-tone-sunburst)」  
