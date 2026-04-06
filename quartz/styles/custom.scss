@@ -97,6 +97,21 @@
   margin-left: 1rem; /* 与前面日期的距离 */
 }
 
+/* 移动端适配 (屏幕宽度小于 600px) */
+@media screen and (max-width: 600px) {
+  .content-meta {
+    display: flex;
+    flex-wrap: wrap; /* 允许整组换行，而不是单个字换行 */
+    gap: 8px; /* gap 代替 margin，更现代且稳定 */
+    font-size: 0.85rem;
+  }
+
+  .content-meta span::before {
+    content: "Reading time: ";
+    margin-left: 0;
+  }
+}
+
 
 
 /* 禁用原有的横线 */

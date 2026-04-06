@@ -18,16 +18,16 @@ lastmod: YYYY-MM-DD
   `--'   `--'
 ```
 
-<!-- QueryToSerialize: TABLE WITHOUT ID file.link AS "名称", file.folder AS "所属文件夹", dateformat(file.mtime, "yyyy-MM-dd") AS "最近更新" FROM "" AND -"Private" WHERE file.name != this.file.name AND file.name != "index" AND file.name != "欢迎" AND draft != true SORT file.mtime DESC LIMIT 5 -->
-<!-- SerializedQuery: TABLE WITHOUT ID file.link AS "名称", file.folder AS "所属文件夹", dateformat(file.mtime, "yyyy-MM-dd") AS "最近更新" FROM "" AND -"Private" WHERE file.name != this.file.name AND file.name != "index" AND file.name != "欢迎" AND draft != true SORT file.mtime DESC LIMIT 5 -->
+<!-- QueryToSerialize: TABLE WITHOUT ID file.link AS "最近更新", file.folder AS "所属文件夹", dateformat(file.mtime, "yyyy-MM-dd") AS "更新时间" FROM "" AND -"Private" WHERE file.name != this.file.name AND file.name != "index" AND file.name != "欢迎" AND draft != true SORT file.mtime DESC LIMIT 5 -->
+<!-- SerializedQuery: TABLE WITHOUT ID file.link AS "最近更新", file.folder AS "所属文件夹", dateformat(file.mtime, "yyyy-MM-dd") AS "更新时间" FROM "" AND -"Private" WHERE file.name != this.file.name AND file.name != "index" AND file.name != "欢迎" AND draft != true SORT file.mtime DESC LIMIT 5 -->
 
-| 名称                                                                     | 所属文件夹              | 最近更新       |
+| 最近更新                                                                   | 所属文件夹              | 更新时间       |
 | ---------------------------------------------------------------------- | ------------------ | ---------- |
-| [[GEARS]]                                        | WTE ARCHIVE        | 2026-04-05 |
+| [[GEARS]]                                        | WTE ARCHIVE        | 2026-04-07 |
+| [[Pieces of the Process]] | WTE ARCHIVE/ECHOES | 2026-04-06 |
 | [[260316]]                                  | Interviews/wave    | 2026-04-03 |
 | [[Credits]]                                                |                    | 2026-04-03 |
 | [[260313-A]]                           | Interviews/Potatoi | 2026-04-03 |
-| [[Pieces of the Process]] | WTE ARCHIVE/ECHOES | 2026-04-02 |
 
 <!-- SerializedQuery END -->
 
@@ -35,7 +35,7 @@ lastmod: YYYY-MM-DD
 > **无聊就来玩会吧[🕹️WTE SONG WORLD CUP](https://wavetoearth-songsorter.netlify.app/)**
 
 > [!Info]
-> 点击**左侧(移动端位于最顶部)** 的***logo***  即可快速回到此页面  
+> 点击***左侧的logo(移动端位于最顶部)*** 即可快速回到此页面  
 > P.S. ***logo***  出自👇😎  
 > ![](./vid-pics/index-1.gif)
 
