@@ -25,7 +25,10 @@
   <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-EPP1-C.webp" alt=""/>
   <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-EPP1-D.webp" alt="©Equipboard"/>
 </Carousel>
-「图源[cafeunplugged1](https://www.youtube.com/@cafeunplugged1) & [Equipboard](https://equipboard.com/)」  
+
+<p align="right" style="font-size: 0.85em; color: #888; margin-top: -5px;">
+  「图源: <a href="https://www.youtube.com/@cafeunplugged1" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'20\' height=\'10\' viewBox=\'0 0 20 10\'><path d=\'M0 5 C 5 0, 5 10, 10 5 C 15 0, 15 10, 20 5\' stroke=\'%23888\' fill=\'transparent\' stroke-width=\'1.5\' stroke-linecap=\'round\'/></svg>'); background-position: bottom; background-repeat: repeat-x; background-size: 12px 6px; padding-bottom: 2px; transition: all 0.3s;">cafeunplugged1</a> & <a href="https://equipboard.com/" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'20\' height=\'10\' viewBox=\'0 0 20 10\'><path d=\'M0 5 C 5 0, 5 10, 10 5 C 15 0, 15 10, 20 5\' stroke=\'%23888\' fill=\'transparent\' stroke-width=\'1.5\' stroke-linecap=\'round\'/></svg>'); background-position: bottom; background-repeat: repeat-x; background-size: 12px 6px; padding-bottom: 2px; transition: all 0.3s;">Equipboard</a>」
+</p>  
 <br>
 
 3. ##### Fender Japan TL62B-BTX Telecaster (3-Color Sunburst)  
@@ -42,7 +45,10 @@ Daniel在20、21岁时买的，是他拥有时间最长的一把吉他，背面�
   <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-TELE1-E.webp" alt=""/>
   <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-TELE1-F.webp" alt="©Music Boulevard"/>
 </Carousel>  
-图源<a href="https://www.music-blvd.com/p/5583">Music Boulevard</a>  
+
+<p align="right" style="font-size: 0.85em; color: #888; margin-top: -5px;">
+  「图源: <a href="https://www.music-blvd.com/p/5583" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'20\' height=\'10\' viewBox=\'0 0 20 10\'><path d=\'M0 5 C 5 0, 5 10, 10 5 C 15 0, 15 10, 20 5\' stroke=\'%23888\' fill=\'transparent\' stroke-width=\'1.5\' stroke-linecap=\'round\'/></svg>'); background-position: bottom; background-repeat: repeat-x; background-size: 12px 6px; padding-bottom: 2px; transition: all 0.3s;"> Music Boulevard</a>」
+</p>  
 <br>
 <br>
 
@@ -66,7 +72,10 @@ Daniel在20、21岁时买的，是他拥有时间最长的一把吉他，背面�
   <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-EPP2-C.webp" alt="©GUITAR VILLAGE"/>
   <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-EPP2-D.webp" alt="©GUITAR VILLAGE"/>
 </Carousel>
-「图源[GUITAR VILLAGE](https://guitarvillage.co.uk/)」  
+
+ <p align="right" style="font-size: 0.85em; color: #888; margin-top: -5px;">
+  「图源: <a href="https://guitarvillage.co.uk/" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'20\' height=\'10\' viewBox=\'0 0 20 10\'><path d=\'M0 5 C 5 0, 5 10, 10 5 C 15 0, 15 10, 20 5\' stroke=\'%23888\' fill=\'transparent\' stroke-width=\'1.5\' stroke-linecap=\'round\'/></svg>'); background-position: bottom; background-repeat: repeat-x; background-size: 12px 6px; padding-bottom: 2px; transition: all 0.3s;">GUITAR VILLAGE</a>」
+</p>  
 <br>
 
 6. ##### Fender American Vintage '62 Jaguar (Olympic White)
@@ -77,7 +86,10 @@ Daniel在20、21岁时买的，是他拥有时间最长的一把吉他，背面�
   <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-JGR1-B.webp" alt="'25"/>
   <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-JGR1-C.webp" alt="©The Music Zoo"/>
 </Carousel>
-「图源[The Music Zoo](https://www.themusiczoo.com/products/fender-american-vintage-62-jaguar-olympic-white-2008)」  
+
+<p align="right" style="font-size: 0.85em; color: #888; margin-top: -5px;">
+  「图源: <a href="https://www.themusiczoo.com/products/fender-american-vintage-62-jaguar-olympic-white-2008" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'20\' height=\'10\' viewBox=\'0 0 20 10\'><path d=\'M0 5 C 5 0, 5 10, 10 5 C 15 0, 15 10, 20 5\' stroke=\'%23888\' fill=\'transparent\' stroke-width=\'1.5\' stroke-linecap=\'round\'/></svg>'); background-position: bottom; background-repeat: repeat-x; background-size: 12px 6px; padding-bottom: 2px; transition: all 0.3s;">The Music Zoo</a>」
+</p>  
 <br>
 
 7. ##### Gibson Custom 1959 ES-355 Reissue (Ebony, VOS, w/Bigsby)
@@ -98,7 +110,10 @@ Daniel在20、21岁时买的，是他拥有时间最长的一把吉他，背面�
   <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-RKB1-B.webp" alt="'22"/>
   <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-RKB1-C.webp" alt="©RAINBOW GUITARS"/>
 </Carousel>
-「图源[RAINBOW GUITARS](https://www.rainbowguitars.com/guitar/rickenbacker/330-electric-guitar-midnight-blue/330mid/rb)」  
+
+<p align="right" style="font-size: 0.85em; color: #888; margin-top: -5px;">
+  「图源: <a href="https://www.rainbowguitars.com/guitar/rickenbacker/330-electric-guitar-midnight-blue/330mid/rb" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'20\' height=\'10\' viewBox=\'0 0 20 10\'><path d=\'M0 5 C 5 0, 5 10, 10 5 C 15 0, 15 10, 20 5\' stroke=\'%23888\' fill=\'transparent\' stroke-width=\'1.5\' stroke-linecap=\'round\'/></svg>'); background-position: bottom; background-repeat: repeat-x; background-size: 12px 6px; padding-bottom: 2px; transition: all 0.3s;">RAINBOW GUITARS</a>」
+</p>  
 <br>
 
 9. ##### Gibson SG-S3 (Ebony, 3-Pickup, w/Sideways Vibrola)
@@ -110,7 +125,10 @@ Daniel在20、21岁时买的，是他拥有时间最长的一把吉他，背面�
   <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-SG2-C.webp" alt="'24"/>
   <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-SG2-D.webp" alt="©KC VINTAGE GUITARS"/>
 </Carousel>
-「图源[KC VINTAGE GUITARS](https://kcvintageguitars.com/products/2015-gibson-limited-edition-sgs3-ebony-black-3-pickup-sideways-vibrola-sg-les-paul-standard-custom)」  
+
+<p align="right" style="font-size: 0.85em; color: #888; margin-top: -5px;">
+  「图源: <a href="https://kcvintageguitars.com/products/2015-gibson-limited-edition-sgs3-ebony-black-3-pickup-sideways-vibrola-sg-les-paul-standard-custom" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'20\' height=\'10\' viewBox=\'0 0 20 10\'><path d=\'M0 5 C 5 0, 5 10, 10 5 C 15 0, 15 10, 20 5\' stroke=\'%23888\' fill=\'transparent\' stroke-width=\'1.5\' stroke-linecap=\'round\'/></svg>'); background-position: bottom; background-repeat: repeat-x; background-size: 12px 6px; padding-bottom: 2px; transition: all 0.3s;">KC VINTAGE GUITARS</a>」
+</p>  
 <br>
 
 10. ##### Epiphone IGC Les Paul Custom (Ebony, w/Bigsby)
@@ -139,7 +157,10 @@ Daniel在20、21岁时买的，是他拥有时间最长的一把吉他，背面�
   <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-EPP4-D.webp" alt=""/>
   <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-EPP4-E.webp" alt=""/>
 </Carousel>
-「图源[gongrot](https://www.youtube.com/@gongrot)」  
+
+<p align="right" style="font-size: 0.85em; color: #888; margin-top: -5px;">
+  「图源: <a href="https://www.youtube.com/@gongrot" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'20\' height=\'10\' viewBox=\'0 0 20 10\'><path d=\'M0 5 C 5 0, 5 10, 10 5 C 15 0, 15 10, 20 5\' stroke=\'%23888\' fill=\'transparent\' stroke-width=\'1.5\' stroke-linecap=\'round\'/></svg>'); background-position: bottom; background-repeat: repeat-x; background-size: 12px 6px; padding-bottom: 2px; transition: all 0.3s;">gongrot</a>」
+</p>  
 <br>
 
 12. ##### Silvertone
