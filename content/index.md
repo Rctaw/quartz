@@ -23,11 +23,11 @@ lastmod: YYYY-MM-DD
 
 | 最近更新                                                                   | 所属文件夹              | 更新时间       |
 | ---------------------------------------------------------------------- | ------------------ | ---------- |
-| [[GEARS]]                                        | WTE ARCHIVE        | 2026-04-10 |
+| [[GEARS]]                                        | WTE ARCHIVE        | 2026-04-11 |
+| [[UPCOMING]]                                              |                    | 2026-04-11 |
 | [[Pieces of the Process]] | WTE ARCHIVE/ECHOES | 2026-04-08 |
 | [[260316]]                                  | Interviews/wave    | 2026-04-03 |
 | [[Credits]]                                                |                    | 2026-04-03 |
-| [[260313-A]]                           | Interviews/Potatoi | 2026-04-03 |
 
 <!-- SerializedQuery END -->
 

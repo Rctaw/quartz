@@ -1,5 +1,5 @@
-###### 图片无特别注明的均为官图/官网图，巡演图片©Roger Tam；标价为官方售价/市价范围
-## · 🎸Daniel的吉他图鉴
+###### 图片无特别注明的均为官图/官网图，巡演图片©Roger Tam；标价为官方售价/市价范围(状态良好及以上&原装度高)
+## ▷ 🎸Daniel的吉他图鉴
 
 ***也太多了...加上一些很少用于演出只用于录音的吉他，感觉目前数量已接近40把***  😵  
 <br>
@@ -218,7 +218,23 @@ Daniel在20、21岁时买的，是他拥有时间最长的一把吉他，背面�
 </Carousel>  
 <br>
 
-16. ##### Fender Road Worn 50's Telecaster (Blonde, w/Bigsby)
+16. ##### Gibson Custom 60th Anniversary 1961 SG Les Paul Custom (  VOS, Polaris White)
+
+<font color="#92cddc">*官方售价\$6,699, 近年市价\$5,200 – \$7,500*</font>
+
+<Carousel>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-SG5-A.webp" alt="©gongrot"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-SG5-B.webp" alt="'25"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-SG5-C.webp" alt=""/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-SG5-D.webp" alt=""/>
+</Carousel>
+
+<p align="right" style="font-size: 0.85em; color: #888; margin-top: -5px;">
+  「图源: <a href="https://www.youtube.com/@gongrot" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'20\' height=\'10\' viewBox=\'0 0 20 10\'><path d=\'M0 5 C 5 0, 5 10, 10 5 C 15 0, 15 10, 20 5\' stroke=\'%23888\' fill=\'transparent\' stroke-width=\'1.5\' stroke-linecap=\'round\'/></svg>'); background-position: bottom; background-repeat: repeat-x; background-size: 12px 6px; padding-bottom: 2px; transition: all 0.3s;">gongrot</a>」
+</p>  
+<br>
+
+17. ##### Fender Road Worn 50's Telecaster (Blonde, w/Bigsby)
 
 <font color="#92cddc">*官方售价\$899 – \$999, 近年市价\$700 – \$1,100*</font>
 <Carousel>
@@ -234,7 +250,7 @@ Daniel在20、21岁时买的，是他拥有时间最长的一把吉他，背面�
 </p>  
 <br>
 
-17. ##### Fender American Vintage '52 Telecaster (Nocaster Blonde, w/Bigsby)
+18. ##### Fender American Vintage '52 Telecaster (Nocaster Blonde, w/Bigsby)
 
 <font color="#92cddc">*官方售价\$2,200, 近年市价\$1,600 – \$2,000*</font>
 <Carousel>
@@ -247,7 +263,7 @@ Daniel在20、21岁时买的，是他拥有时间最长的一把吉他，背面�
 </p>  
 <br>
 
-18. Fender 2023 Collection MIJ Traditional Late 60s Jaguar (Ice Blue Metallic)
+19. Fender 2023 Collection MIJ Traditional Late 60s Jaguar (Ice Blue Metallic)
 
 <font color="#92cddc">*官方售价\$1,100 - \$1,300, 近年市价\$1,200 – \$1,500*</font>
 <Carousel>
@@ -263,7 +279,7 @@ Daniel在20、21岁时买的，是他拥有时间最长的一把吉他，背面�
 </p>  
 <br>
 
-19. ##### Eastman Limited Edition T64 Truetone Vintage (Black)
+20. ##### Eastman Limited Edition T64 Truetone Vintage (Black)
 
 <font color="#92cddc">*官方售价\$2,200 - \$2,400, 近年市价\$1,900 – \$2,600*</font>
 <Carousel>
@@ -277,7 +293,7 @@ Daniel在20、21岁时买的，是他拥有时间最长的一把吉他，背面�
 </p>  
 <br>
 
-20. 1965 Silvertone 1488 Silhouette (Cherry Red)
+21. 1965 Silvertone 1488 Silhouette (Cherry Red)
 
 <font color="#92cddc">*1965年官方售价\$119.95, 近年市价\$1,100 – \$2,100*</font>
 
@@ -293,15 +309,121 @@ Daniel在20、21岁时买的，是他拥有时间最长的一把吉他，背面�
 </p>  
 <br>
 
+22. ##### 1966 Fender Jaguar (Sunburst)
+
+<font color="#92cddc">*1966年官方售价\$386, 近年市价\$5,000 – \$8,500*</font>
+
+<Carousel>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-JGR3-A.webp" alt="'25 @Cater Vintege Guitars"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-JGR3-B.webp" alt="'25"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-JGR3-C.webp" alt="©Elderly"/>
+</Carousel>
+
+<p align="right" style="font-size: 0.85em; color: #888; margin-top: -5px;">
+  「图源: <a href="https://www.elderly.com/products/fender-jaguar-30u-220539" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'20\' height=\'10\' viewBox=\'0 0 20 10\'><path d=\'M0 5 C 5 0, 5 10, 10 5 C 15 0, 15 10, 20 5\' stroke=\'%23888\' fill=\'transparent\' stroke-width=\'1.5\' stroke-linecap=\'round\'/></svg>'); background-position: bottom; background-repeat: repeat-x; background-size: 12px 6px; padding-bottom: 2px; transition: all 0.3s;">Elderly</a>」
+</p>  
+<br>
+
+23. ##### Fender Modern Player Starcaster (Black)
+
+<font color="#92cddc">*官方售价\$899, 近年市价\$850 – \$1,100*</font>
+
+<Carousel>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-STARC1-A.webp" alt="'25"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-STARC1-B.webp" alt="'25"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-STARC1-C.webp" alt="©SonoVente"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-STARC1-D.webp" alt="©SonoVente"/>
+</Carousel>
+
+<p align="right" style="font-size: 0.85em; color: #888; margin-top: -5px;">
+  「图源: <a href="https://www.sonovente.com/en-gb/fender-starcaster-maple-fingerboard-black-p43627.html" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'20\' height=\'10\' viewBox=\'0 0 20 10\'><path d=\'M0 5 C 5 0, 5 10, 10 5 C 15 0, 15 10, 20 5\' stroke=\'%23888\' fill=\'transparent\' stroke-width=\'1.5\' stroke-linecap=\'round\'/></svg>'); background-position: bottom; background-repeat: repeat-x; background-size: 12px 6px; padding-bottom: 2px; transition: all 0.3s;">SonoVente</a>」
+</p>  
+<br>
+
+24. ##### Epiphone Masterbilt Century Zenith (Vintage Natural)
+
+<font color="#92cddc">*官方售价\$799, 近年市价\$600 – \$850*</font>
+
+<Carousel>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/ACgtr-EPP1-A.webp" alt="'21"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/ACgtr-EPP1-B.webp" alt="©Chicago Music Exchange"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/ACgtr-EPP1-C.webp" alt="©Chicago Music Exchange"/>
+</Carousel>
+
+<p align="right" style="font-size: 0.85em; color: #888; margin-top: -5px;">
+  「图源: <a href="https://www.chicagomusicexchange.com/products/epiphone-masterbilt-century-collection-zenith-round-26048" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'20\' height=\'10\' viewBox=\'0 0 20 10\'><path d=\'M0 5 C 5 0, 5 10, 10 5 C 15 0, 15 10, 20 5\' stroke=\'%23888\' fill=\'transparent\' stroke-width=\'1.5\' stroke-linecap=\'round\'/></svg>'); background-position: bottom; background-repeat: repeat-x; background-size: 12px 6px; padding-bottom: 2px; transition: all 0.3s;">Chicago Music Exchange</a>」
+</p>  
+<br>
+
+25. YAMAHA FG Series Acoustic Guitar (难以确定具体型号)
+
+<Carousel>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/ACgtr-YMH1-A.webp" alt="'25"/>
+</Carousel>  
+<br>
+
+26. ##### Gibson LG-1 (Sunburst)
+
+<font color="#92cddc">*1947–1968生产，在1960s官方售价\$100 - \$150, 近年市价\$1,200 - $3,000+*</font>
+<Carousel>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/ACgtr-LG1-A.webp" alt="'25"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/ACgtr-LG1-B.webp" alt="'25"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/ACgtr-LG1-C.webp" alt="©Northern Lights Music"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/ACgtr-LG1-D.webp" alt="©Northern Lights Music"/>
+</Carousel>
+
+<p align="right" style="font-size: 0.85em; color: #888; margin-top: -5px;">
+  「图源: <a href="https://northernlightsmusic.com/products/used-gibson-lg-1" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'20\' height=\'10\' viewBox=\'0 0 20 10\'><path d=\'M0 5 C 5 0, 5 10, 10 5 C 15 0, 15 10, 20 5\' stroke=\'%23888\' fill=\'transparent\' stroke-width=\'1.5\' stroke-linecap=\'round\'/></svg>'); background-position: bottom; background-repeat: repeat-x; background-size: 12px 6px; padding-bottom: 2px; transition: all 0.3s;">Northern Lights Music</a>」
+</p>  
+<br>
+
+27. ##### Yamaha L12-5
+
+<font color="#92cddc">*官方售价\$450 – \$500, 近年市价\$400 – \$800*</font>
+
+<Carousel>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/ACgtr-YMH2-A.webp" alt="'23"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/ACgtr-YMH2-B.webp" alt="©Sonic System"/>
+</Carousel>
+
+<p align="right" style="font-size: 0.85em; color: #888; margin-top: -5px;">
+  「图源: <a href="https://www.sonicsystem.co.jp/sonix/archives/43404" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'20\' height=\'10\' viewBox=\'0 0 20 10\'><path d=\'M0 5 C 5 0, 5 10, 10 5 C 15 0, 15 10, 20 5\' stroke=\'%23888\' fill=\'transparent\' stroke-width=\'1.5\' stroke-linecap=\'round\'/></svg>'); background-position: bottom; background-repeat: repeat-x; background-size: 12px 6px; padding-bottom: 2px; transition: all 0.3s;">Sonic System</a>」
+</p>  
+<br>
+
+28. Córdoba Luthier Series C10 Cedar Classical Guitar
+
+<font color="#92cddc">*官方售价\$1,599, 近年市价\$1,100 – \$1,500*</font>
+
+<Carousel>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/ACgtr-CDB1-A.webp" alt="'26"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/ACgtr-CDB1-B.webp" alt=""/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/ACgtr-CDB1-C.webp" alt=""/>
+</Carousel>  
+<br>
+
+29. ##### Gibson Custom 1954 Les Paul Custom Staple Pickup Reissue (VOS, Ebony, w/Bigsby)
+
+<font color="#92cddc">*官方售价\$6899*</font>
+
+<Carousel>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-LP2-A.webp" alt="'26 ©miamadomusa"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-LP2-B.webp" alt=""/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-LP2-C.webp" alt=""/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-LP2-D.webp" alt=""/>
+</Carousel>
+
+<p align="right" style="font-size: 0.85em; color: #888; margin-top: -5px;">
+  「图源: <a href="https://www.youtube.com/@miamadomusa" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'20\' height=\'10\' viewBox=\'0 0 20 10\'><path d=\'M0 5 C 5 0, 5 10, 10 5 C 15 0, 15 10, 20 5\' stroke=\'%23888\' fill=\'transparent\' stroke-width=\'1.5\' stroke-linecap=\'round\'/></svg>'); background-position: bottom; background-repeat: repeat-x; background-size: 12px 6px; padding-bottom: 2px; transition: all 0.3s;">miamadomusa</a>」
+</p>
 
 
 
 
 
+## ▷ Daniel's bass
 
-## · Daniel's bass
+## ▷ Daniel‘s pedalboards
 
-## · Daniel‘s pedalboards
-
-## · John Gears  
+## ▷ John Gears  
 
