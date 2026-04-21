@@ -34,7 +34,7 @@
 3. ##### Fender Japan TL62B-BTX Telecaster (3-Color Sunburst)  
 <font color="#92cddc">*官方售价\$850 - \$950，近年市价\$1,200 – \$2,400*</font>  
 
-琴颈背面靠琴身处标的是**Crafted in Japan**，所以应该是生产于1997~2008年  
+琴颈背面靠琴身处标的是**Crafted in Japan**，应该是生产于1997~2008年  
 Daniel在20、21岁时买的，是他拥有时间最长的一把吉他，背面有个被舞台灯光烧焦留下的痕迹，成员之间戏称其为“农心”标志  
  
 <Carousel>
@@ -98,7 +98,8 @@ Daniel在20、21岁时买的，是他拥有时间最长的一把吉他，背面�
 <Carousel>
   <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-ES355-A.webp" alt="'22"/>
   <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-ES355-B.webp" alt="'22"/>
-  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-ES355-C.webp" alt=""/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-ES355-C.webp" alt="'23"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-ES355-D.webp" alt=""/>
 </Carousel>  
 <br>
 
@@ -293,15 +294,22 @@ Daniel在20、21岁时买的，是他拥有时间最长的一把吉他，背面�
 </p>  
 <br>
 
-21. 1965 Silvertone 1488 Silhouette (Cherry Red)
+21. ##### 【不确定】Silvertone 1478 (Cherry Red)  
+可能改装过，因为这个型号是没有Cherry Red配色的  
+<Carousel>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-ST3-A.webp" alt="'23"/>
+</Carousel>  
+<br>
+
+22. 1965 Silvertone 1488 Silhouette (Cherry Red)
 
 <font color="#92cddc">*1965年官方售价\$119.95, 近年市价\$1,100 – \$2,100*</font>
 
 <Carousel>
-  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-ST3-A.webp" alt="'25"/>
-  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-ST3-B.webp" alt="'25 ©KUMAGAI NAOKO"/>
-  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-ST3-C.webp" alt="©Rudy's Music"/>
-  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-ST3-D.webp" alt="©Rudy's Music"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-ST4-A.webp" alt="'25"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-ST4-B.webp" alt="'25 ©KUMAGAI NAOKO"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-ST4-C.webp" alt="©Rudy's Music"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-ST4-D.webp" alt="©Rudy's Music"/>
 </Carousel>
 
 <p align="right" style="font-size: 0.85em; color: #888; margin-top: -5px;">
@@ -309,7 +317,7 @@ Daniel在20、21岁时买的，是他拥有时间最长的一把吉他，背面�
 </p>  
 <br>
 
-22. ##### 1966 Fender Jaguar (Sunburst)
+23. ##### 1966 Fender Jaguar (Sunburst)
 
 <font color="#92cddc">*1966年官方售价\$386, 近年市价\$5,000 – \$8,500*</font>
 
@@ -324,7 +332,7 @@ Daniel在20、21岁时买的，是他拥有时间最长的一把吉他，背面�
 </p>  
 <br>
 
-23. ##### Fender Modern Player Starcaster (Black)
+24. ##### Fender Modern Player Starcaster (Black)
 
 <font color="#92cddc">*官方售价\$899, 近年市价\$850 – \$1,100*</font>
 
@@ -340,7 +348,7 @@ Daniel在20、21岁时买的，是他拥有时间最长的一把吉他，背面�
 </p>  
 <br>
 
-24. ##### Epiphone Masterbilt Century Zenith (Vintage Natural)
+25. ##### Epiphone Masterbilt Century Zenith (Vintage Natural)
 
 <font color="#92cddc">*官方售价\$799, 近年市价\$600 – \$850*</font>
 
@@ -355,14 +363,14 @@ Daniel在20、21岁时买的，是他拥有时间最长的一把吉他，背面�
 </p>  
 <br>
 
-25. YAMAHA FG Series Acoustic Guitar (难以确定具体型号)
+26. ##### YAMAHA FG Series Acoustic Guitar (难以确定具体型号)
 
 <Carousel>
   <img src="WTE ARCHIVE/vid-pics/GEARRS/ACgtr-YMH1-A.webp" alt="'25"/>
 </Carousel>  
 <br>
 
-26. ##### Gibson LG-1 (Sunburst)
+27. ##### Gibson LG-1 (Sunburst)
 
 <font color="#92cddc">*1947–1968生产，在1960s官方售价\$100 - \$150, 近年市价\$1,200 - $3,000+*</font>
 <Carousel>
@@ -377,7 +385,7 @@ Daniel在20、21岁时买的，是他拥有时间最长的一把吉他，背面�
 </p>  
 <br>
 
-27. ##### Yamaha L12-5
+28. ##### Yamaha L12-5
 
 <font color="#92cddc">*官方售价\$450 – \$500, 近年市价\$400 – \$800*</font>
 
@@ -391,18 +399,19 @@ Daniel在20、21岁时买的，是他拥有时间最长的一把吉他，背面�
 </p>  
 <br>
 
-28. Córdoba Luthier Series C10 Cedar Classical Guitar
+29. ##### Córdoba Luthier Series C10 Cedar Classical Guitar
 
 <font color="#92cddc">*官方售价\$1,599, 近年市价\$1,100 – \$1,500*</font>
 
 <Carousel>
   <img src="WTE ARCHIVE/vid-pics/GEARRS/ACgtr-CDB1-A.webp" alt="'26"/>
-  <img src="WTE ARCHIVE/vid-pics/GEARRS/ACgtr-CDB1-B.webp" alt=""/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/ACgtr-CDB1-B.webp" alt="'26"/>
   <img src="WTE ARCHIVE/vid-pics/GEARRS/ACgtr-CDB1-C.webp" alt=""/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/ACgtr-CDB1-D.webp" alt=""/>
 </Carousel>  
 <br>
 
-29. ##### Gibson Custom 1954 Les Paul Custom Staple Pickup Reissue (VOS, Ebony, w/Bigsby)
+30. ##### Gibson Custom 1954 Les Paul Custom Staple Pickup Reissue (VOS, Ebony, w/Bigsby)
 
 <font color="#92cddc">*官方售价\$6899*</font>
 
@@ -425,5 +434,70 @@ Daniel在20、21岁时买的，是他拥有时间最长的一把吉他，背面�
 
 ## ▷ Daniel‘s pedalboards
 
-## ▷ John Gears  
+## ▷ John Gear  
+
+1. ##### Fender early '70s Stratocaster (3-Color Sunburst)
+
+<font color="#92cddc">*官方售价\$350 - \$500, 近年市价\$4,000 – \$7,500*</font>
+
+<Carousel>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/Jgtr-STRATO1-A.webp" alt="'26"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/Jgtr-STRATO1-B.webp" alt="'26'"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/Jgtr-STRATO1-C.webp" alt="©VINTAGE & RARE"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/Jgtr-STRATO1-D.webp" alt="©VINTAGE & RARE"/>
+</Carousel>
+
+<p align="right" style="font-size: 0.85em; color: #888; margin-top: -5px;">
+  「图源: <a href="https://www.vintageandrare.com/product/Fender-Stratocaster-1974-Sunburst-47176" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'20\' height=\'10\' viewBox=\'0 0 20 10\'><path d=\'M0 5 C 5 0, 5 10, 10 5 C 15 0, 15 10, 20 5\' stroke=\'%23888\' fill=\'transparent\' stroke-width=\'1.5\' stroke-linecap=\'round\'/></svg>'); background-position: bottom; background-repeat: repeat-x; background-size: 12px 6px; padding-bottom: 2px; transition: all 0.3s;">VINTAGE & RARE</a>」
+</p>  
+<br>
+
+2. ##### Epiphone Casino (Natural)
+
+<font color="#92cddc">*官方售价\$699*</font>
+
+<Carousel>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/Jgtr-EPP1-A.webp" alt="'26"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/Jgtr-EPP1-B.webp" alt="'26"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/Jgtr-EPP1-C.webp" alt=""/>
+</Carousel>  
+<br>
+
+## ▷ DongQ Gear  
+
+1. ##### Epiphone Firebird (Vintage Sunburst)
+
+<font color="#92cddc">*官方售价\$799*</font>
+
+<Carousel>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/Qgtr-EPP1-A.webp" alt="'22"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/Qgtr-EPP1-B.webp" alt=""/>
+</Carousel>  
+<br>
+
+2. ##### 2013 Peerless Retromatic 131 (Black)
+
+<font color="#92cddc">*官方售价\$1,100 - \$1,300, 近年市价\$700 – \$1,100*</font>
+
+<Carousel>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/Qgtr-PR-A.webp" alt="'23"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/Qgtr-PR-B.webp" alt="'26"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/Qgtr-PR-C.webp" alt="©Loud Lemon"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/Qgtr-PR-D.webp" alt="©Loud Lemon"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/Qgtr-PR-E.webp" alt="©Loud Lemon"/>
+</Carousel>
+
+<p align="right" style="font-size: 0.85em; color: #888; margin-top: -5px;">
+  「图源: <a href="https://loud-lemon.com/peerless-retromatic-131-black-2013-korea-elektrogitara" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'20\' height=\'10\' viewBox=\'0 0 20 10\'><path d=\'M0 5 C 5 0, 5 10, 10 5 C 15 0, 15 10, 20 5\' stroke=\'%23888\' fill=\'transparent\' stroke-width=\'1.5\' stroke-linecap=\'round\'/></svg>'); background-position: bottom; background-repeat: repeat-x; background-size: 12px 6px; padding-bottom: 2px; transition: all 0.3s;">Loud Lemon</a>」
+</p>  
+<br>
+
+3. ##### Fender MIJ Traditional Late 60s Jazzmaster (Black)
+
+<font color="#92cddc">*官方售价约\$1,200*</font>
+
+<Carousel>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/Qgtr-JM1-A.webp" alt="'26"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/Qgtr-JM1-B.webp" alt=""/>
+</Carousel>
 
