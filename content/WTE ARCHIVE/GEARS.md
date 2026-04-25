@@ -432,11 +432,228 @@ Daniel在20、21岁时买的，是他拥有时间最长的一把吉他，背面�
 
 ## ▷ Daniel's bass
 
+1. ##### Höfner HCT-500/1 Violin Bass (Black)
+
+<font color="#92cddc">*官方售价\$899 – \$999, 近年市价\$550 – \$750*</font>
+
+<Carousel>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/BS-HFN1-A.webp" alt="'20"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/BS-HFN1-B.webp" alt="'21"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/BS-HFN1-C.webp" alt="©Sweetwater"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/BS-HFN1-D.webp" alt="©Sweetwater"/>
+</Carousel>
+
+<p align="right" style="font-size: 0.85em; color: #888; margin-top: -5px;">
+  「图源: <a href="https://www.sweetwater.com/store/detail/HCT5001BLK--hofner-hct-500-1-contemporary-violin-bass-black" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'20\' height=\'10\' viewBox=\'0 0 20 10\'><path d=\'M0 5 C 5 0, 5 10, 10 5 C 15 0, 15 10, 20 5\' stroke=\'%23888\' fill=\'transparent\' stroke-width=\'1.5\' stroke-linecap=\'round\'/></svg>'); background-position: bottom; background-repeat: repeat-x; background-size: 12px 6px; padding-bottom: 2px; transition: all 0.3s;">Sweetwater</a>」
+</p>  
+<br>
+
+2. ##### Fender ‘70s Mustang Bass (Black)
+
+<font color="#92cddc">*官方售价\$250 – \$400, 近年市价\$2,800 – \$3,500+*</font>
+
+<Carousel>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/BS-MST1-A.webp" alt="'24"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/BS-MST1-B.webp" alt="'24"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/BS-MST1-C.webp" alt="'23"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/BS-MST1-D.webp" alt="©Yeahman's Guitars"/>
+</Carousel>
+
+<p align="right" style="font-size: 0.85em; color: #888; margin-top: -5px;">
+  「图源: <a href="https://www.yeahmansguitars.com/products/1976-fender-mustang-bass-black?" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'20\' height=\'10\' viewBox=\'0 0 20 10\'><path d=\'M0 5 C 5 0, 5 10, 10 5 C 15 0, 15 10, 20 5\' stroke=\'%23888\' fill=\'transparent\' stroke-width=\'1.5\' stroke-linecap=\'round\'/></svg>'); background-position: bottom; background-repeat: repeat-x; background-size: 12px 6px; padding-bottom: 2px; transition: all 0.3s;">Yeahman's Guitars</a>」
+</p>  
+<br>
+
+3. ##### Gibson '70s EB-3 (Cherry)
+
+<font color="#92cddc">*官方售价\$400 – \$600, 近年市价\$1,500 – \$2,800+*</font>
+
+<Carousel>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/BS-SG1-A.webp" alt="'25"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/BS-SG1-B.webp" alt="'25"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/BS-SG1-C.webp" alt="'25 Orlando"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/BS-SG1-D.webp" alt="©Andy Baxter Bass"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/BS-SG1-E.webp" alt="©Andy Baxter Bass"/>
+</Carousel>
+
+<p align="right" style="font-size: 0.85em; color: #888; margin-top: -5px;">
+  「图源: <a href="https://www.andybaxterbass.com/products/1974-gibson-eb3-faded-cherry" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'20\' height=\'10\' viewBox=\'0 0 20 10\'><path d=\'M0 5 C 5 0, 5 10, 10 5 C 15 0, 15 10, 20 5\' stroke=\'%23888\' fill=\'transparent\' stroke-width=\'1.5\' stroke-linecap=\'round\'/></svg>'); background-position: bottom; background-repeat: repeat-x; background-size: 12px 6px; padding-bottom: 2px; transition: all 0.3s;">Andy Baxter Bass</a>」
+</p>  
+<br>
+
+4. ##### Höfner Club Bass HCT-500/2 (Sunburst)
+
+<font color="#92cddc">*官方售价\$850 – \$1,000, 近年市价\$600 – \$850+*</font>
+
+<Carousel>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/BS-HFN2-A.webp" alt="'26"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/BS-HFN2-B.webp" alt="©Some Neck Guitars"/>
+</Carousel>
+
+<p align="right" style="font-size: 0.85em; color: #888; margin-top: -5px;">
+  「图源: <a href="https://www.someneckguitars.com/products/hofner-club-bass-hct-500-2-sunburst-2022" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'20\' height=\'10\' viewBox=\'0 0 20 10\'><path d=\'M0 5 C 5 0, 5 10, 10 5 C 15 0, 15 10, 20 5\' stroke=\'%23888\' fill=\'transparent\' stroke-width=\'1.5\' stroke-linecap=\'round\'/></svg>'); background-position: bottom; background-repeat: repeat-x; background-size: 12px 6px; padding-bottom: 2px; transition: all 0.3s;">Some Neck Guitars</a>」
+</p>  
+<br>
+
+
+
 ## ▷ Daniel‘s pedalboards
 
 ## ▷ John Gear  
 
-1. ##### Fender early '70s Stratocaster (3-Color Sunburst)
+<font color="#fac08f">· 『Bass』</font>  
+
+1. ##### La Bella Olinto '50s Precision Bass (Sunburst)
+
+<font color="#92cddc">*Olinto所有的琴都由Mas Hino在纽约手工小规模制作，目前主流二手成交价为\$3,000 – \$5,000*</font>  
+
+- 曾在2018年NAMM(一年一度、音乐产品行业内规模最大的展会)上展出，John参加了这次展会所以应该是这时拥有了这把贝斯
+- 添置了一些乐器后就很少用这把贝斯了，曾想过卖掉但想起是用它进行了wave to earth首次三人合奏，觉得它承载了美好的回忆所以最终还是留下了，最近久违地在***love 0.3*** 演唱会上再次使用这把贝斯来演奏
+
+<Carousel>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/JBS-Olinto-A.webp" alt="'22"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/JBS-Olinto-B.webp" alt="'24"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/JBS-Olinto-C.webp" alt="'18 ©olintobass"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/JBS-Olinto-D.webp" alt="'18 ©olintobass"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/JBS-Olinto-E.webp" alt="'18 ©olintobass"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/JBS-Olinto-F.webp" alt="'18 ©olintobass"/>
+</Carousel>
+
+<p align="right" style="font-size: 0.85em; color: #888; margin-top: -5px;">
+  「图源: <a href="https://www.instagram.com/p/BeB9f0rBHFv/" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'20\' height=\'10\' viewBox=\'0 0 20 10\'><path d=\'M0 5 C 5 0, 5 10, 10 5 C 15 0, 15 10, 20 5\' stroke=\'%23888\' fill=\'transparent\' stroke-width=\'1.5\' stroke-linecap=\'round\'/></svg>'); background-position: bottom; background-repeat: repeat-x; background-size: 12px 6px; padding-bottom: 2px; transition: all 0.3s;">olintobass</a>」
+</p>  
+<br>
+
+2. ##### 1976 Rickenbacker 4001 (White)
+
+<font color="#92cddc">*官方售价\$450 – \$550, 近年市价\$3,500 – \$6,000*</font>  
+在***0.03 World Tour*** 中用于***slow dive*** 和***holyland*** 的演奏
+
+<Carousel>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/JBS-RKB1-A.webp" alt="'20"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/JBS-RKB1-B.webp" alt="'21"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/JBS-RKB1-C.webp" alt="'23"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/JBS-RKB1-D.webp" alt="©Brian's Guitars"/>
+</Carousel>
+
+<p align="right" style="font-size: 0.85em; color: #888; margin-top: -5px;">
+  「图源: <a href="https://briansguitars.com/products/1976-rickenbacker-4001-white" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'20\' height=\'10\' viewBox=\'0 0 20 10\'><path d=\'M0 5 C 5 0, 5 10, 10 5 C 15 0, 15 10, 20 5\' stroke=\'%23888\' fill=\'transparent\' stroke-width=\'1.5\' stroke-linecap=\'round\'/></svg>'); background-position: bottom; background-repeat: repeat-x; background-size: 12px 6px; padding-bottom: 2px; transition: all 0.3s;">Brian's Guitars</a>」
+</p>  
+<br>
+
+3. ##### Music Man late '70s StingRay (Classic Natural)
+
+<font color="#92cddc">*官方售价\$550 – \$650, 近年市价\$4,500 – \$7,500*</font>
+
+<Carousel>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/JBS-MM1-A.webp" alt="'22"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/JBS-MM1-B.webp" alt="'22"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/JBS-MM1-C.webp" alt="'25"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/JBS-MM1-D.webp" alt="©Willcutt Guitars"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/JBS-MM1-E.webp" alt="©Willcutt Guitars"/>
+</Carousel>
+
+<p align="right" style="font-size: 0.85em; color: #888; margin-top: -5px;">
+  「图源: <a href="https://willcuttguitars.com/products/ernie-ball-stingray-h-spcl-classic-natural" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'20\' height=\'10\' viewBox=\'0 0 20 10\'><path d=\'M0 5 C 5 0, 5 10, 10 5 C 15 0, 15 10, 20 5\' stroke=\'%23888\' fill=\'transparent\' stroke-width=\'1.5\' stroke-linecap=\'round\'/></svg>'); background-position: bottom; background-repeat: repeat-x; background-size: 12px 6px; padding-bottom: 2px; transition: all 0.3s;">Willcutt Guitars</a>」
+</p>  
+<br>
+
+4. ##### Fender MIJ Mustang Bass (Olympic White)
+
+<font color="#92cddc">*官方售价\$600 - \$800, 近年市价\$900 – \$1,400*</font>
+
+<Carousel>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/JBS-MST1-A.webp" alt="'22"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/JBS-MST1-B.webp" alt="'23"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/JBS-MST1-C.webp" alt="'23 Berkeley"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/JBS-MST1-D.webp" alt="'23 Berkeley"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/JBS-MST1-E.webp" alt="©Bass Direct"/>
+</Carousel>
+
+<p align="right" style="font-size: 0.85em; color: #888; margin-top: -5px;">
+  「图源: <a href="https://www.bassdirect.co.uk/product/fender-japan-mustang-bass-olympic-white-1995-pre-owned/" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'20\' height=\'10\' viewBox=\'0 0 20 10\'><path d=\'M0 5 C 5 0, 5 10, 10 5 C 15 0, 15 10, 20 5\' stroke=\'%23888\' fill=\'transparent\' stroke-width=\'1.5\' stroke-linecap=\'round\'/></svg>'); background-position: bottom; background-repeat: repeat-x; background-size: 12px 6px; padding-bottom: 2px; transition: all 0.3s;">Bass Direct</a>」
+</p>  
+<br>
+
+5. ##### Höfner 500/1 Vintage '60s Violin Bass (Sunburst)
+
+<font color="#92cddc">*近年市价\$3,500 – \$5,000*</font>
+
+<Carousel>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/JBS-HFN1-A.webp" alt="'23 LA"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/JBS-HFN1-B.webp" alt="'23"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/JBS-HFN1-C.webp" alt="'25"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/JBS-HFN1-D.webp" alt="©Guitar Center"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/JBS-HFN1-E.webp" alt="©Guitar Center"/>
+</Carousel>
+
+<p align="right" style="font-size: 0.85em; color: #888; margin-top: -5px;">
+  「图源: <a href="https://www.guitarcenter.com/Hofner/H500-1-Vintage-1964-Violin-Electric-Bass-Guitar-Sunburst-1296775310897.gc" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'20\' height=\'10\' viewBox=\'0 0 20 10\'><path d=\'M0 5 C 5 0, 5 10, 10 5 C 15 0, 15 10, 20 5\' stroke=\'%23888\' fill=\'transparent\' stroke-width=\'1.5\' stroke-linecap=\'round\'/></svg>'); background-position: bottom; background-repeat: repeat-x; background-size: 12px 6px; padding-bottom: 2px; transition: all 0.3s;">Guitar Center</a>」
+</p>  
+<br>
+
+6. ##### Epiphone Embassy PRO Bass (Antique Ivory)
+
+<font color="#92cddc">*官方售价\$399 - \$429, 近年市价\$300 – \$450*</font>
+
+<Carousel>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/JBS-EPP1-A.webp" alt="'24 Brooklyn"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/JBS-EPP1-B.webp" alt="'25 Orlando"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/JBS-EPP1-C.webp" alt="'25 Columbus"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/JBS-EPP1-D.webp" alt="©Gear4music"/>
+</Carousel>
+
+<p align="right" style="font-size: 0.85em; color: #888; margin-top: -5px;">
+  「图源: <a href="https://www.gear4music.com/Guitar-and-Bass/Epiphone-Embassy-PRO-Bass-Antique-Ivory/1Q0W" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'20\' height=\'10\' viewBox=\'0 0 20 10\'><path d=\'M0 5 C 5 0, 5 10, 10 5 C 15 0, 15 10, 20 5\' stroke=\'%23888\' fill=\'transparent\' stroke-width=\'1.5\' stroke-linecap=\'round\'/></svg>'); background-position: bottom; background-repeat: repeat-x; background-size: 12px 6px; padding-bottom: 2px; transition: all 0.3s;">Gear4music</a>」
+</p>  
+<br>
+
+7. ##### Fender Custom Shop '60s Precision Bass (Sunburst)
+
+<font color="#92cddc">*近年市价\$4,500 - \$6,000+*</font>
+
+<Carousel>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/JBS-FENP1-A.webp" alt="'26"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/JBS-FENP1-B.webp" alt="'25"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/JBS-FENP1-C.webp" alt="©Chicago Music Exchange"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/JBS-FENP1-D.webp" alt="©Chicago Music Exchange"/>
+</Carousel>
+
+<p align="right" style="font-size: 0.85em; color: #888; margin-top: -5px;">
+  「图源: <a href="https://www.chicagomusicexchange.com/products/fender-custom-shop-64-precision-bass-sunburst-2021-1725673" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'20\' height=\'10\' viewBox=\'0 0 20 10\'><path d=\'M0 5 C 5 0, 5 10, 10 5 C 15 0, 15 10, 20 5\' stroke=\'%23888\' fill=\'transparent\' stroke-width=\'1.5\' stroke-linecap=\'round\'/></svg>'); background-position: bottom; background-repeat: repeat-x; background-size: 12px 6px; padding-bottom: 2px; transition: all 0.3s;">Chicago Music Exchange</a>」
+</p>  
+<br>
+
+
+<font color="#fac08f">· 『Guitar』</font>  
+
+1. ##### Gretsch G5422T Electromatic Hollow Body Double-cut Guitar (Orange Stain, w/Bigsby)
+
+<font color="#92cddc">*官方售价\$1,149, 近年市价\$650 – \$1,000*</font>
+
+<Carousel>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/Jgtr-Gretsch-A.webp" alt="'24"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/Jgtr-Gretsch-B.webp" alt="©Cream City Music"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/Jgtr-Gretsch-C.webp" alt="©Cream City Music"/>
+</Carousel>
+
+<p align="right" style="font-size: 0.85em; color: #888; margin-top: -5px;">
+  「图源: <a href="https://www.creamcitymusic.com/new-2016-gretsch-g5422t-electromatic-hollow-body-double-cut-in-orange-stain-with-bigsby/" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'20\' height=\'10\' viewBox=\'0 0 20 10\'><path d=\'M0 5 C 5 0, 5 10, 10 5 C 15 0, 15 10, 20 5\' stroke=\'%23888\' fill=\'transparent\' stroke-width=\'1.5\' stroke-linecap=\'round\'/></svg>'); background-position: bottom; background-repeat: repeat-x; background-size: 12px 6px; padding-bottom: 2px; transition: all 0.3s;">Cream City Music</a>」
+</p>  
+<br>
+
+2. ##### Epiphone ES-335 (Vintage Sunburst)
+
+<font color="#92cddc">*官方售价\$599*</font>
+
+<Carousel>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/Jgtr-EPP1-A.webp" alt="'25"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/Jgtr-EPP1-B.webp" alt="'25"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/Jgtr-EPP1-C.webp" alt=""/>
+</Carousel>  
+<br>
+
+3. ##### Fender early '70s Stratocaster (3-Color Sunburst)
 
 <font color="#92cddc">*官方售价\$350 - \$500, 近年市价\$4,000 – \$7,500*</font>
 
@@ -452,18 +669,20 @@ Daniel在20、21岁时买的，是他拥有时间最长的一把吉他，背面�
 </p>  
 <br>
 
-2. ##### Epiphone Casino (Natural)
+4. ##### Epiphone Casino (Natural)
 
 <font color="#92cddc">*官方售价\$699*</font>
 
 <Carousel>
-  <img src="WTE ARCHIVE/vid-pics/GEARRS/Jgtr-EPP1-A.webp" alt="'26"/>
-  <img src="WTE ARCHIVE/vid-pics/GEARRS/Jgtr-EPP1-B.webp" alt="'26"/>
-  <img src="WTE ARCHIVE/vid-pics/GEARRS/Jgtr-EPP1-C.webp" alt=""/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/Jgtr-EPP2-A.webp" alt="'26"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/Jgtr-EPP2-B.webp" alt="'26"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/Jgtr-EPP2-C.webp" alt=""/>
 </Carousel>  
 <br>
 
 ## ▷ DongQ Gear  
+
+<font color="#fac08f">· 『Guitar』</font> 
 
 1. ##### Epiphone Firebird (Vintage Sunburst)
 
@@ -499,5 +718,27 @@ Daniel在20、21岁时买的，是他拥有时间最长的一把吉他，背面�
 <Carousel>
   <img src="WTE ARCHIVE/vid-pics/GEARRS/Qgtr-JM1-A.webp" alt="'26"/>
   <img src="WTE ARCHIVE/vid-pics/GEARRS/Qgtr-JM1-B.webp" alt=""/>
+</Carousel>  
+<br>
+
+<font color="#fac08f">· 『Bass』</font>  
+
+1. ##### Fender '70s Precision Bass (3- Color Sunburst)
+
+<font color="#92cddc">*官方售价\$325 - \$450, 近年市价\$3,600 – \$7,000+*</font>
+
+<Carousel>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/QBS-FENP1-A.webp" alt="'25"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/QBS-FENP1-B.webp" alt="©Brian's Guitars"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/QBS-FENP1-C.webp" alt="©Brian's Guitars"/>
 </Carousel>
+
+<p align="right" style="font-size: 0.85em; color: #888; margin-top: -5px;">
+  「图源: <a href="https://briansguitars.com/products/used-fender-1976-precision-bass-3-tone-sunburst" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'20\' height=\'10\' viewBox=\'0 0 20 10\'><path d=\'M0 5 C 5 0, 5 10, 10 5 C 15 0, 15 10, 20 5\' stroke=\'%23888\' fill=\'transparent\' stroke-width=\'1.5\' stroke-linecap=\'round\'/></svg>'); background-position: bottom; background-repeat: repeat-x; background-size: 12px 6px; padding-bottom: 2px; transition: all 0.3s;">Brian's Guitars</a>」
+</p>  
+<br>
+
+
+
+
 
