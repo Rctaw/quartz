@@ -21,13 +21,13 @@ lastmod: YYYY-MM-DD
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link AS "最近更新", file.folder AS "所属文件夹", dateformat(file.mtime, "yyyy-MM-dd") AS "更新时间" FROM "" AND -"Private" WHERE file.name != this.file.name AND file.name != "index" AND file.name != "欢迎" AND draft != true SORT file.mtime DESC LIMIT 5 -->
 <!-- SerializedQuery: TABLE WITHOUT ID file.link AS "最近更新", file.folder AS "所属文件夹", dateformat(file.mtime, "yyyy-MM-dd") AS "更新时间" FROM "" AND -"Private" WHERE file.name != this.file.name AND file.name != "index" AND file.name != "欢迎" AND draft != true SORT file.mtime DESC LIMIT 5 -->
 
-| 最近更新                                                                   | 所属文件夹              | 更新时间       |
-| ---------------------------------------------------------------------- | ------------------ | ---------- |
-| [[UPCOMING]]                                              |                    | 2026-04-25 |
-| [[GEARS]]                                        | WTE ARCHIVE        | 2026-04-25 |
-| [[260407]]                               | Interviews/Potatoi | 2026-04-19 |
-| [[Pieces of the Process]] | WTE ARCHIVE/ECHOES | 2026-04-08 |
-| [[260316]]                                  | Interviews/wave    | 2026-04-03 |
+| 最近更新                                                                                       | 所属文件夹                                  | 更新时间       |
+| ------------------------------------------------------------------------------------------ | -------------------------------------- | ---------- |
+| [[Discography]]                                                            |                                        | 2026-05-20 |
+| [[heaven and hell]]             | WTE ARCHIVE/ECHOES/Behind the Song/WTE | 2026-05-20 |
+| [[play with earth! 0.03]] | WTE ARCHIVE/ECHOES/Behind the Song/WTE | 2026-05-19 |
+| [[UPCOMING]]                                                                  |                                        | 2026-05-17 |
+| [[GEARS]]                                                            | WTE ARCHIVE                            | 2026-05-15 |
 
 <!-- SerializedQuery END -->
 

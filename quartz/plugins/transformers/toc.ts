@@ -40,12 +40,16 @@ export const TableOfContents: QuartzTransformerPlugin<Partial<Options>> = (userO
               let highestDepth: number = opts.maxDepth
               visit(tree, "heading", (node) => {
                 if (node.depth <= opts.maxDepth) {
-                  const text = toString(node)
+                  // 1. 获取原始文本（包含 <font> 标签），用于生成与正文一致的锚点链接
+                  const rawText = toString(node)
+                 // 2. 获取清洗后的文本（剔除 HTML），仅用于目录文字显示
+                  const cleanText = rawText.replace(/<[^>]*>/g, "").trim()
+
                   highestDepth = Math.min(highestDepth, node.depth)
                   toc.push({
                     depth: node.depth,
-                    text,
-                    slug: slugAnchor.slug(text),
+                    text: cleanText, 
+                    slug: slugAnchor.slug(cleanText), // 均使用清洗后的文本
                   })
                 }
               })

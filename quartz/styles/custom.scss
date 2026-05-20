@@ -650,7 +650,7 @@ footer a:hover[href*="bilibili.com"] {
   }
 }
 
-/* --- 2. 移动端兼容性微调 --- */
+/* --- 移动端兼容性微调 --- */
 @media all and (max-width: 767px) {
   .sidebar.left:has(.explorer) {
     border-bottom: 1px solid var(--lightgray) !important;
@@ -659,11 +659,89 @@ footer a:hover[href*="bilibili.com"] {
   }
 }
 
-/* --- 3. 内部元素美化 (桌面 & 移动通用) --- */
+
+
+/* --- Explorer 文字大小微调 --- */
+.explorer {
+  /* 整个文件夹树的基础字体大小 */
+  button, a {
+    font-size: 1rem !important; /* 原生通常是 1rem */
+    line-height: 1.4 !important; /* 行高 */
+  }
+
+  /* 文件夹标题（比如你的 Albums 文件夹名字） */
+  .folder-title {
+    font-size: 0.85rem !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.02em;
+  }
+
+  /* 具体的文件笔记标题（比如每一张专辑的名字） */
+  li > a {
+    font-size: 0.8rem !important;
+    color: var(--secondary) !important; // 让文件名稍微浅一点，拉开层次感
+    display: block;
+    padding: 2px 4px;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    &:hover {
+      background-color: var(--lightgray) !important; /* 增加轻微背景色，对齐文件夹悬停感 */
+      color: var(--tertiary) !important;            /* 悬停时变为第三主色（通常是高亮色） */
+      text-decoration: none !important;
+    }
+  }
+
+.folder-container:hover {
+    color: var(--dark) !important;
+  }
+  
+  /* 确保文件在悬停时也遵循相同的色彩逻辑 */
+  li > a:hover {
+    color: var(--dark) !important;
+  }
+}
+
+/* --- 移动端Explorer字号优化 --- */
+@media all and (max-width: 767px) {
+  .explorer {
+    /* 文件夹标题 */
+    .folder-title {
+      font-size: 1.05rem !important; 
+      line-height: 1.6 !important;  /* 行高 */
+      padding: 4px 0 !important;    /* 上下间距 */
+    }
+
+    /* 文件笔记标题 */
+    li > a {
+      font-size: 1rem !important;
+      line-height: 1.6 !important;   /* 行高 */
+      padding: 8px 6px !important;   /* 点击热区 */
+      
+      /* 移动端保持单行截断，防止文字过长导致页面横向滚动 */
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    /* 调大图标间距 */
+    .folder-icon, .file-icon {
+      transform: scale(1.1); /* 略微放大图标 */
+      margin-right: 10px !important;
+    }
+  }
+}
+
+/* --- 内部元素美化 (桌面 & 移动通用) --- */
 .explorer-content ul li > a:hover {
   background-color: var(--highlight) !important;
   border-radius: 4px;
 }
+
+
 
 /* 手绘感highlight标注 */
 mark {
@@ -1092,3 +1170,218 @@ article h6 {
     &::before, &::after { background-size: 20px 100%; height: 10px; }
   }
 }
+
+
+
+
+/* 1. 调整布局为 2 列，给予横向卡片充足空间 */
+.discography-grid {
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr) !important; 
+  gap: 2rem !important;
+  width: 100% !important;
+}
+
+@media all and (max-width: 768px) {
+  .discography-grid { grid-template-columns: 1fr !important; }
+}
+
+
+/* ============================================================
+   2. 横向卡片结构
+   ============================================================ */
+
+.album-card {
+  text-decoration: none !important;
+  display: flex !important; /* 水平排列封面与信息 */
+  flex-direction: row !important; 
+  height: 180px; /* 固定整体高度，确保在 Grid 中对齐 */
+  transition: all 0.3s ease;
+  position: relative !important;
+  
+  /* 深度对齐的核心：父容器接管整体的圆角、边框和硬投影 */
+  background-color: var(--album-bg, var(--lightgray)) !important; /* 确保自定义背景色涂抹满 */
+  border: 1.5px solid var(--gray) !important;
+  border-radius: 8px !important;              /* 卡片整体大圆角 */
+  box-shadow: 4px 4px 0 0 var(--gray);        /* 默认硬投影 */
+  overflow: hidden;                           /* 确保内部背景色不超出整体圆角 */  
+  margin: 0 !important;
+
+  &:hover {
+    transform: translateX(5px);
+    border-color: var(--dark) !important; /* 悬停阴影颜色 */    
+    box-shadow: 8px 8px 0 0 var(--secondary) !important;
+  }
+}
+
+/* 左侧封面：移除所有物理边框，改为视觉分割线 */
+.album-cover {
+  flex-shrink: 0;
+  width: 180px; /* 与卡片高度相等，形成正方形 */
+  height: 100% !important; /* 确保撑满父容器高度，防止 Flex 渲染误差 */
+  position: relative; /* 为高光遮罩定位基准 */
+  /* 移除原有的边框、圆角和投影，这些现在由父级管理 */
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+    /* 给图片右侧加一条细线，界限更清晰，但由于在 overflow: hidden 内部，不影响高度 */
+  border-right: 1.5px solid rgba(0,0,0,0.05) !important; 
+  
+  overflow: hidden; /* 这里是安全的裁剪，确保图片自身不超出这里的区域 */
+  margin: 0 !important;
+  transition: all 0.3s ease;
+
+  img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    display: block;
+    margin: 0 !important;
+    transition: transform 0.6s ease;
+  }
+/* 反光遮罩 (Skeuomorphic Glare Overlay) */
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    
+    /* 核心：双重光带叠加，模拟更有层次的反光 */
+    background: linear-gradient(
+      160deg, 
+      transparent 20%, 
+      rgba(255, 255, 255, 0.08) 25%, /* 边缘虚光 */
+      rgba(255, 255, 255, 0.35) 45%, /* 主光带 */
+      rgba(255, 255, 255, 0.45) 50%, /* 最亮核心点 */
+      rgba(255, 255, 255, 0.35) 55%, /* 主光带 */
+      rgba(255, 255, 255, 0.08) 75%, /* 边缘虚光 */
+      transparent 80%
+    );
+    
+    opacity: 0;
+    pointer-events: none;
+    
+    /* 初始状态：大幅度偏移并在外侧旋转 */
+    transform: scale(1.5) translateX(-70%) translateY(-60%) rotate(0deg);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+    z-index: 5;
+  }
+}
+
+.album-info {
+  flex-grow: 1;
+  padding: 1.8rem 2rem;
+  display: flex;
+  flex-direction: column;
+  /* 关键：将内容推向底部，上方留白，产生一种“沉底”的视觉高级感 */
+  justify-content: flex-end; 
+  align-items: flex-start !important;
+  position: relative;
+  background: transparent !important;
+
+  /* 左上角 L 型直角边框 */
+  &::before {
+    content: "";
+    position: absolute;
+    top: 1.2rem;
+    left: 1.2rem;
+    width: 15px;
+    height: 15px;
+    border-top: 1.5px solid var(--secondary);
+    border-left: 1.5px solid var(--secondary);
+    opacity: 0.6;
+  }
+  /* 右下角 L 型边框 */
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 1.2rem;
+    right: 1.2rem;
+    width: 15px;
+    height: 15px;
+    border-bottom: 1.5px solid var(--secondary);
+    border-right: 1.5px solid var(--secondary);
+    opacity: 0.6;
+    transition: all 0.2s ease;
+  }
+
+  .album-title {
+    /* 采用极大的字重对比 */
+    font-size: 1.35rem !important;
+    font-weight: 800 !important;
+    color: var(--dark) !important;
+    line-height: 1.1;
+    margin-bottom: 0.6rem !important;
+    letter-spacing: -0.02em; /* 紧凑排版更具现代感 */
+    
+    /* 悬停时的文字渐变效果，利用 Secondary 颜色做底色 */
+    transition: all 0.3s ease;
+  }
+
+  .album-date {
+    font-family: var(--font-mono);
+    font-size: 0.75rem !important;
+    font-weight: 400;
+    color: var(--darkgray) !important;
+    letter-spacing: 0.2em; /* 极宽的字间距，与紧凑的标题形成反差 */
+    text-transform: uppercase;
+    
+    /* 日期上方的极细装饰线 */
+    display: flex;
+    flex-direction: column;
+    &::before {
+      content: "";
+      width: 20px;
+      height: 2px;
+      background: var(--gray);
+      margin-bottom: 6px;
+      opacity: 0.8;
+    }
+  }
+&::before, &::after {
+    /* 核心：确保 border-width 也在 transition 列表中 */
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    border-color: var(--secondary);
+    border-width: 1.5px; /* 初始细线 */
+  }
+}
+
+/* 卡片Hover交互 */
+.album-card:hover {
+.album-info {
+    /* 左上角加粗 */
+    &::before {
+      opacity: 1;
+      border-width: 3px !important; /* 线条加粗 */
+      /* 稍微向外扩张一点点，防止线条加粗遮挡内部文字 */
+      top: 1rem;
+      left: 1rem;
+    }
+
+    /* 右下角加粗 */
+    &::after {
+      opacity: 1;
+      border-width: 3px !important; /* 线条加粗 */
+      bottom: 1rem;
+      right: 1rem;
+    }
+  }
+
+  .album-title {
+    transform: translateY(-3px);
+    color: var(--secondary) !important;
+  }
+  .album-date::before {
+    width: 110px; /* 线条延伸长度 */
+    background: var(--secondary);
+    transition: all 0.4s ease;
+  }
+
+.album-cover::after {
+    opacity: 1; /* 唤醒高光 */
+    /* 悬停状态：向右侧滑入，滑过封面，模拟光线流转 */
+    transform: scale(1.5) translateX(10%) translateY(10%) rotate(0deg); 
+  }
+}
+
+
+

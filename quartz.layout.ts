@@ -4,7 +4,7 @@ import { Options } from "./quartz/components/Explorer"
 
   // 自定义explorer排序逻辑
   export const mySortFn: Options["sortFn"] = (a, b) => {
-  const topItems = ["UPCOMING", "WTE ARCHIVE"]
+  const topItems = ["UPCOMING", "DISCOGRAPHY", "WTE ARCHIVE"]
   // 强力置顶逻辑
   const nameA = (a.name || a.displayName || "").toUpperCase()
   const nameB = (b.name || b.displayName || "").toUpperCase()
@@ -44,18 +44,29 @@ export const myMapFn: Options["mapFn"] = (node) => {
     "POLES": "🎱",
     "GEARS": "🎛",
     "ECHOES": "✨",
-    "PIECES OF THE PROCESS": "🧩"
+    "PIECES OF THE PROCESS": "🧩",
+    "DISCOGRAPHY": "💽",
+    "WAVE 0.01": "🍁",
+    "SUMMER FLOWS 0.02": "🌊",
+    "0.1 FLAWS AND ALL.": "◑",
+    "PLAY WITH EARTH! 0.03": "📽️",
+    "HEAVEN AND HELL": "🤍",
   }
 
-  const name = (node.displayName || node.name || "").toUpperCase()
-  const matchedKey = Object.keys(customIcons).find(key => name.includes(key))
 
-  if (matchedKey) {
-    node.displayName = customIcons[matchedKey] + " " + node.displayName
+// 获取处理后的名称：去掉后缀并转大写
+  const rawName = (node.displayName || node.name || "")
+  const name = rawName.replace(/\.md$/, "").toUpperCase()
+
+  // 核心修正：使用直接索引（全字匹配）
+  const icon = customIcons[name]
+  if (icon) {
+    node.displayName = icon + " " + node.displayName
   } else if (node.children && node.children.length > 0) {
-    // 默认文件夹或文件图标
+    // 默认文件夹图标
     node.displayName = "🗃 " + node.displayName
   } else {
+    // 默认文件图标
     node.displayName = "🌏 " + node.displayName
   }
 }

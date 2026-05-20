@@ -1,12 +1,14 @@
-###### 图片无特别注明的均为官图/官网图，巡演图片©Roger Tam；标价为官方售价/市价范围(状态良好及以上&原装度高)
-## ▷ 🎸Daniel的吉他图鉴
+###### 图片无特别注明的均为官方账号图 / 官网图，巡演图片©Roger Tam；标价为官方售价/市价范围(状态良好及以上&原装度高)
+## <font color="#fac08f">▷ 🎸Daniel的吉他图鉴</font>
 
-***也太多了...加上一些很少用于演出只用于录音的吉他，感觉目前数量已接近40把***  😵  
+***实在太多了...加上一些很少用于演出只用于录音的吉他，感觉目前数量已接近40把***  😵  
 <br>
 
 1. ##### Silvertone 1478 (Red Sunburst)  
-乐队初创期向Seungki借钱买的  
-<font color="#92cddc">*\$499*</font>
+<font color="#92cddc">*\$499*</font>  
+
+- 乐队初创期向Seungki借钱买的  
+
 <Carousel>
   <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-ST1-A.webp" alt="'18"/>
   <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-ST1-B.webp" alt="'19"/>
@@ -34,8 +36,8 @@
 3. ##### Fender Japan TL62B-BTX Telecaster (3-Color Sunburst)  
 <font color="#92cddc">*官方售价\$850 - \$950，近年市价\$1,200 – \$2,400*</font>  
 
-琴颈背面靠琴身处标的是**Crafted in Japan**，应该是生产于1997~2008年  
-Daniel在20、21岁时买的，是他拥有时间最长的一把吉他，背面有个被舞台灯光烧焦留下的痕迹，成员之间戏称其为“农心”标志  
+- 琴颈背面靠琴身处标的是**Crafted in Japan**，应该是生产于1997~2008年  
+- Daniel在20、21岁时买的，是他拥有时间最长的一把吉他，背面有个被舞台灯光烧焦留下的痕迹，成员之间戏称其为“农心”标志  
  
 <Carousel>
   <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-TELE1-A.webp" alt="'21"/>
@@ -149,7 +151,7 @@ Daniel在20、21岁时买的，是他拥有时间最长的一把吉他，背面�
 
 <font color="#92cddc">*官方售价\$1,299, 近年市价\$1,100 – \$1,499*</font>  
 
-为庆祝成立150周年，Epiphone于2023年7月18日推出了150周年纪念版Sheraton，全球限量**873**把  
+- 为庆祝成立150周年，Epiphone于2023年7月18日推出了150周年纪念版Sheraton，全球限量**873**把  
 
 <Carousel>
   <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-EPP4-A.webp" alt="'23 ©gongrot"/>
@@ -166,11 +168,14 @@ Daniel在20、21岁时买的，是他拥有时间最长的一把吉他，背面�
 
 12. ##### Silvertone 1478 Reissue (Gloss Black, w/Bigsby)
 
-<font color="#92cddc">*官方售价\$499, 近年市价\$300 – \$450*</font>
+<font color="#92cddc">*官方售价\$499, 近年市价\$300 – \$450*</font>  
+
+- 因为其独特的音色而成为Daniel常年爱用的吉他之一
+
 <Carousel>
   <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-ST2-A.webp" alt="'23"/>
-  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-ST2-B.webp" alt="'23"/>
-  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-ST2-C.webp" alt="'24 ©Katherine Hui"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-ST2-B.webp" alt="'24 ©Katherine Hui"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-ST2-C.webp" alt="'25"/>
   <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-ST2-D.webp" alt="©Gear4music"/>
 </Carousel>
 
@@ -209,7 +214,7 @@ Daniel在20、21岁时买的，是他拥有时间最长的一把吉他，背面�
 
 15. ##### Gibson Custom Murphy Lab 1957 Les Paul Goldtop Reissue (Double Gold, Ultra Heavy Aged)
 
-<font color="#92cddc">*官方售价\$8,999, 近年市价\$7,000 – \$8,500*</font>
+<font color="#92cddc">*官方售价\$8,999, 近年市价\$8,000 – \$10,500*</font>
 <Carousel>
   <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-LP1-A.webp" alt="241011"/>
   <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-LP1-B.webp" alt="241011"/>
@@ -295,7 +300,7 @@ Daniel在20、21岁时买的，是他拥有时间最长的一把吉他，背面�
 <br>
 
 21. ##### 【不确定】Silvertone 1478 (Cherry Red)  
-可能改装过，因为这个型号是没有Cherry Red配色的  
+- 这个型号是没有Cherry Red配色的，所以可能改装过  
 <Carousel>
   <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-ST3-A.webp" alt="'23"/>
 </Carousel>  
@@ -363,12 +368,18 @@ Daniel在20、21岁时买的，是他拥有时间最长的一把吉他，背面�
 </p>  
 <br>
 
-26. ##### YAMAHA FG Series Acoustic Guitar (难以确定具体型号)
+26. ##### YAMAHA FS Series Acoustic Guitar (难以确定具体型号)
 
 <Carousel>
   <img src="WTE ARCHIVE/vid-pics/GEARRS/ACgtr-YMH1-A.webp" alt="'25"/>
+   <img src="WTE ARCHIVE/vid-pics/GEARRS/ACgtr-YMH1-B.webp" alt="'21 ©gongrot"/>
 </Carousel>  
 <br>
+
+<p align="right" style="font-size: 0.85em; color: #888; margin-top: -5px;">
+  「图源: <a href="https://www.youtube.com/@gongrot" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'20\' height=\'10\' viewBox=\'0 0 20 10\'><path d=\'M0 5 C 5 0, 5 10, 10 5 C 15 0, 15 10, 20 5\' stroke=\'%23888\' fill=\'transparent\' stroke-width=\'1.5\' stroke-linecap=\'round\'/></svg>'); background-position: bottom; background-repeat: repeat-x; background-size: 12px 6px; padding-bottom: 2px; transition: all 0.3s;">gongrot</a>」
+</p>
+
 
 27. ##### Gibson LG-1 (Sunburst)
 
@@ -385,7 +396,17 @@ Daniel在20、21岁时买的，是他拥有时间最长的一把吉他，背面�
 </p>  
 <br>
 
-28. ##### Yamaha L12-5
+28. ##### Gibson J-45 Standard (Vintage Sunburst)
+
+<font color="#92cddc">*官方售价\$2,999*</font>
+
+<Carousel>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/ACgtr-J45-A.webp" alt="'24"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/ACgtr-J45-B.webp" alt=""/>
+</Carousel>  
+<br>
+
+29. ##### Yamaha L12-5
 
 <font color="#92cddc">*官方售价\$450 – \$500, 近年市价\$400 – \$800*</font>
 
@@ -399,19 +420,37 @@ Daniel在20、21岁时买的，是他拥有时间最长的一把吉他，背面�
 </p>  
 <br>
 
-29. ##### Córdoba Luthier Series C10 Cedar Classical Guitar
+30. ##### Fairlane Heavy relic Camino (Ebony, w/Bigsby B5 vibrato)
+
+<font color="#92cddc">*官方售价\£2400≈\$3200*</font>
+
+<Carousel>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-Fairlane-A.webp" alt="'26"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-Fairlane-B.jpeg" alt="©fairlaneguitars"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-Fairlane-C.jpeg" alt="©fairlaneguitars"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-Fairlane-D.jpeg" alt="©fairlaneguitars"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-Fairlane-E.jpeg" alt="©fairlaneguitars"/>
+</Carousel>
+
+<p align="right" style="font-size: 0.85em; color: #888; margin-top: -5px;">
+  「图源: <a href="https://www.instagram.com/p/DP3qo9OCFUD/" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'20\' height=\'10\' viewBox=\'0 0 20 10\'><path d=\'M0 5 C 5 0, 5 10, 10 5 C 15 0, 15 10, 20 5\' stroke=\'%23888\' fill=\'transparent\' stroke-width=\'1.5\' stroke-linecap=\'round\'/></svg>'); background-position: bottom; background-repeat: repeat-x; background-size: 12px 6px; padding-bottom: 2px; transition: all 0.3s;">fairlaneguitars</a>」
+</p>  
+<br>
+
+31. ##### Córdoba Luthier Series C10 Cedar Classical Guitar
 
 <font color="#92cddc">*官方售价\$1,599, 近年市价\$1,100 – \$1,500*</font>
 
 <Carousel>
   <img src="WTE ARCHIVE/vid-pics/GEARRS/ACgtr-CDB1-A.webp" alt="'26"/>
   <img src="WTE ARCHIVE/vid-pics/GEARRS/ACgtr-CDB1-B.webp" alt="'26"/>
-  <img src="WTE ARCHIVE/vid-pics/GEARRS/ACgtr-CDB1-C.webp" alt=""/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/ACgtr-CDB1-C.webp" alt="'26"/>
   <img src="WTE ARCHIVE/vid-pics/GEARRS/ACgtr-CDB1-D.webp" alt=""/>
+   <img src="WTE ARCHIVE/vid-pics/GEARRS/ACgtr-CDB1-E.webp" alt=""/>
 </Carousel>  
 <br>
 
-30. ##### Gibson Custom 1954 Les Paul Custom Staple Pickup Reissue (VOS, Ebony, w/Bigsby)
+32. ##### Gibson Custom 1954 Les Paul Custom Staple Pickup Reissue (VOS, Ebony, w/Bigsby)
 
 <font color="#92cddc">*官方售价\$6899*</font>
 
@@ -424,13 +463,31 @@ Daniel在20、21岁时买的，是他拥有时间最长的一把吉他，背面�
 
 <p align="right" style="font-size: 0.85em; color: #888; margin-top: -5px;">
   「图源: <a href="https://www.youtube.com/@miamadomusa" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'20\' height=\'10\' viewBox=\'0 0 20 10\'><path d=\'M0 5 C 5 0, 5 10, 10 5 C 15 0, 15 10, 20 5\' stroke=\'%23888\' fill=\'transparent\' stroke-width=\'1.5\' stroke-linecap=\'round\'/></svg>'); background-position: bottom; background-repeat: repeat-x; background-size: 12px 6px; padding-bottom: 2px; transition: all 0.3s;">miamadomusa</a>」
-</p>
+</p>  
+<br>
+
+33. ##### Groovin' by Morris TG-60 (Natural)
+
+<font color="#92cddc">*官方售价60,000日元, 近年市价\$430 – \$600*</font>
+
+<Carousel>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-Groovin-A.webp" alt="'26"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-Groovin-B.webp" alt="'26"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-Groovin-C.webp" alt="©guitar-catalog"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-Groovin-D.webp" alt="©Monkeytar"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-Groovin-E.webp" alt="©Monkeytar"/>
+</Carousel>
+
+<p align="right" style="font-size: 0.85em; color: #888; margin-top: -5px;">
+  「图源: <a href="https://guitar-catalog.com/acoustic-guitar/morris/1993/en_07.html" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'20\' height=\'10\' viewBox=\'0 0 20 10\'><path d=\'M0 5 C 5 0, 5 10, 10 5 C 15 0, 15 10, 20 5\' stroke=\'%23888\' fill=\'transparent\' stroke-width=\'1.5\' stroke-linecap=\'round\'/></svg>'); background-position: bottom; background-repeat: repeat-x; background-size: 12px 6px; padding-bottom: 2px; transition: all 0.3s;">guitar-catalog</a> & <a href="https://m.monkeytar.co.kr/product/detail.html?product_no=13902&cate_no=1114&display_group=1" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'20\' height=\'10\' viewBox=\'0 0 20 10\'><path d=\'M0 5 C 5 0, 5 10, 10 5 C 15 0, 15 10, 20 5\' stroke=\'%23888\' fill=\'transparent\' stroke-width=\'1.5\' stroke-linecap=\'round\'/></svg>'); background-position: bottom; background-repeat: repeat-x; background-size: 12px 6px; padding-bottom: 2px; transition: all 0.3s;">Monkeytar</a>」
+</p>  
 
 
 
 
 
-## ▷ Daniel's bass
+
+## <font color="#fac08f">▷ Daniel's basses</font>
 
 1. ##### Höfner HCT-500/1 Violin Bass (Black)
 
@@ -497,17 +554,19 @@ Daniel在20、21岁时买的，是他拥有时间最长的一把吉他，背面�
 
 
 
-## ▷ Daniel‘s pedalboards
+## <font color="#fac08f">▷ Daniel‘s pedalboards & amps</font>  
+“我有四台。分别是 Tone King 的「IMPERIAL MK II」和「Royalist MKII」，还有 Fender 的「Pro Reverb Silver Face」。最后一台则是 Roland 的「Jazz Chorus」。
 
-## ▷ John Gear  
 
-<font color="#fac08f">· 『Bass』</font>  
+## <font color="#fac08f">▷ John Gear</font>  
+
+<font color="#b2a2c7">· 『Bass』</font>
 
 1. ##### La Bella Olinto '50s Precision Bass (Sunburst)
 
 <font color="#92cddc">*Olinto所有的琴都由Mas Hino在纽约手工小规模制作，目前主流二手成交价为\$3,000 – \$5,000*</font>  
 
-- 曾在2018年NAMM(一年一度、音乐产品行业内规模最大的展会)上展出，John参加了这次展会所以应该是这时拥有了这把贝斯
+- 曾在2018年NAMM(一年一度、音乐产品行业内规模最大的展会)上展出，John参加这次展会时购入了这把贝斯
 - 添置了一些乐器后就很少用这把贝斯了，曾想过卖掉但想起是用它进行了wave to earth首次三人合奏，觉得它承载了美好的回忆所以最终还是留下了，最近久违地在***love 0.3*** 演唱会上再次使用这把贝斯来演奏
 
 <Carousel>
@@ -560,7 +619,9 @@ Daniel在20、21岁时买的，是他拥有时间最长的一把吉他，背面�
 
 4. ##### Fender MIJ Mustang Bass (Olympic White)
 
-<font color="#92cddc">*官方售价\$600 - \$800, 近年市价\$900 – \$1,400*</font>
+<font color="#92cddc">*官方售价\$600 - \$800, 近年市价\$900 – \$1,400*</font>  
+
+- 原本在John的待购清单上，但Daniel先他一步入手了，后来Daniel觉得这把贝斯跟他的风格不搭所以当做礼物送给了John
 
 <Carousel>
   <img src="WTE ARCHIVE/vid-pics/GEARRS/JBS-MST1-A.webp" alt="'22"/>
@@ -608,15 +669,19 @@ Daniel在20、21岁时买的，是他拥有时间最长的一把吉他，背面�
 </p>  
 <br>
 
-7. ##### Fender Custom Shop '60s Precision Bass (Sunburst)
+7. ##### Fender 1963 Original Precision Bass (Sunburst)
 
-<font color="#92cddc">*近年市价\$4,500 - \$6,000+*</font>
+<font color="#92cddc">*1963-1964年售价\$229.5，近年市价\$12,000 - \$20,000+*</font>  
+
+- “虽然不想承认，但它的音色实在太好了，以前总觉得vintage琴有什么特别的，根本就是浪费钱，结果这把1963年的原装P-Bass粉碎了我之前的信念，我彻底被它的音色说服了。”
 
 <Carousel>
   <img src="WTE ARCHIVE/vid-pics/GEARRS/JBS-FENP1-A.webp" alt="'26"/>
   <img src="WTE ARCHIVE/vid-pics/GEARRS/JBS-FENP1-B.webp" alt="'25"/>
-  <img src="WTE ARCHIVE/vid-pics/GEARRS/JBS-FENP1-C.webp" alt="©Chicago Music Exchange"/>
-  <img src="WTE ARCHIVE/vid-pics/GEARRS/JBS-FENP1-D.webp" alt="©Chicago Music Exchange"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/JBS-FENP1-C.webp" alt="'26"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/JBS-FENP1-D.webp" alt="'26"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/JBS-FENP1-E.webp" alt="©Chicago Music Exchange"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/JBS-FENP1-F.webp" alt="©Chicago Music Exchange"/>
 </Carousel>
 
 <p align="right" style="font-size: 0.85em; color: #888; margin-top: -5px;">
@@ -625,7 +690,7 @@ Daniel在20、21岁时买的，是他拥有时间最长的一把吉他，背面�
 <br>
 
 
-<font color="#fac08f">· 『Guitar』</font>  
+<font color="#b2a2c7">· 『Guitar』</font>
 
 1. ##### Gretsch G5422T Electromatic Hollow Body Double-cut Guitar (Orange Stain, w/Bigsby)
 
@@ -680,9 +745,9 @@ Daniel在20、21岁时买的，是他拥有时间最长的一把吉他，背面�
 </Carousel>  
 <br>
 
-## ▷ DongQ Gear  
+## <font color="#fac08f">▷ DongQ Gear</font>  
 
-<font color="#fac08f">· 『Guitar』</font> 
+<font color="#b2a2c7">· 『Guitar』</font>
 
 1. ##### Epiphone Firebird (Vintage Sunburst)
 
@@ -721,7 +786,7 @@ Daniel在20、21岁时买的，是他拥有时间最长的一把吉他，背面�
 </Carousel>  
 <br>
 
-<font color="#fac08f">· 『Bass』</font>  
+<font color="#b2a2c7">· 『Bass』</font>
 
 1. ##### Fender '70s Precision Bass (3- Color Sunburst)
 
@@ -737,7 +802,6 @@ Daniel在20、21岁时买的，是他拥有时间最长的一把吉他，背面�
   「图源: <a href="https://briansguitars.com/products/used-fender-1976-precision-bass-3-tone-sunburst" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'20\' height=\'10\' viewBox=\'0 0 20 10\'><path d=\'M0 5 C 5 0, 5 10, 10 5 C 15 0, 15 10, 20 5\' stroke=\'%23888\' fill=\'transparent\' stroke-width=\'1.5\' stroke-linecap=\'round\'/></svg>'); background-position: bottom; background-repeat: repeat-x; background-size: 12px 6px; padding-bottom: 2px; transition: all 0.3s;">Brian's Guitars</a>」
 </p>  
 <br>
-
 
 
 
