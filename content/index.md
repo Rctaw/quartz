@@ -23,11 +23,11 @@ lastmod: YYYY-MM-DD
 
 | 最近更新                                                                                       | 所属文件夹                                  | 更新时间       |
 | ------------------------------------------------------------------------------------------ | -------------------------------------- | ---------- |
+| [[260518]]                                                      | Interviews/wave                        | 2026-05-22 |
+| [[heaven and hell]]             | WTE ARCHIVE/ECHOES/Behind the Song/WTE | 2026-05-22 |
+| [[UPCOMING]]                                                                  |                                        | 2026-05-20 |
 | [[Discography]]                                                            |                                        | 2026-05-20 |
-| [[heaven and hell]]             | WTE ARCHIVE/ECHOES/Behind the Song/WTE | 2026-05-20 |
 | [[play with earth! 0.03]] | WTE ARCHIVE/ECHOES/Behind the Song/WTE | 2026-05-19 |
-| [[UPCOMING]]                                                                  |                                        | 2026-05-17 |
-| [[GEARS]]                                                            | WTE ARCHIVE                            | 2026-05-15 |
 
 <!-- SerializedQuery END -->
 
