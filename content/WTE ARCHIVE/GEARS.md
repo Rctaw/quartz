@@ -481,6 +481,26 @@
 <p align="right" style="font-size: 0.85em; color: #888; margin-top: -5px;">
   「图源: <a href="https://guitar-catalog.com/acoustic-guitar/morris/1993/en_07.html" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'20\' height=\'10\' viewBox=\'0 0 20 10\'><path d=\'M0 5 C 5 0, 5 10, 10 5 C 15 0, 15 10, 20 5\' stroke=\'%23888\' fill=\'transparent\' stroke-width=\'1.5\' stroke-linecap=\'round\'/></svg>'); background-position: bottom; background-repeat: repeat-x; background-size: 12px 6px; padding-bottom: 2px; transition: all 0.3s;">guitar-catalog</a> & <a href="https://m.monkeytar.co.kr/product/detail.html?product_no=13902&cate_no=1114&display_group=1" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'20\' height=\'10\' viewBox=\'0 0 20 10\'><path d=\'M0 5 C 5 0, 5 10, 10 5 C 15 0, 15 10, 20 5\' stroke=\'%23888\' fill=\'transparent\' stroke-width=\'1.5\' stroke-linecap=\'round\'/></svg>'); background-position: bottom; background-repeat: repeat-x; background-size: 12px 6px; padding-bottom: 2px; transition: all 0.3s;">Monkeytar</a>」
 </p>  
+<br>
+
+34. ##### Fender Jaguar (Matching Headstock, Metallic Silver Refinish & Relic by Fluffy)
+
+<Carousel>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-JGR4-A.webp" alt="'26"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-JGR4-B.webp" alt="©fluffymusik"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-JGR4-C.webp" alt="©fluffymusik"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-JGR4-D.webp" alt="©fluffymusik"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-JGR4-E.webp" alt="©fluffymusik"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-JGR4-F.webp" alt="©fluffymusik"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-JGR4-G.webp" alt="©fluffymusik"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-JGR4-H.webp" alt="©fluffymusik"/>
+</Carousel>
+
+<p align="right" style="font-size: 0.85em; color: #888; margin-top: -5px;">
+  「图源: <a href="https://www.instagram.com/p/DYqbDYqE5Cr/" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'20\' height=\'10\' viewBox=\'0 0 20 10\'><path d=\'M0 5 C 5 0, 5 10, 10 5 C 15 0, 15 10, 20 5\' stroke=\'%23888\' fill=\'transparent\' stroke-width=\'1.5\' stroke-linecap=\'round\'/></svg>'); background-position: bottom; background-repeat: repeat-x; background-size: 12px 6px; padding-bottom: 2px; transition: all 0.3s;">fluffymusik</a>」
+</p>
+
+
 
 
 
