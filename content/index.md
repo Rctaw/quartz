@@ -21,13 +21,13 @@ lastmod: YYYY-MM-DD
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link AS "最近更新", file.folder AS "所属文件夹", dateformat(file.mtime, "yyyy-MM-dd") AS "更新时间" FROM "" AND -"Private" WHERE file.name != this.file.name AND file.name != "index" AND file.name != "欢迎" AND draft != true SORT file.mtime DESC LIMIT 5 -->
 <!-- SerializedQuery: TABLE WITHOUT ID file.link AS "最近更新", file.folder AS "所属文件夹", dateformat(file.mtime, "yyyy-MM-dd") AS "更新时间" FROM "" AND -"Private" WHERE file.name != this.file.name AND file.name != "index" AND file.name != "欢迎" AND draft != true SORT file.mtime DESC LIMIT 5 -->
 
-| 最近更新                                                                                 | 所属文件夹                                  | 更新时间       |
-| ------------------------------------------------------------------------------------ | -------------------------------------- | ---------- |
-| [[260602-RSK]]                                        | Interviews/wave                        | 2026-06-13 |
-| [[260518]]                                                | Interviews/wave                        | 2026-06-10 |
-| [[Gathering of the Waves]]                    | WTE ARCHIVE                            | 2026-06-01 |
-| [[WTE ARCHIVE/TMI.md\|TMI]]                                                          | WTE ARCHIVE                            | 2026-05-27 |
-| [[0.1 flaws and all.]] | WTE ARCHIVE/ECHOES/Behind the Song/WTE | 2026-05-26 |
+| 最近更新                                                                           | 所属文件夹                                  | 更新时间       |
+| ------------------------------------------------------------------------------ | -------------------------------------- | ---------- |
+| [[260602-SH]]                                    | Interviews/wave                        | 2026-06-14 |
+| [[260602-RSK]]                                  | Interviews/wave                        | 2026-06-13 |
+| [[heaven and hell]] | WTE ARCHIVE/ECHOES/Behind the Song/WTE | 2026-06-13 |
+| [[260518]]                                          | Interviews/wave                        | 2026-06-10 |
+| [[Gathering of the Waves]]              | WTE ARCHIVE                            | 2026-06-01 |
 
 <!-- SerializedQuery END -->
 
