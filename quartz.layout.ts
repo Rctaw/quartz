@@ -1,6 +1,7 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 import { Options } from "./quartz/components/Explorer"
+import ScheduleWidget from "./quartz/components/ScheduleWidget"
 
   // 自定义explorer排序逻辑
   export const mySortFn: Options["sortFn"] = (a, b) => {
@@ -97,6 +98,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
+    ScheduleWidget(),
   ],
   left: [
     Component.PageTitle(),

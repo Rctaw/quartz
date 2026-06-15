@@ -18,7 +18,7 @@ const config: QuartzConfig = {
     },
     locale: "zh-CN",
     baseUrl: "wtearchive.vercel.app",
-    ignorePatterns: ["private", "templates", ".obsidian", "Private"],
+    ignorePatterns: ["private", "templates", ".obsidian", "Private","WTE ARCHIVE/Gathering of the Waves.md","Schedule.md"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
