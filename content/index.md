@@ -18,16 +18,16 @@ lastmod: YYYY-MM-DD
   `--'   `--'
 ```
 
-<!-- QueryToSerialize: TABLE WITHOUT ID file.link AS "最近更新", file.folder AS "所属文件夹", dateformat(file.mtime, "yyyy-MM-dd") AS "更新时间" FROM "" AND -"Private" WHERE file.name != this.file.name AND file.name != "index" AND file.name != "欢迎" AND draft != true SORT file.mtime DESC LIMIT 5 -->
-<!-- SerializedQuery: TABLE WITHOUT ID file.link AS "最近更新", file.folder AS "所属文件夹", dateformat(file.mtime, "yyyy-MM-dd") AS "更新时间" FROM "" AND -"Private" WHERE file.name != this.file.name AND file.name != "index" AND file.name != "欢迎" AND draft != true SORT file.mtime DESC LIMIT 5 -->
+<!-- QueryToSerialize: TABLE WITHOUT ID file.link AS "笔记", file.folder AS "所属文件夹", dateformat(file.mtime, "yyyy-MM-dd") AS "最近更新" FROM "" AND -"Private" WHERE file.name != this.file.name AND file.name != "index" AND file.name != "Credits" AND draft != true SORT file.mtime DESC LIMIT 5 -->
+<!-- SerializedQuery: TABLE WITHOUT ID file.link AS "笔记", file.folder AS "所属文件夹", dateformat(file.mtime, "yyyy-MM-dd") AS "最近更新" FROM "" AND -"Private" WHERE file.name != this.file.name AND file.name != "index" AND file.name != "Credits" AND draft != true SORT file.mtime DESC LIMIT 5 -->
 
-| 最近更新                                                                           | 所属文件夹                                  | 更新时间       |
-| ------------------------------------------------------------------------------ | -------------------------------------- | ---------- |
-| [[260602-SH]]                                    | Interviews/wave                        | 2026-06-14 |
-| [[260602-RSK]]                                  | Interviews/wave                        | 2026-06-13 |
-| [[heaven and hell]] | WTE ARCHIVE/ECHOES/Behind the Song/WTE | 2026-06-13 |
-| [[260518]]                                          | Interviews/wave                        | 2026-06-10 |
-| [[Gathering of the Waves]]              | WTE ARCHIVE                            | 2026-06-01 |
+| 笔记                                                                   | 所属文件夹                                  | 最近更新       |
+| -------------------------------------------------------------------- | -------------------------------------- | ---------- |
+| [[260520]]                                | Interviews/wave                        | 2026-06-20 |
+| [[bad pieces]] | WTE ARCHIVE/ECHOES/Behind the Song/WTE | 2026-06-19 |
+| [[260602-RSK]]                        | Interviews/wave                        | 2026-06-19 |
+| [[260407]]                             | Interviews/Potatoi                     | 2026-06-19 |
+| [[260303]]                             | Interviews/Potatoi                     | 2026-06-19 |
 
 <!-- SerializedQuery END -->
 
@@ -104,4 +104,3 @@ document.addEventListener('nav', initStats);
 window.addEventListener('load', initStats);
 initStats();
 </script>
-

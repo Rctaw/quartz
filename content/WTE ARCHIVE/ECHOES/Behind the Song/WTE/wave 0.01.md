@@ -74,5 +74,3 @@ tags: 0.01
   <img src="WTE ARCHIVE/ECHOES/Behind the Song/WTE/vid-pics/0.01BTS-I.webp" alt=""/>
   <img src="WTE ARCHIVE/ECHOES/Behind the Song/WTE/vid-pics/0.01BTS-J.webp" alt=""/>
 </Carousel>  
-
-**<u>相关采访：[0.01](Interviews/Potatoi/260313-B)</u>**

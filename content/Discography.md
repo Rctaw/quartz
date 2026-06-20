@@ -36,7 +36,7 @@ title: Discography
     <span class="album-date">2024.09.06</span>
    </div>
 </a>
-<a href="WTE ARCHIVE/ECHOES/Behind the Song/WTE/heaven and hell" class="album-card" style="--album-bg: #fdf2e9;">
+<a href="WTE ARCHIVE/ECHOES/Behind the Song/WTE/bad pieces" class="album-card" style="--album-bg: #fdf2e9;">
    <div class="album-cover">
     <img src="vid-pics/hah.webp"></div>
    <div class="album-info">

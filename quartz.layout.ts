@@ -3,9 +3,10 @@ import * as Component from "./quartz/components"
 import { Options } from "./quartz/components/Explorer"
 import ScheduleWidget from "./quartz/components/ScheduleWidget"
 
+
   // 自定义explorer排序逻辑
   export const mySortFn: Options["sortFn"] = (a, b) => {
-  const topItems = ["UPCOMING", "DISCOGRAPHY", "WTE ARCHIVE"]
+  const topItems = ["SCHEDULE", "DISCOGRAPHY", "WTE ARCHIVE"]
   // 强力置顶逻辑
   const nameA = (a.name || a.displayName || "").toUpperCase()
   const nameB = (b.name || b.displayName || "").toUpperCase()
@@ -37,7 +38,7 @@ export const myMapFn: Options["mapFn"] = (node) => {
   const customIcons: Record<string, string> = {
     "INTERVIEWS": "📜",
     "POTATOI": "🥔",
-    "UPCOMING": "📆",
+    "SCHEDULE": "📆",
     "TMI": "🍬",
     "PLAYLIST": "🎧",
     "CREDITS": "ℹ️",
@@ -51,7 +52,7 @@ export const myMapFn: Options["mapFn"] = (node) => {
     "SUMMER FLOWS 0.02": "🌊",
     "0.1 FLAWS AND ALL.": "◑",
     "PLAY WITH EARTH! 0.03": "📽️",
-    "HEAVEN AND HELL": "🤍",
+    "BAD PIECES": "🤍",
   }
 
 

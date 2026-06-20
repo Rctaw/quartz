@@ -21,6 +21,25 @@ DongQ: 希望未来这首歌能被更多人听到。因为是第一次出韩语�
 DongQ: 原本是准备自己制作后上传到soundcloud或放到solo专辑里，结果突然间通过合作的方式完成了，一开始还有点堂皇，不过最重要的是，正因为是跟大家一起制作，才诞生了这样一首好歌，为此我感到非常幸福。  
 John: 很羡慕董圭！我也期待以后能参与到作曲当中(笑)。  
 <br>
+<div class="film-archive-box" style="margin-top: 1.5rem !important;">
+  <iframe 
+    src="https://player.bilibili.com/player.html?bvid=BV1LUykBdES7&page=2&high_quality=1&as_wide=1&allowfullscreen=true" 
+    style="width: 95%; aspect-ratio: 16 / 9; border: none; display: block; margin: 0 auto; position: relative; z-index: 5;"
+    scrolling="no" 
+    frameborder="no" 
+    allowfullscreen="true"
+    sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts allow-popups allow-popups-to-escape-sandbox"
+  ></iframe>
+
+  <div style="text-align: center; margin-top: 15px; position: relative; z-index: 10;">
+    <a href="https://www.bilibili.com/video/BV1LUykBdES7?p=2" 
+       target="_blank" 
+       style="font-family: 'Alkatra', sans-serif; color: #888; text-decoration: none; font-size: 0.75rem; letter-spacing: 0.15em; opacity: 0.8; border-bottom: 1px solid rgba(136, 136, 136, 0.3); padding-bottom: 2px;">
+       seasons的创作故事 // SEQUENCE_01 // REC ●
+    </a>
+  </div>
+</div>
+<br>
 
 ## <span id="of"></span><font color="#3097eb">04. ocean floor</font>
 - Daniel: 是上张EP中[[wave 0.01#pl|purple lake]]的延续：从湖面进一步下潜，逐渐陷入海洋的深渊中。尽管跟这次专辑的基调略有不符，但我觉得还是有必要把它收录进来。希望能向大家更深入地展现wave to earth在与session成员共同演奏时，在声音呈现方面的可能性，这也是最接近我们在***wave 0.01*** 中所追求的声音质感的一首歌。  
