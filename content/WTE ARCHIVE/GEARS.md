@@ -269,7 +269,7 @@
 </p>  
 <br>
 
-19. Fender 2023 Collection MIJ Traditional Late 60s Jaguar (Ice Blue Metallic)
+19. ##### Fender 2023 Collection MIJ Traditional Late 60s Jaguar (Ice Blue Metallic)
 
 <font color="#92cddc">*官方售价\$1,100 - \$1,300, 近年市价\$1,200 – \$1,500*</font>
 <Carousel>

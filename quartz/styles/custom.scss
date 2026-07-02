@@ -1187,7 +1187,7 @@ article h6 {
 
 
 
-/* 1. 调整布局为 2 列，给予横向卡片充足空间 */
+/* discography样式，1. 调整布局为 2 列 */
 .discography-grid {
   display: grid !important;
   grid-template-columns: repeat(2, 1fr) !important; 
@@ -1325,7 +1325,6 @@ article h6 {
     line-height: 1.1;
     margin-bottom: 0.6rem !important;
     letter-spacing: -0.02em; /* 紧凑排版更具现代感 */
-    
     /* 悬停时的文字渐变效果，利用 Secondary 颜色做底色 */
     transition: all 0.3s ease;
   }
@@ -1358,6 +1357,24 @@ article h6 {
   }
 }
 
+
+/* ============================================================
+   Discography卡片：暗色模式专属文字颜色优化
+   ============================================================ */
+[saved-theme="dark"] {
+  .album-info {
+    .album-title {
+      color: #946147 !important; 
+    }
+
+    .album-date {
+      color: #a18c8c !important; 
+    }
+  }
+}
+
+
+
 /* 卡片Hover交互 */
 .album-card:hover {
 .album-info {
@@ -1381,7 +1398,7 @@ article h6 {
 
   .album-title {
     transform: translateY(-3px);
-    color: var(--secondary) !important;
+    color: #9c9591 !important;
   }
   .album-date::before {
     width: 110px; /* 线条延伸长度 */

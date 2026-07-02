@@ -53,6 +53,7 @@ export const myMapFn: Options["mapFn"] = (node) => {
     "0.1 FLAWS AND ALL.": "◑",
     "PLAY WITH EARTH! 0.03": "📽️",
     "BAD PIECES": "🤍",
+    "DAISY.": "🌼",
   }
 
 

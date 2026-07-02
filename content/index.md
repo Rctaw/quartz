@@ -21,18 +21,18 @@ lastmod: YYYY-MM-DD
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link AS "笔记", file.folder AS "所属文件夹", dateformat(file.mtime, "yyyy-MM-dd") AS "最近更新" FROM "" AND -"Private" WHERE file.name != this.file.name AND file.name != "index" AND file.name != "Credits" AND draft != true SORT file.mtime DESC LIMIT 5 -->
 <!-- SerializedQuery: TABLE WITHOUT ID file.link AS "笔记", file.folder AS "所属文件夹", dateformat(file.mtime, "yyyy-MM-dd") AS "最近更新" FROM "" AND -"Private" WHERE file.name != this.file.name AND file.name != "index" AND file.name != "Credits" AND draft != true SORT file.mtime DESC LIMIT 5 -->
 
-| 笔记                                                                   | 所属文件夹                                  | 最近更新       |
-| -------------------------------------------------------------------- | -------------------------------------- | ---------- |
-| [[260520]]                                | Interviews/wave                        | 2026-06-20 |
-| [[bad pieces]] | WTE ARCHIVE/ECHOES/Behind the Song/WTE | 2026-06-19 |
-| [[260602-RSK]]                        | Interviews/wave                        | 2026-06-19 |
-| [[260407]]                             | Interviews/Potatoi                     | 2026-06-19 |
-| [[260303]]                             | Interviews/Potatoi                     | 2026-06-19 |
+| 笔记                                                                                   | 所属文件夹                                  | 最近更新       |
+| ------------------------------------------------------------------------------------ | -------------------------------------- | ---------- |
+| [[daisy.]]                         | WTE ARCHIVE/ECHOES/Behind the Song/WTE | 2026-07-02 |
+| [[Discography]]                                                      |                                        | 2026-07-02 |
+| [[0.1 flaws and all.]] | WTE ARCHIVE/ECHOES/Behind the Song/WTE | 2026-07-01 |
+| [[summer flows 0.02]]   | WTE ARCHIVE/ECHOES/Behind the Song/WTE | 2026-07-01 |
+| [[wave 0.01]]                   | WTE ARCHIVE/ECHOES/Behind the Song/WTE | 2026-07-01 |
 
 <!-- SerializedQuery END -->
 
 > [!tips]
-> **无聊就来玩会吧[🕹️WTE SONG WORLD CUP](https://wavetoearth-songsorter.netlify.app/)**
+> **无聊就来玩会吧[🕹️<font color="#ffc000">WTE SONG WORLD CUP</font>](https://wavetoearth-songsorter.netlify.app/)**
 
 > [!Info]
 > 点击***左侧的logo(移动端位于最顶部)*** 即可快速回到此目录页面  
