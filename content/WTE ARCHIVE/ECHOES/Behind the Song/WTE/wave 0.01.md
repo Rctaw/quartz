@@ -77,3 +77,8 @@ tag: 0.01
   <img src="WTE ARCHIVE/ECHOES/Behind the Song/WTE/vid-pics/0.01BTS-I.webp" alt=""/>
   <img src="WTE ARCHIVE/ECHOES/Behind the Song/WTE/vid-pics/0.01BTS-J.webp" alt=""/>
 </Carousel>  
+<br>
+<br>
+**相关采访：
+[0.01发行纪念采访](Interviews/wave/200102-POC)**  
+**[0.01制作故事](Interviews/wave/200102-genie)**
