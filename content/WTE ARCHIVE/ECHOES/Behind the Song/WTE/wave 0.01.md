@@ -16,11 +16,11 @@ tag: 0.01
 <br>
 
 ## <font color="#e13820">02. bonfire</font>
-- 乐队刚起步的时候我跟董圭几乎是住在一起的状态，某天我突然想看吉卜力工作室的***幽灵公主***，于是跟董圭一起在客厅看完了整部电影，看完之后我告诉他我想写一首与这部电影氛围相近的歌，然后给他听了这首歌，最终它也成为了这次专辑里我特别喜欢的歌曲之一。
+- 乐队刚起步的时候我跟董圭形影不离，几乎跟住在一起没区别，某天我突然想看吉卜力工作室的***幽灵公主***，于是跟董圭一起在客厅看完了整部电影，看完之后我告诉他我想写一首与这部电影氛围相近的歌，然后给他听了这首歌，最终它也成为了这次专辑里我特别喜欢的歌曲之一。
 <br>
 
 ## <font color="#e13820">03. wave</font>
-- 在我至今写过的歌曲当中，这首应该是修改次数（5次左右）最多的一首，最初的版本其实也不错但总觉得还是不够满意，最终把歌词和旋律全删掉重新写，才诞生了现在这个最终版本。:)
+- 在我至今写过的歌曲里，这应该是修改次数（5次左右）最多的一首，最初的版本其实也不错但还是觉得不够满意，最终把歌词和旋律全删掉重新写，才诞生了现在这个最终版本。:)
 为了完成这首歌的制作我和董圭一起试唱了好几次，才最终定下了现在的新版本，如果有机会的话希望有一天能将最初的版本也分享给大家听听。
 <br>
 
@@ -69,7 +69,7 @@ tag: 0.01
 </Carousel>
 
 <Carousel>
-  <img src="WTE ARCHIVE/ECHOES/Behind the Song/WTE/vid-pics/0.01BTS-D.webp" alt="'19 在湖源大合奏室进行专辑制作和录音的WTE"/>
+  <img src="WTE ARCHIVE/ECHOES/Behind the Song/WTE/vid-pics/0.01BTS-D.webp" alt="'19 在湖原大合奏室进行专辑制作和录音的WTE"/>
   <img src="WTE ARCHIVE/ECHOES/Behind the Song/WTE/vid-pics/0.01BTS-E.webp" alt=""/>
   <img src="WTE ARCHIVE/ECHOES/Behind the Song/WTE/vid-pics/0.01BTS-F.webp" alt=""/>
   <img src="WTE ARCHIVE/ECHOES/Behind the Song/WTE/vid-pics/0.01BTS-G.webp" alt=""/>
