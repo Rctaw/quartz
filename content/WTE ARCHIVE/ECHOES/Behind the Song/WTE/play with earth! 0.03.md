@@ -23,6 +23,10 @@ tag: 0.03
 - 这首歌所表达的，也是乐队一直以来坚守的信念：不被数字所束缚，在这瞬息万变的环境中坚持本心。
 <br>
 
+#### 关于制作  
+- intro里的低音其实不是用贝斯演奏的，是将吉他的音高整体降一个八度后由Daniel演奏的。
+- bridge部分是Daniel写好了旋律后John再填词
+
 ## <font color="#a7886b">04. pueblo (remastered 2024)</font>
 ***<font color="#5dcaf1">Daniel:</font>*** pueblo是墨西哥还是南美那边非常古老的传统村庄,也可以说是小镇吗？我想描绘的是一位在几乎空无一物的简陋小镇里长大的少年说着“我要逃离这个破地方，再也不回来了！”，随后烧毁了自己的房子和所有的财产。  
 ***<font color="#5dcaf1">John:</font>*** 带着雄心壮志离开了。  
@@ -39,8 +43,8 @@ tag: 0.03
 <br>
 
 ## <font color="#a7886b">06. slow dive</font>
-- ***<font color="#5dcaf1">John:</font>*** 这次专辑里最具wave to earth风格的歌，我用了与平时不同的贝斯音色配置
+***<font color="#5dcaf1">John:</font>*** 这次专辑里最具wave to earth风格的歌，我用了与平时不同的贝斯音色配置
 <br>
 
 ## <font color="#a7886b">07. holyland</font>
-- John在San Diego演出场馆附近的公园获得灵感，写下了歌词做成demo
+John在San Diego演出场馆附近的公园获得灵感，写下了歌词做成demo

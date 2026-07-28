@@ -34,14 +34,14 @@ tag: 0.01
 <div class="film-archive-box" style="margin-top: 1.5rem !important;">
   <iframe 
     src="https://player.bilibili.com/player.html?bvid=BV1LUykBdES7&page=1&high_quality=1&as_wide=1&allowfullscreen=true" 
-    style="width: 95%; aspect-ratio: 16 / 9; border: none; display: block; margin: 0 auto; position: relative; z-index: 5;"
+    style="width: 95%; aspect-ratio: 16 / 9; border: none; display: block; margin: 0 auto; position: relative; z-index: 0;"
     scrolling="no" 
     frameborder="no" 
     allowfullscreen="true"
     sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts allow-popups allow-popups-to-escape-sandbox"
   ></iframe>
 
-  <div style="text-align: center; margin-top: 15px; position: relative; z-index: 10;">
+  <div style="text-align: center; margin-top: 15px; position: relative; z-index: 0;">
     <a href="https://www.bilibili.com/video/BV1LUykBdES7?p=1" 
        target="_blank" 
        style="font-family: 'Alkatra', sans-serif; color: #888; text-decoration: none; font-size: 0.75rem; letter-spacing: 0.15em; opacity: 0.8; border-bottom: 1px solid rgba(136, 136, 136, 0.3); padding-bottom: 2px;">
@@ -79,6 +79,7 @@ tag: 0.01
 </Carousel>  
 <br>
 <br>
-**相关采访：
-[0.01发行纪念采访](Interviews/wave/200102-POC)**  
-**[0.01制作故事](Interviews/wave/200102-genie)**
+
+**<font color="#e13820">✰</font><u>相关采访</u><font color="#e13820">✰</font>**  
+[0.01的制作故事](200102-genie.md)   
+[0.01发行纪念采访](200102-POC.md)

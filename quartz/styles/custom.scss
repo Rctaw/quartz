@@ -1052,7 +1052,7 @@ article h6 {
     font-size: 0.8rem;
     color: var(--secondary);    
     /* 胶带的叠层效果 */
-    z-index: 1;
+    z-index: 0;
     box-shadow: 2px 2px 0px rgba(0,0,0,0.1);
   }
 

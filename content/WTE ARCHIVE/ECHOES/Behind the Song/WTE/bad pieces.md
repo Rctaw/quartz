@@ -16,7 +16,7 @@ tags: badpieces
 ##### 这个时代充斥着对异己的偏见与排斥，人们越来越倾向于把某种片面的标准视为唯一正解，然而世界从来都不是二元对立的嘛。这首歌更像在发问：在这个不存在唯一答案的世界里，每个人心中的天堂与地狱也不尽相同，我们在这样的世界究竟该如何自处与生存？    
 <br>
 
-▷  ***Maureen Hufnagel(MV导演):*** We are all trying to navigate the space betweenour own heaven and hell... sometimes the waters fall into stillness, and balance arrives on its own.
+✪  ***Maureen Hufnagel(MV导演):*** We are all trying to navigate the space betweenour own heaven and hell... sometimes the waters fall into stillness, and balance arrives on its own.
 <br>
 
 ### 关于制作  
@@ -27,14 +27,14 @@ tags: badpieces
 <div class="film-archive-box" style="margin-top: 1.5rem !important;">
   <iframe 
     src="https://player.bilibili.com/player.html?bvid=BV1xiEw6wEtF&page=1&high_quality=1&as_wide=1&allowfullscreen=true" 
-    style="width: 95%; aspect-ratio: 16 / 9; border: none; display: block; margin: 0 auto; position: relative; z-index: 5;"
+    style="width: 95%; aspect-ratio: 16 / 9; border: none; display: block; margin: 0 auto; position: relative; z-index: 0;"
     scrolling="no" 
     frameborder="no" 
     allowfullscreen="true"
     sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts allow-popups allow-popups-to-escape-sandbox"
   ></iframe>
 
-  <div style="text-align: center; margin-top: 15px; position: relative; z-index: 10;">
+  <div style="text-align: center; margin-top: 15px; position: relative; z-index: 0;">
     <a href="https://www.bilibili.com/video/BV1xiEw6wEtF?p=1" 
        target="_blank" 
        style="font-family: 'Alkatra', sans-serif; color: #888; text-decoration: none; font-size: 0.75rem; letter-spacing: 0.15em; opacity: 0.8; border-bottom: 1px solid rgba(136, 136, 136, 0.3); padding-bottom: 2px;">

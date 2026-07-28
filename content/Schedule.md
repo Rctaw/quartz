@@ -2,7 +2,7 @@
 title: Schedule
 isSchedule: true
 scheduleYear: 2026
-scheduleMonth: 6
+scheduleMonth: 7
 events: 
 # 巡演
  # the pieces tour
@@ -614,7 +614,7 @@ events:
 
 # 音乐节
   - date: "2026-07-31"
-    time: "TBD"
+    time: "15:50~16:30"
     title: "🎱 PENTAPORT Rock Festival"
     type: "festival"
   - date: "2026-05-30"

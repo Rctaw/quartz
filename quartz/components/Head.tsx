@@ -89,6 +89,9 @@ export default (() => {
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
 
+        {/* 动态贴纸核心 JS 库 */}
+        <script type="module" src="https://sticker.oooo.so/embed/sticker-forge.es.js"></script>
+
         {css.map((resource) => CSSResourceToStyleElement(resource, true))}
         {js
           .filter((resource) => resource.loadTime === "beforeDOMReady")

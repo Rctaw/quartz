@@ -233,6 +233,17 @@
 
             & > p {
               margin-bottom: 0;
+              
+              // 针对移动端的特殊优化，限制预览内容显示的最大高度
+              @media all and ($mobile) {
+                max-height: 6rem;          /* 限制最大高度，大约显示 3 行文字 */
+                overflow: hidden;            /* 隐藏超出高度的内容 */
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 3;       /* 强制在第 3 行末尾显示省略号 "..." */
+                line-height: 1.5rem;
+                position: relative;
+              }
             }
           }
         }

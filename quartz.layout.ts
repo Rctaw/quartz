@@ -54,6 +54,7 @@ export const myMapFn: Options["mapFn"] = (node) => {
     "PLAY WITH EARTH! 0.03": "📽️",
     "BAD PIECES": "🤍",
     "DAISY.": "🌼",
+    "MIND WAVES": "💭",
   }
 
 
@@ -83,7 +84,7 @@ export const sharedPageComponents: SharedLayout = {
   footer: Component.Footer({
     links: {
       "An archive by Rctaw": "https://wtearchive.vercel.app",
-      "GitHub": "https://github.com/jackyzha0/quartz",
+      //"GitHub": "https://github.com/jackyzha0/quartz",
       "Bilbili": "https://space.bilibili.com/3546392184228487",
      "回到顶部 ↑": "#", // 只要链接是 "#"，点击就会自动回到页面顶部
     },
@@ -98,7 +99,10 @@ export const defaultContentPageLayout: PageLayout = {
       condition: (page) => page.fileData.slug !== "index",
     }),
     Component.ArticleTitle(),
-    Component.ContentMeta(),
+    Component.ContentMeta({
+      showCreated: true,   //
+      showModified: true,  // 如果你也想保留修改时间
+    }),
     Component.TagList(),
     ScheduleWidget(),
   ],

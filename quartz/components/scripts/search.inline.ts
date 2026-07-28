@@ -33,20 +33,28 @@ const encoder = (str: string): string[] => {
       (code >= 0xac00 && code <= 0xd7af) ||
       (code >= 0x20000 && code <= 0x2a6df)
 
-    const isWhitespace = code === 32 || code === 9 || code === 10 || code === 13
+    // 将常见的中文/全角标点、英文标点一并归类为分隔符，确保中英混排时能正确切词
+    const isSeparator =
+    code === 32 || code === 9 || code === 10 || code === 13 || // 原生空白符
+    (code >= 0x3000 && code <= 0x303f) || // 中文标点 (《, 》, 、, 。等)
+    (code >= 0xff00 && code <= 0xffef) || // 全角标点 (，, ！)
+    (code >= 0x2000 && code <= 0x206f) || // 常用排版标点 (“ ”)
+    (code >= 33 && code <= 47) || (code >= 58 && code <= 64) || // 英文基础标点
+    (code >= 91 && code <= 96) || (code >= 123 && code <= 126)
 
-    if (isCJK) {
-      if (bufferStart !== -1) {
-        tokens.push(lower.slice(bufferStart, bufferEnd))
-        bufferStart = -1
-      }
-      tokens.push(char)
-    } else if (isWhitespace) {
-      if (bufferStart !== -1) {
-        tokens.push(lower.slice(bufferStart, bufferEnd))
-        bufferStart = -1
-      }
-    } else {
+   if (isCJK) {
+    if (bufferStart !== -1) {
+     tokens.push(lower.slice(bufferStart, bufferEnd))
+     bufferStart = -1
+    }
+    tokens.push(char)
+   } else if (isSeparator) {
+     if (bufferStart !== -1) {
+      tokens.push(lower.slice(bufferStart, bufferEnd))
+      bufferStart = -1
+   }
+ } else {
+
       if (bufferStart === -1) bufferStart = i
       bufferEnd = i + char.length
     }
@@ -85,9 +93,9 @@ let index = new FlexSearch.Document<Item>({
 
 const p = new DOMParser()
 const fetchContentCache: Map<FullSlug, Element[]> = new Map()
-const contextWindowWords = 30
-const numSearchResults = 8
-const numTagResults = 5
+const contextWindowWords = 30 //搜索预览时的上下文单词数量
+const numSearchResults = 10 //搜索预览最高显示结果数
+const numTagResults = 5  //搜索预览tag的最高显示结果数
 
 const tokenizeTerm = (term: string) => {
   const tokens = term.split(/\s+/).filter((t) => t.trim() !== "")
@@ -103,47 +111,72 @@ const tokenizeTerm = (term: string) => {
 
 function highlight(searchTerm: string, text: string, trim?: boolean) {
   const tokenizedTerms = tokenizeTerm(searchTerm)
-  let tokenizedText = text.split(/\s+/).filter((t) => t !== "")
+  
+  if (tokenizedTerms.length === 0) {
+    return trim ? text.slice(0, 85) + (text.length > 85 ? "..." : "") : text
+  }
 
   let startIndex = 0
-  let endIndex = tokenizedText.length - 1
-  if (trim) {
-    const includesCheck = (tok: string) =>
-      tokenizedTerms.some((term) => tok.toLowerCase().startsWith(term.toLowerCase()))
-    const occurrencesIndices = tokenizedText.map(includesCheck)
+  let endIndex = text.length
 
-    let bestSum = 0
-    let bestIndex = 0
-    for (let i = 0; i < Math.max(tokenizedText.length - contextWindowWords, 0); i++) {
-      const window = occurrencesIndices.slice(i, i + contextWindowWords)
-      const windowSum = window.reduce((total, cur) => total + (cur ? 1 : 0), 0)
-      if (windowSum >= bestSum) {
-        bestSum = windowSum
-        bestIndex = i
+  if (trim) {
+    // 1. 寻找关键词在文本中第一次出现的位置（忽略大小写）
+    let firstMatchIdx = -1
+    for (const term of tokenizedTerms) {
+      const idx = text.toLowerCase().indexOf(term.toLowerCase())
+      if (idx !== -1 && (firstMatchIdx === -1 || idx < firstMatchIdx)) {
+        firstMatchIdx = idx
       }
     }
 
-    startIndex = Math.max(bestIndex - contextWindowWords, 0)
-    endIndex = Math.min(startIndex + 2 * contextWindowWords, tokenizedText.length - 1)
-    tokenizedText = tokenizedText.slice(startIndex, endIndex)
-  }
+    if (firstMatchIdx !== -1) {
+      // 2. 限制在移动端 3 行内完美呈现的字符长度（约 85 字符）
+      // 关键词前仅保留 15 个字符，确保关键词在第一/二行立即暴现，绝对不会被 CSS 截断
+      const maxChars = 85
+      const prefixLength = 15
+      
+      let idealStart = Math.max(firstMatchIdx - prefixLength, 0)
+      let idealEnd = Math.min(idealStart + maxChars, text.length)
 
-  const slice = tokenizedText
-    .map((tok) => {
-      // see if this tok is prefixed by any search terms
-      for (const searchTok of tokenizedTerms) {
-        if (tok.toLowerCase().includes(searchTok.toLowerCase())) {
-          const regex = new RegExp(searchTok.toLowerCase(), "gi")
-          return tok.replace(regex, `<span class="highlight">$&</span>`)
+      // 3. 针对英文/中英混排，优雅地向后对齐空格，防止英文单词从中间被砍断
+      if (idealStart > 0) {
+        const spaceIdx = text.indexOf(" ", idealStart)
+        if (spaceIdx !== -1 && spaceIdx < firstMatchIdx) {
+          idealStart = spaceIdx + 1
         }
       }
-      return tok
-    })
-    .join(" ")
+      if (idealEnd < text.length) {
+        const spaceIdx = text.lastIndexOf(" ", idealEnd)
+        if (spaceIdx !== -1 && spaceIdx > firstMatchIdx) {
+          idealEnd = spaceIdx
+        }
+      }
 
-  return `${startIndex === 0 ? "" : "..."}${slice}${
-    endIndex === tokenizedText.length - 1 ? "" : "..."
-  }`
+      startIndex = idealStart
+      endIndex = idealEnd
+    } else {
+      // 回退机制：若文本中未找到匹配（可能匹配在标题），默认截取前 85 个字符
+      endIndex = Math.min(85, text.length)
+    }
+  }
+
+  let slicedText = text.slice(startIndex, endIndex)
+
+  // 4. 全局、安全地高亮所有匹配到的关键词（避免正则特殊字符报错）
+  const escapeRegExp = (str: string) => str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
+  const regexTerms = tokenizedTerms
+    .map(t => escapeRegExp(t))
+    .filter(t => t.trim() !== "")
+
+  if (regexTerms.length > 0) {
+    const regex = new RegExp(`(${regexTerms.join("|")})`, "gi")
+    slicedText = slicedText.replace(regex, `<span class="highlight">$&</span>`)
+  }
+
+  const prefix = startIndex > 0 ? "..." : ""
+  const suffix = endIndex < text.length ? "..." : ""
+
+  return `${prefix}${slicedText}${suffix}`
 }
 
 function highlightHTML(searchTerm: string, el: HTMLElement) {
@@ -489,8 +522,26 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug, data: 
       ...getByField("content"),
       ...getByField("tags"),
     ])
-    const finalResults = [...allIds].map((id) => formatForDisplay(currentSearchTerm, id))
-    await displayResults(finalResults)
+
+    let finalResults = [...allIds].map((id) => formatForDisplay(currentSearchTerm, id))
+
+    // 【核心优化】：消除 FlexSearch 中文单字分词导致的“假匹配”噪音
+    if (currentSearchTerm.trim() !== "") {
+      const searchTerms = currentSearchTerm.toLowerCase().split(/\s+/).filter(t => t !== "")
+      finalResults = finalResults.filter(res => {
+        const originalData = data[res.slug]
+        const docText = (
+          (originalData.title || "") + " " +
+          (originalData.content || "") + " " +
+          (originalData.tags ? originalData.tags.join(" ") : "")
+        ).toLowerCase()
+
+    // 必须包含用户输入的每一个词组块，严格保障搜索质量
+    return searchTerms.every(term => docText.includes(term))
+  })
+}
+
+await displayResults(finalResults)
   }
 
   document.addEventListener("keydown", shortcutHandler)
