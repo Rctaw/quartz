@@ -43,7 +43,7 @@ tag: 0.03
 <br>
 
 ## <font color="#a7886b">06. slow dive</font>
-***<font color="#5dcaf1">John:</font>*** 这次专辑里最具wave to earth风格的歌，我用了与平时不同的贝斯音色配置
+***<font color="#5dcaf1">John:</font>*** 这次专辑里最具wave to earth风格的歌，我用了不同于以往的贝斯配置
 <br>
 
 ## <font color="#a7886b">07. holyland</font>

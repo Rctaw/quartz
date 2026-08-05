@@ -2,7 +2,7 @@ import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 import { Options } from "./quartz/components/Explorer"
 import ScheduleWidget from "./quartz/components/ScheduleWidget"
-
+import CountdownScript from "./quartz/components/CountdownScript"
 
   // 自定义explorer排序逻辑
   export const mySortFn: Options["sortFn"] = (a, b) => {
@@ -80,7 +80,7 @@ export const myMapFn: Options["mapFn"] = (node) => {
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [CountdownScript(),],
   footer: Component.Footer({
     links: {
       "An archive by Rctaw": "https://wtearchive.vercel.app",

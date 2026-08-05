@@ -1210,8 +1210,10 @@ article h6 {
   flex-direction: row !important; 
   height: 180px; /* 固定整体高度，确保在 Grid 中对齐 */
   transition: all 0.3s ease;
-  position: relative !important;
-  
+  position: relative !important;  
+  padding: 0 !important;               /* 取消Quartz赋予父容器的默认内边距 */
+  box-sizing: border-box !important;   /* 确保1.5px的边框算在整体宽度内，而不是往里挤压内容 */
+
   /* 深度对齐的核心：父容器接管整体的圆角、边框和硬投影 */
   background-color: var(--album-bg, var(--lightgray)) !important; /* 确保自定义背景色涂抹满 */
   border: 1.5px solid var(--gray) !important;
@@ -1233,6 +1235,7 @@ article h6 {
   width: 180px; /* 与卡片高度相等，形成正方形 */
   height: 100% !important; /* 确保撑满父容器高度，防止 Flex 渲染误差 */
   position: relative; /* 为高光遮罩定位基准 */
+  padding: 0 !important;               /* 确保封面容器自身绝对贴边 */
   /* 移除原有的边框、圆角和投影，这些现在由父级管理 */
   border: none !important;
   border-radius: 0 !important;
@@ -2013,3 +2016,108 @@ html[data-theme='dark'] .card-venue,
 
 
 
+
+/* ===================================================
+   方案三：高可维护性与响应式重构 (Clean Modular Mechanical)
+   =================================================== */
+.countdown-widget {
+  // 1. 局部变量配置（方便一键切主题）
+  --cw-bg: var(--lightgray, #eaebd9);
+  --cw-card-bg: var(--light, #ffffff);
+  --cw-text: var(--dark, #121212);
+  --cw-border-color: var(--dark, #121212);
+  --cw-shadow-offset: 5px;
+
+  margin: 1.5rem 0;
+  padding: 1.25rem 1rem;
+  background-color: var(--cw-bg);
+  border: 3px solid var(--cw-border-color);
+  box-shadow: var(--cw-shadow-offset) var(--cw-shadow-offset) 0 0 var(--cw-border-color);
+  text-align: center;
+  transition: transform 0.15s cubic-bezier(0.4, 0, 0.2, 1), 
+              box-shadow 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover {
+    transform: translate(-2px, -2px);
+    --cw-shadow-offset: 8px;
+  }
+
+  .countdown-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  margin-bottom: 1rem;
+  
+  /* 明确移除原有的下边框与底内边距，防止上下叠线 */
+  border-bottom: none;
+  padding-bottom: 0;
+
+  font-family: var(--codeFont), monospace;
+  font-size: clamp(0.8rem, 2vw, 0.95rem);
+  font-weight: 800;
+  color: var(--cw-text);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+
+  /* 标题左右两侧的独立单实线 */
+  &::before,
+  &::after {
+    content: '';
+    flex: 1;
+    height: 2px; /* 调整此数值可改变线条粗细 */
+    background-color: var(--cw-border-color);
+  }
+}
+
+  .countdown-timer {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: clamp(0.3rem, 1.5vw, 0.75rem);
+
+    .time-block {
+      flex: 1;
+      max-width: 80px;
+      min-width: 48px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.5rem 0.25rem;
+      border: 2px solid var(--cw-border-color);
+      background-color: var(--cw-card-bg);
+
+      span {
+        font-family: var(--codeFont), monospace;
+        font-size: clamp(1.2rem, 4vw, 1.8rem);
+        font-weight: 800;
+        color: var(--cw-text);
+        line-height: 1.1;
+        font-variant-numeric: tabular-nums; /* 关键：固定数字宽度，防止变动时挤压页面 */
+      }
+
+      label {
+        font-family: var(--codeFont), monospace;
+        font-size: 0.7rem;
+        font-weight: 700;
+        color: var(--cw-card-bg);
+        background-color: var(--cw-text);
+        margin-top: 0.4rem;
+        padding: 0.15rem 0.4rem;
+        width: 100%;
+        box-sizing: border-box;
+      }
+    }
+  }
+
+  .countdown-finished {
+    font-family: var(--codeFont), monospace;
+    font-size: clamp(0.9rem, 2.5vw, 1.1rem);
+    font-weight: 800;
+    color: var(--cw-card-bg);
+    background-color: var(--cw-text);
+    padding: 0.8rem 1rem;
+    border: 2px solid var(--cw-border-color);
+  }
+}

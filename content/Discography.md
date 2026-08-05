@@ -61,6 +61,15 @@ title: Discography
     <span class="album-date">2026.05.15</span>
    </div>
 </a>
+<a href="WTE ARCHIVE/ECHOES/Behind the Song/WTE/bad pieces" class="album-card" style="--album-bg: #d5e8f6;">
+  <div class="album-cover">
+    <img src="vid-pics/badpieces.webp">
+  </div>
+  <div class="album-info">
+    <span class="album-title" style="font-size: 1.3rem !important; line-height: 1.3;">bad pieces</span>
+    <span class="album-date">2026.08.07</span>
+  </div>
+</a>
 </div>  
 <br>
 <br>  

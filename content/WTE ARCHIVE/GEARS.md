@@ -1,5 +1,5 @@
 ###### 图片无特别注明的均为官方账号图 / 官网图，巡演图片©Roger Tam；标价为官方售价/市价范围(状态良好及以上&原装度高)
-## <font color="#fac08f">▷ 🎸Daniel的吉他图鉴</font>
+## <font color="#fac08f">✰ Daniel的吉他图鉴🎸</font>
 
 ***实在太多了...加上一些很少用于演出只用于录音的吉他，感觉目前数量已接近40把***  😵  
 <br>
@@ -273,8 +273,8 @@
 
 <font color="#92cddc">*官方售价\$1,100 - \$1,300, 近年市价\$1,200 – \$1,500*</font>
 <Carousel>
-  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-JGR2-A.webp" alt="‘23"/>
-  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-JGR2-B.webp" alt="’24"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-JGR2-A.webp" alt="'23"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-JGR2-B.webp" alt="'24"/>
   <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-JGR2-C.webp" alt="©Rockin"/>
   <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-JGR2-D.webp" alt="©Rockin"/>
   <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-JGR2-E.webp" alt="©Rockin"/>
@@ -285,7 +285,22 @@
 </p>  
 <br>
 
-20. ##### Eastman Limited Edition T64 Truetone Vintage (Black)
+20. ##### Gibson Murphy Lab 1963 Firebird V (Polaris White, w/Maestro Vibrola)
+
+<font color="#92cddc">*近年市价\$8,000 – \$10,000+*</font>
+
+<Carousel>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-FB1-A.webp" alt="©ikooo7"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-FB1-B.webp" alt="©Watanabe"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-FB1-C.webp" alt="©Watanabe"/>
+</Carousel>
+
+<p align="right" style="font-size: 0.85em; color: #888; margin-top: -5px;">
+  「图源: <a href="https://www.youtube.com/watch?v=9kfmPSVIcvA" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'20\' height=\'10\' viewBox=\'0 0 20 10\'><path d=\'M0 5 C 5 0, 5 10, 10 5 C 15 0, 15 10, 20 5\' stroke=\'%23888\' fill=\'transparent\' stroke-width=\'1.5\' stroke-linecap=\'round\'/></svg>'); background-position: bottom; background-repeat: repeat-x; background-size: 12px 6px; padding-bottom: 2px; transition: all 0.3s;">ikooo7</a> & <a href="https://www.watanabe-mi.com/honten/list/p166097/" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'20\' height=\'10\' viewBox=\'0 0 20 10\'><path d=\'M0 5 C 5 0, 5 10, 10 5 C 15 0, 15 10, 20 5\' stroke=\'%23888\' fill=\'transparent\' stroke-width=\'1.5\' stroke-linecap=\'round\'/></svg>'); background-position: bottom; background-repeat: repeat-x; background-size: 12px 6px; padding-bottom: 2px; transition: all 0.3s;">Watanabe</a>」
+</p>
+
+
+21. ##### Eastman Limited Edition T64 Truetone Vintage (Black)
 
 <font color="#92cddc">*官方售价\$2,200 - \$2,400, 近年市价\$1,900 – \$2,600*</font>
 <Carousel>
@@ -299,14 +314,14 @@
 </p>  
 <br>
 
-21. ##### 【不确定】Silvertone 1478 (Cherry Red)  
+22. ##### 【不确定】Silvertone 1478 (Cherry Red)  
 - 这个型号是没有Cherry Red配色的，所以可能改装过  
 <Carousel>
   <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-ST3-A.webp" alt="'23"/>
 </Carousel>  
 <br>
 
-22. 1965 Silvertone 1488 Silhouette (Cherry Red)
+23. 1965 Silvertone 1488 Silhouette (Cherry Red)
 
 <font color="#92cddc">*1965年官方售价\$119.95, 近年市价\$1,100 – \$2,100*</font>
 
@@ -322,7 +337,7 @@
 </p>  
 <br>
 
-23. ##### 1966 Fender Jaguar (Sunburst)
+24. ##### 1966 Fender Jaguar (Sunburst)
 
 <font color="#92cddc">*1966年官方售价\$386, 近年市价\$5,000 – \$8,500*</font>
 
@@ -337,7 +352,7 @@
 </p>  
 <br>
 
-24. ##### Fender Modern Player Starcaster (Black)
+25. ##### Fender Modern Player Starcaster (Black)
 
 <font color="#92cddc">*官方售价\$899, 近年市价\$850 – \$1,100*</font>
 
@@ -353,7 +368,7 @@
 </p>  
 <br>
 
-25. ##### Epiphone Masterbilt Century Zenith (Vintage Natural)
+26. ##### Epiphone Masterbilt Century Zenith (Vintage Natural)
 
 <font color="#92cddc">*官方售价\$799, 近年市价\$600 – \$850*</font>
 
@@ -368,7 +383,7 @@
 </p>  
 <br>
 
-26. ##### YAMAHA FS Series Acoustic Guitar (难以确定具体型号)
+27. ##### YAMAHA FS Series Acoustic Guitar (难以确定具体型号)
 
 <Carousel>
   <img src="WTE ARCHIVE/vid-pics/GEARRS/ACgtr-YMH1-A.webp" alt="'25"/>
@@ -381,7 +396,7 @@
 </p>
 
 
-27. ##### Gibson LG-1 (Sunburst)
+28. ##### Gibson LG-1 (Sunburst)
 
 <font color="#92cddc">*1947–1968生产，在1960s官方售价\$100 - \$150, 近年市价\$1,200 - $3,000+*</font>
 <Carousel>
@@ -396,7 +411,7 @@
 </p>  
 <br>
 
-28. ##### Gibson J-45 Standard (Vintage Sunburst)
+29. ##### Gibson J-45 Standard (Vintage Sunburst)
 
 <font color="#92cddc">*官方售价\$2,999*</font>
 
@@ -406,7 +421,7 @@
 </Carousel>  
 <br>
 
-29. ##### Yamaha L12-5
+30. ##### Yamaha L12-5
 
 <font color="#92cddc">*官方售价\$450 – \$500, 近年市价\$400 – \$800*</font>
 
@@ -420,7 +435,7 @@
 </p>  
 <br>
 
-30. ##### Fairlane Heavy relic Camino (Ebony, w/Bigsby B5 vibrato)
+31. ##### Fairlane Heavy relic Camino (Ebony, w/Bigsby B5 vibrato)
 
 <font color="#92cddc">*官方售价\£2400≈\$3200*</font>
 
@@ -437,7 +452,7 @@
 </p>  
 <br>
 
-31. ##### Córdoba Luthier Series C10 Cedar Classical Guitar
+32. ##### Córdoba Luthier Series C10 Cedar Classical Guitar
 
 <font color="#92cddc">*官方售价\$1,599, 近年市价\$1,100 – \$1,500*</font>
 
@@ -450,7 +465,7 @@
 </Carousel>  
 <br>
 
-32. ##### Gibson Custom 1954 Les Paul Custom Staple Pickup Reissue (VOS, Ebony, w/Bigsby)
+33. ##### Gibson Custom 1954 Les Paul Custom Staple Pickup Reissue (VOS, Ebony, w/Bigsby)
 
 <font color="#92cddc">*官方售价\$6899*</font>
 
@@ -466,7 +481,7 @@
 </p>  
 <br>
 
-33. ##### Groovin' by Morris TG-60 (Natural)
+34. ##### Groovin' by Morris TG-60 (Natural)
 
 <font color="#92cddc">*官方售价60,000日元, 近年市价\$430 – \$600*</font>
 
@@ -483,7 +498,7 @@
 </p>  
 <br>
 
-34. ##### Fender Jaguar (Matching Headstock, Metallic Silver Refinish & Relic by Fluffy)
+35. ##### Fender Jaguar (Matching Headstock, Metallic Silver Refinish & Relic by Fluffy)
 
 <Carousel>
   <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-JGR4-A.webp" alt="'26"/>
@@ -499,15 +514,29 @@
 <p align="right" style="font-size: 0.85em; color: #888; margin-top: -5px;">
   「图源: <a href="https://www.instagram.com/p/DYqbDYqE5Cr/" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'20\' height=\'10\' viewBox=\'0 0 20 10\'><path d=\'M0 5 C 5 0, 5 10, 10 5 C 15 0, 15 10, 20 5\' stroke=\'%23888\' fill=\'transparent\' stroke-width=\'1.5\' stroke-linecap=\'round\'/></svg>'); background-position: bottom; background-repeat: repeat-x; background-size: 12px 6px; padding-bottom: 2px; transition: all 0.3s;">fluffymusik</a>」
 </p>
+<br>
+
+36. ##### '80s~'90s Rickenbacker 360 WB ( Jetglo)
+
+<font color="#92cddc">*官方售价\$1,200 – \$1,800, 近年市价\$3,500 – \$4,200*</font>
+
+
+<Carousel>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-RKB2-A.webp" alt="'26 ©gongrot"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-RKB2-B.webp" alt="©Draggin' Guitars"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/gtr-RKB2-C.webp" alt="©Draggin' Guitars"/>
+</Carousel>
+
+<p align="right" style="font-size: 0.85em; color: #888; margin-top: -5px;">
+  「图源: <a href="https://www.youtube.com/@gongrot" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'20\' height=\'10\' viewBox=\'0 0 20 10\'><path d=\'M0 5 C 5 0, 5 10, 10 5 C 15 0, 15 10, 20 5\' stroke=\'%23888\' fill=\'transparent\' stroke-width=\'1.5\' stroke-linecap=\'round\'/></svg>'); background-position: bottom; background-repeat: repeat-x; background-size: 12px 6px; padding-bottom: 2px; transition: all 0.3s;">gongrot</a> & <a href="https://dragginguitars.com/products/1981-rickenbacker-360-jetglo-gloss-rare-double-bound" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'20\' height=\'10\' viewBox=\'0 0 20 10\'><path d=\'M0 5 C 5 0, 5 10, 10 5 C 15 0, 15 10, 20 5\' stroke=\'%23888\' fill=\'transparent\' stroke-width=\'1.5\' stroke-linecap=\'round\'/></svg>'); background-position: bottom; background-repeat: repeat-x; background-size: 12px 6px; padding-bottom: 2px; transition: all 0.3s;">Draggin' Guitars</a>」
+</p>
+<br>
 
 
 
 
 
-
-
-
-## <font color="#fac08f">▷ Daniel's basses</font>
+## <font color="#fac08f">✰ Daniel's basses</font>
 
 1. ##### Höfner HCT-500/1 Violin Bass (Black)
 
@@ -574,20 +603,20 @@
 
 
 
-## <font color="#fac08f">▷ Daniel‘s pedalboards & amps</font>  
-“我有四台。分别是 Tone King 的「IMPERIAL MK II」和「Royalist MKII」，还有 Fender 的「Pro Reverb Silver Face」。最后一台则是 Roland 的「Jazz Chorus」。
+## <font color="#fac08f">✰ Daniel‘s pedalboards & amps</font>  
+“我有四台音箱。Tone King的Imperial MK II、Royalist MK II，还有Fender的Pro Reverb Silverface，最后一台则是Roland的Jazz Chorus”
 
 
-## <font color="#fac08f">▷ John Gear</font>  
+## <font color="#fac08f">✰ John Gear</font>  
 
-<font color="#b2a2c7">· 『Bass』</font>
+### <font color="#b2a2c7">⋆『Bass』</font>
 
 1. ##### La Bella Olinto '50s Precision Bass (Sunburst)
 
 <font color="#92cddc">*Olinto所有的琴都由Mas Hino在纽约手工小规模制作，目前主流二手成交价为\$3,000 – \$5,000*</font>  
 
-- 曾在2018年NAMM(一年一度、音乐产品行业内规模最大的展会)上展出，John参加这次展会时购入了这把贝斯
-- 添置了一些乐器后就很少用这把贝斯了，曾想过卖掉但想起是用它进行了wave to earth首次三人合奏，觉得它承载了美好的回忆所以最终还是留下了，最近久违地在***love 0.3*** 演唱会上再次使用这把贝斯来演奏
+- 曾在2018年NAMM(全球音乐产业规模最大、最具影响力的年度贸易展会)上展出，John参加这次展会时购入了这把贝斯
+- 添置了一些乐器后就很少用这把贝斯了，曾想过卖掉但回想起是带着它进行了wave to earth首次三人合奏，觉得它承载了美好的回忆所以最终还是留下了，最近久违地在***love 0.3*** 演唱会上再次使用这把贝斯来演奏
 
 <Carousel>
   <img src="WTE ARCHIVE/vid-pics/GEARRS/JBS-Olinto-A.webp" alt="'22"/>
@@ -710,9 +739,9 @@
 <br>
 
 
-<font color="#b2a2c7">· 『Guitar』</font>
+### <font color="#b2a2c7">⋆『Guitar』</font>
 
-1. ##### Gretsch G5422T Electromatic Hollow Body Double-cut Guitar (Orange Stain, w/Bigsby)
+1. #### Gretsch G5422T Electromatic Hollow Body Double-cut Guitar (Orange Stain, w/Bigsby)
 
 <font color="#92cddc">*官方售价\$1,149, 近年市价\$650 – \$1,000*</font>
 
@@ -765,9 +794,9 @@
 </Carousel>  
 <br>
 
-## <font color="#fac08f">▷ DongQ Gear</font>  
+## <font color="#fac08f">✰ DongQ Gear</font>  
 
-<font color="#b2a2c7">· 『Guitar』</font>
+### <font color="#b2a2c7">⋆『Guitar』</font>
 
 1. ##### Epiphone Firebird (Vintage Sunburst)
 
@@ -806,7 +835,37 @@
 </Carousel>  
 <br>
 
-<font color="#b2a2c7">· 『Bass』</font>
+4. ##### Fender American Standard Stratocaster 1988~1992 (Gunmetal Blue)
+
+<font color="#92cddc">*官方售价约\$999, 近年市价\$1,100 – \$2,000*</font>
+
+<Carousel>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/Qgtr-STRATO1-A.webp" alt="'26"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/Qgtr-STRATO1-B.webp" alt="'26"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/Qgtr-STRATO1-C.webp" alt="©Cream City Music"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/Qgtr-STRATO1-D.webp" alt="©Cream City Music"/>
+</Carousel>
+
+<p align="right" style="font-size: 0.85em; color: #888; margin-top: -5px;">
+  「图源: <a href="https://www.creamcitymusic.com/vintage-1988-fender-american-standard-stratocaster-navy-blue-metallic/" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'20\' height=\'10\' viewBox=\'0 0 20 10\'><path d=\'M0 5 C 5 0, 5 10, 10 5 C 15 0, 15 10, 20 5\' stroke=\'%23888\' fill=\'transparent\' stroke-width=\'1.5\' stroke-linecap=\'round\'/></svg>'); background-position: bottom; background-repeat: repeat-x; background-size: 12px 6px; padding-bottom: 2px; transition: all 0.3s;">Cream City Music</a>」
+</p>
+<br>
+
+5. ##### Gibson Custom 1942 Banner J-45 Reissue (Heavy Aged, Vintage Sunburst)
+
+<font color="#92cddc">*官方售价\$7,499*</font>
+
+<Carousel>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/QACgtr-J45-A.webp" alt="'26"/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/QACgtr-J45-B.webp" alt=""/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/QACgtr-J45-C.webp" alt=""/>
+  <img src="WTE ARCHIVE/vid-pics/GEARRS/QACgtr-J45-D.webp" alt=""/>
+</Carousel>
+<br>
+
+
+
+### <font color="#b2a2c7">⋆『Bass』</font>
 
 1. ##### Fender '70s Precision Bass (3- Color Sunburst)
 
