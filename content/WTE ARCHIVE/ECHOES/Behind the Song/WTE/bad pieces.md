@@ -1,5 +1,5 @@
 ---
-tags: badpieces
+tag: [badpieces]
 ---
 <br>
 

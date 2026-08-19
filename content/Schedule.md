@@ -846,6 +846,10 @@ events:
     type: "album"
 
 # 其他
+  - date: "2026-08-15"
+    title: "🌊 Bad pieces, good coffee"
+    type: "Events"
+    venue: "Seoul"
   - date: "2026-06-07"
     title: "🥔 Opening show for Laufey"
     venue: "KINTEX HALL 9"

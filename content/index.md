@@ -1,6 +1,5 @@
 ---
 title: CATALOGUE
-lastmod: YYYY-MM-DD
 ---
 ***Tracing small pieces of the wave.***
 
@@ -108,27 +107,18 @@ lastmod: YYYY-MM-DD
   document.addEventListener('nav', initSticker);
 </script>    
 
-<div class="countdown-widget" data-target="2026-08-07 12:00:00">
-  <div class="countdown-title">🏡The Arrival of bad pieces</div>
-  <div class="countdown-timer">
-    <div class="time-block"><span class="cd-d">00</span><label>天</label></div>
-    <div class="time-block"><span class="cd-h">00</span><label>时</label></div>
-    <div class="time-block"><span class="cd-m">00</span><label>分</label></div>
-    <div class="time-block"><span class="cd-s">00</span><label>秒</label></div>
-  </div>
-</div>
 
 
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link AS "笔记", file.folder AS "所属文件夹", dateformat(file.mtime, "yyyy-MM-dd") AS "最近更新" FROM "" AND -"Private" WHERE file.name != this.file.name AND file.name != "index" AND file.name != "Credits" AND draft != true SORT file.mtime DESC LIMIT 5 -->
 <!-- SerializedQuery: TABLE WITHOUT ID file.link AS "笔记", file.folder AS "所属文件夹", dateformat(file.mtime, "yyyy-MM-dd") AS "最近更新" FROM "" AND -"Private" WHERE file.name != this.file.name AND file.name != "index" AND file.name != "Credits" AND draft != true SORT file.mtime DESC LIMIT 5 -->
 
-| 笔记                                                                   | 所属文件夹                                  | 最近更新       |
-| -------------------------------------------------------------------- | -------------------------------------- | ---------- |
-| [[GEARS]]                                      | WTE ARCHIVE                            | 2026-08-05 |
-| [[250212]]                                | Interviews/wave                        | 2026-08-04 |
-| [[260316]]                                | Interviews/wave                        | 2026-08-02 |
-| [[250114]]                                | Interviews/wave                        | 2026-08-02 |
-| [[bad pieces]] | WTE ARCHIVE/ECHOES/Behind the Song/WTE | 2026-08-01 |
+| 笔记                                                                 | 所属文件夹                                  | 最近更新       |
+| ------------------------------------------------------------------ | -------------------------------------- | ---------- |
+| [[260808]]                              | Interviews/wave                        | 2026-08-15 |
+| [[Schedule]]                                          |                                        | 2026-08-08 |
+| [[250612]]                              | Interviews/wave                        | 2026-08-06 |
+| [[250528]]                              | Interviews/wave                        | 2026-08-06 |
+| [[wave 0.01]] | WTE ARCHIVE/ECHOES/Behind the Song/WTE | 2026-08-06 |
 
 <!-- SerializedQuery END -->
 

@@ -1,6 +1,5 @@
 ---
 title: Playlist
-lastmod: YYYY-MM-DD
 ---
 ## <font color="#00b0f0"><u>*持续更新...*</u></font>
 ### <font color="#92d050">✰ 演出前暖场歌单&观众退场时播放的音乐 | Curated by Q Kim</font>  

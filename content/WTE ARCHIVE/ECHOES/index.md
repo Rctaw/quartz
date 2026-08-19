@@ -1,6 +1,5 @@
 ---
 title: Echoes
-lastmod: YYYY-MM-DD
 ---
 
 ## **<font color="#b2a2c7"><u>💾收集歌曲创作过程以及创作背景</u></font>**  
