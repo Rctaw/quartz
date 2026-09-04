@@ -6,6 +6,14 @@ scheduleMonth: 8
 events: 
 # 巡演
  # the pieces tour
+  - date: "2026-12-20"
+    title: "the pieces tour | Seoul"
+    type: "tour"
+    venue: "HwaJeong Tiger Dome"
+  - date: "2026-12-19"
+    title: "the pieces tour | Seoul"
+    type: "tour"
+    venue: "HwaJeong Tiger Dome"
   - date: "2026-09-04"
     title: "the pieces tour | Vancouver"
     type: "tour"

@@ -112,13 +112,13 @@ title: CATALOGUE
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link AS "笔记", file.folder AS "所属文件夹", dateformat(file.mtime, "yyyy-MM-dd") AS "最近更新" FROM "" AND -"Private" WHERE file.name != this.file.name AND file.name != "index" AND file.name != "Credits" AND draft != true SORT file.mtime DESC LIMIT 5 -->
 <!-- SerializedQuery: TABLE WITHOUT ID file.link AS "笔记", file.folder AS "所属文件夹", dateformat(file.mtime, "yyyy-MM-dd") AS "最近更新" FROM "" AND -"Private" WHERE file.name != this.file.name AND file.name != "index" AND file.name != "Credits" AND draft != true SORT file.mtime DESC LIMIT 5 -->
 
-| 笔记                                                                 | 所属文件夹                                  | 最近更新       |
-| ------------------------------------------------------------------ | -------------------------------------- | ---------- |
-| [[260811]]                              | Interviews/wave                        | 2026-08-20 |
-| [[260808]]                              | Interviews/wave                        | 2026-08-15 |
-| [[Schedule]]                                          |                                        | 2026-08-08 |
-| [[250528]]                              | Interviews/wave                        | 2026-08-06 |
-| [[wave 0.01]] | WTE ARCHIVE/ECHOES/Behind the Song/WTE | 2026-08-06 |
+| 笔记                                    | 所属文件夹           | 最近更新       |
+| ------------------------------------- | --------------- | ---------- |
+| [[260518]] | Interviews/wave | 2026-09-04 |
+| [[采访节选]]     | Interviews/wave | 2026-08-29 |
+| [[Schedule]]             |                 | 2026-08-29 |
+| [[260817]] | Interviews/wave | 2026-08-25 |
+| [[250212]] | Interviews/wave | 2026-08-22 |
 
 <!-- SerializedQuery END -->
 
