@@ -14,6 +14,10 @@ events:
     title: "the pieces tour | Seoul"
     type: "tour"
     venue: "HwaJeong Tiger Dome"
+  - date: "2026-12-18"
+    title: "the pieces tour | Seoul"
+    type: "tour"
+    venue: "HwaJeong Tiger Dome"
   - date: "2026-09-04"
     title: "the pieces tour | Vancouver"
     type: "tour"
@@ -134,7 +138,7 @@ events:
     title: "the pieces tour | Tokyo"
     type: "tour"
     venue: "Zepp DiverCity"
- 
+
  # 0.03 World Tour
   - date: "2024-09-16"
     title: "0.03 World Tour | Vancouver"
