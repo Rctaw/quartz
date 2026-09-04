@@ -2,7 +2,7 @@
 title: Schedule
 isSchedule: true
 scheduleYear: 2026
-scheduleMonth: 8
+scheduleMonth: 9
 events: 
 # 巡演
  # the pieces tour
